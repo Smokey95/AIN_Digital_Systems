@@ -1,0 +1,4 @@
+@E: CD385 :"E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\hex4x7seg.vhd":21:55:21:55|aggregate with others must be in a constrained context
+@E: CD385 :"E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\hex4x7seg.vhd":21:55:21:55|aggregate with others must be in a constrained context
+@E: CD351 :"E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\hex4x7seg.vhd":21:55:21:55|Can't implement expression type aggregate yet
+

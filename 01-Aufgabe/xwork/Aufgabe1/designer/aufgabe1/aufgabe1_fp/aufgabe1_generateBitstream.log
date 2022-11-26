@@ -1,0 +1,13 @@
+Software Version: 2022.2.0.10
+Opened 'E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\xwork\Aufgabe1\designer\aufgabe1\aufgabe1_fp\aufgabe1.pro'
+PDB file 'E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\xwork\Aufgabe1\designer\aufgabe1\aufgabe1.pdb' has been loaded successfully.
+DESIGN : aufgabe1;  CHECKSUM : 1060;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\xwork\Aufgabe1\designer\aufgabe1\aufgabe1.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\xwork\Aufgabe1\designer\aufgabe1\aufgabe1.ppd'; file programs Fabric.
+Fabric component bitstream digest: 452043d1d7b4dac5bd1acf686abf2bf268257aa2c3924eb9903395a8229ff7fe
+Entire bitstream digest: c1013f736e739da7cc71c37ac5e114d681a2cc72651949fa656b17040ca9bb52
+Finished: Wed Nov 23 14:20:27 2022 (Elapsed time 00:00:03)
+
+Project saved.
+Project closed.

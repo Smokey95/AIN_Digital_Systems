@@ -1,0 +1,96 @@
+# Microsemi Physical design constraints file
+
+# Version: 2022.2 2022.2.0.10
+
+# Design Name: aufgabe1 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S005 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Wed Nov 23 14:20:12 2022 
+
+
+#
+# I/O constraints
+#
+
+set_io btn\[1\] -DIRECTION INPUT -pinname 46 -fixed no
+set_io btn\[2\] -DIRECTION INPUT -pinname 42 -fixed no
+set_io btn\[3\] -DIRECTION INPUT -pinname 40 -fixed no
+set_io btn\[4\] -DIRECTION INPUT -pinname 38 -fixed no
+set_io clk -DIRECTION INPUT -pinname 24 -fixed no
+set_io digi\[1\] -DIRECTION OUTPUT -pinname 47 -fixed no
+set_io digi\[2\] -DIRECTION OUTPUT -pinname 43 -fixed no
+set_io digi\[3\] -DIRECTION OUTPUT -pinname 41 -fixed no
+set_io digi\[4\] -DIRECTION OUTPUT -pinname 39 -fixed no
+set_io dp -DIRECTION OUTPUT -pinname 14 -fixed no
+set_io rst -DIRECTION INPUT -pinname 53 -fixed no
+set_io seg\[1\] -DIRECTION OUTPUT -pinname 21 -fixed no
+set_io seg\[2\] -DIRECTION OUTPUT -pinname 22 -fixed no
+set_io seg\[3\] -DIRECTION OUTPUT -pinname 19 -fixed no
+set_io seg\[4\] -DIRECTION OUTPUT -pinname 20 -fixed no
+set_io seg\[5\] -DIRECTION OUTPUT -pinname 15 -fixed no
+set_io seg\[6\] -DIRECTION OUTPUT -pinname 16 -fixed no
+set_io seg\[7\] -DIRECTION OUTPUT -pinname 13 -fixed no
+set_io sw\[1\] -DIRECTION INPUT -pinname 66 -fixed no
+set_io sw\[2\] -DIRECTION INPUT -pinname 67 -fixed no
+set_io sw\[3\] -DIRECTION INPUT -pinname 62 -fixed no
+set_io sw\[4\] -DIRECTION INPUT -pinname 63 -fixed no
+set_io sw\[5\] -DIRECTION INPUT -pinname 60 -fixed no
+set_io sw\[6\] -DIRECTION INPUT -pinname 61 -fixed no
+set_io sw\[7\] -DIRECTION INPUT -pinname 56 -fixed no
+set_io sw\[8\] -DIRECTION INPUT -pinname 57 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location u1/strb -fixed no 89 4
+set_location u1/seg_1_7_1_.m18 -fixed no 140 3
+set_location u1/seg_1_7_1_.N_22_i -fixed no 137 3
+set_location u1/seg_1_7_1_.N_25_i -fixed no 141 3
+set_location u1/p1.un1_reg_8 -fixed no 85 3
+set_location u1/p1.reg_9\[1\] -fixed no 99 3
+set_location u1/reg\[2\] -fixed no 105 4
+set_location u1/sel\[0\] -fixed no 97 4
+set_location u1/reg\[0\] -fixed no 98 4
+set_location u1/dp_3_2 -fixed no 96 3
+set_location u1/sel_RNO\[0\] -fixed no 97 3
+set_location u1/seg_1_7_1_.N_7_i -fixed no 142 3
+set_location u1/sel\[1\] -fixed no 104 4
+set_location u1/ena\[0\] -fixed no 102 3
+set_location clk_ibuf_RNIVTI2 -fixed no 221 30
+set_location u1/ena\[2\] -fixed no 105 3
+set_location u1/seg_1_7_1_.N_27_i -fixed no 133 3
+set_location u1/reg\[10\] -fixed no 88 4
+set_location u1/reg\[9\] -fixed no 84 4
+set_location u1/p1.un1_reg_9 -fixed no 84 3
+set_location u1/ena\[3\] -fixed no 101 3
+set_location u1/seg_sel_3\[1\] -fixed no 138 3
+set_location u1/p1.reg_9\[8\] -fixed no 90 3
+set_location u1/seg_sel_3\[2\] -fixed no 143 3
+set_location u1/reg\[1\] -fixed no 99 4
+set_location u1/p1.reg_9\[6\] -fixed no 86 3
+set_location u1/p1.un1_reg_7 -fixed no 98 3
+set_location u1/dp_3_2_1_0 -fixed no 103 3
+set_location u1/p1.un1_reg_6 -fixed no 91 3
+set_location rst_ibuf_RNIUUM5/U0_RGB1 -fixed no 218 3
+set_location u1/reg\[4\] -fixed no 100 4
+set_location u1/seg_sel_3\[0\] -fixed no 136 3
+set_location u1/reg\[3\] -fixed no 107 4
+set_location u1/reg\[13\] -fixed no 91 4
+set_location u1/reg\[8\] -fixed no 90 4
+set_location u1/seg_1_7_1_.m10 -fixed no 134 3
+set_location u1/reg\[6\] -fixed no 86 4
+set_location clk_ibuf_RNIVTI2/U0_RGB1 -fixed no 219 3
+set_location u1/sel_RNO\[1\] -fixed no 104 3
+set_location u1/p1.un1_reg -fixed no 89 3
+set_location u1/reg\[11\] -fixed no 93 4
+set_location u1/seg_sel_3\[3\] -fixed no 139 3
+set_location u1/seg_1_7_1_.m15 -fixed no 132 3
+set_location u1/reg\[5\] -fixed no 85 4
+set_location u1/reg\[7\] -fixed no 92 4
+set_location u1/reg\[12\] -fixed no 87 4
+set_location rst_ibuf_RNIUUM5 -fixed no 219 30
+set_location u1/ena\[1\] -fixed no 100 3

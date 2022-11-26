@@ -1,0 +1,11 @@
+hlt = 0
+rst = 1
+clk = 0
+sw = 11111100
+btn = 1111
+digi = 0001
+seg = 1001111
+dp = 0
+RSTDEF = 0
+FRQDEF = 5e+07
+tpd = 20000 ps
