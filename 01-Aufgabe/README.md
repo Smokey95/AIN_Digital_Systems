@@ -14,7 +14,32 @@ The interface of the seven segment display is given as following:
             seg:   OUT std_logic_vector( 7 DOWNTO 1));  -- 7 connections to display
     END hex4x7seg;
     
-    
+-> All files can be removed only the 3 vhd, the one pdc and the work and xwork directory are needed    
+
+---
+## 1 from 4 dekoder [phase generator]
+This decoder sets the enable 
+
+---
+## 1 from 4 multiplexer [Dot Select]
+This multiplexer is used to select which decimal dot is displayed when the associated switch is pressed
+
+    WITH sel SELECT
+        dp <=   dpin(0) WHEN "00",                          -- dot right display
+                dpin(1) WHEN "01",                          -- dot second display from right  
+                dpin(2) WHEN "10",                          -- select second display from left
+                dpin(3) WHEN OTHERS;                        -- select left display
+
+---
+## 1 from 4 multiplexer [Segment Select]
+This logic-element multiplexes the signal needed to select the current 7-segment-display. As the input clock (clk) frequenz (50 MHz) is transferred down to 3kHz the supplied segement is switched every 0.33ms (therefore each segment will be supplied with current for 0.33ms every 1.32ms). This multiplexer was implemented like seen below:
+
+    WITH sel SELECT
+		    seg_sel <=  data( 3 downto 0 ) when "00",   -- select right display
+                    data( 7 downto 4 ) when "01",           -- select second display from right
+                    data(11 downto 8 ) when "10",           -- select second display from left
+                    data(15 downto 12) when others;         -- select left display
+
 ---    
 ## 7 from 4 decocder
 This logic-element decodes the 4 digit binary number into a 7 bit binary number to drive the 7 segment display. It was implemented like seen below:
