@@ -14,10 +14,10 @@ The interface of the seven segment display is given as following:
             seg:   OUT std_logic_vector( 7 DOWNTO 1));  -- 7 connections to display
     END hex4x7seg;
     
--> All files can be removed only the 3 vhd, the one pdc and the work and xwork directory are needed    
+![Circuit diagram](../src/task_1/circuit-diagram.png) 
 
 ---
-## 1 from 4 dekoder [phase generator]
+## 1 from 4 dekoder [Phase-Generator]
 This decoder sets the enable 
 
 ---
@@ -62,3 +62,5 @@ This logic-element decodes the 4 digit binary number into a 7 bit binary number 
                 "1111001" WHEN "1110",          	        -- E
                 "1110001" WHEN "1111",          	        -- F
                 "0000000" WHEN OTHERS;          	        -- default
+                
+![7 Segment Digits](../src/task_1/7-segment-digits.png)
