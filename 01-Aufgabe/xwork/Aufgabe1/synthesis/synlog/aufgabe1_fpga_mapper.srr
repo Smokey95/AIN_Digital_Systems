@@ -1,0 +1,329 @@
+# Wed Nov 23 14:20:01 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SIMON
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 132MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FA239 :"e:\onedrive\dokumente\200_education\220_study\222_semester\s5\disy\11_projekte\01_aufgabe\hex4x7seg.vhd":248:16:248:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\onedrive\dokumente\200_education\220_study\222_semester\s5\disy\11_projekte\01_aufgabe\hex4x7seg.vhd":248:16:248:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\onedrive\dokumente\200_education\220_study\222_semester\s5\disy\11_projekte\01_aufgabe\hex4x7seg.vhd":248:16:248:24|Found ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) with 16 words by 7 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 168MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     7.81ns		  32 /        17
+@N: FP130 |Promoting Net rst_arst on CLKINT  I_40 
+@N: FP130 |Promoting Net clk_c on CLKINT  I_41 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 170MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 17 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   17         u1.reg[10]     
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 170MB)
+
+Writing Analyst data base E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\xwork\Aufgabe1\synthesis\synwork\aufgabe1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 172MB)
+
+@W: MT420 |Found inferred clock aufgabe1|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Nov 23 14:20:03 2022
+#
+
+
+Top view:               aufgabe1
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\xwork\Aufgabe1\designer\aufgabe1\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 7.956
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group     
+------------------------------------------------------------------------------------------------------------
+aufgabe1|clk       100.0 MHz     489.3 MHz     10.000        2.044         7.956     inferred     (multiple)
+============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------
+Starting      Ending        |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------
+aufgabe1|clk  aufgabe1|clk  |  10.000      7.956  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: aufgabe1|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+               Starting                                      Arrival          
+Instance       Reference        Type     Pin     Net         Time        Slack
+               Clock                                                          
+------------------------------------------------------------------------------
+u1.reg[13]     aufgabe1|clk     SLE      Q       reg[13]     0.087       7.956
+u1.sel[0]      aufgabe1|clk     SLE      Q       sel[0]      0.108       8.052
+u1.reg[0]      aufgabe1|clk     SLE      Q       reg[0]      0.087       8.189
+u1.reg[4]      aufgabe1|clk     SLE      Q       reg[4]      0.087       8.227
+u1.reg[11]     aufgabe1|clk     SLE      Q       reg[11]     0.087       8.227
+u1.reg[1]      aufgabe1|clk     SLE      Q       reg[1]      0.087       8.257
+u1.reg[2]      aufgabe1|clk     SLE      Q       reg[2]      0.087       8.296
+u1.reg[5]      aufgabe1|clk     SLE      Q       reg[5]      0.087       8.296
+u1.reg[8]      aufgabe1|clk     SLE      Q       reg[8]      0.087       8.315
+u1.sel[1]      aufgabe1|clk     SLE      Q       sel[1]      0.108       8.328
+==============================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+              Starting                                         Required          
+Instance      Reference        Type     Pin     Net            Time         Slack
+              Clock                                                              
+---------------------------------------------------------------------------------
+u1.strb       aufgabe1|clk     SLE      D       un1_reg        9.745        7.956
+u1.sel[1]     aufgabe1|clk     SLE      D       sel_RNO[1]     9.745        8.052
+u1.sel[0]     aufgabe1|clk     SLE      D       sel_RNO[0]     9.745        8.177
+u1.reg[1]     aufgabe1|clk     SLE      D       reg_9[1]       9.745        8.432
+u1.reg[6]     aufgabe1|clk     SLE      D       reg_9[6]       9.745        8.432
+u1.reg[8]     aufgabe1|clk     SLE      D       reg_9[8]       9.745        8.432
+u1.reg[0]     aufgabe1|clk     SLE      D       reg[13]        9.745        8.802
+u1.reg[2]     aufgabe1|clk     SLE      D       reg[1]         9.745        9.160
+u1.reg[3]     aufgabe1|clk     SLE      D       reg[2]         9.745        9.160
+u1.reg[4]     aufgabe1|clk     SLE      D       reg[3]         9.745        9.160
+=================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      1.788
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     7.956
+
+    Number of logic level(s):                2
+    Starting point:                          u1.reg[13] / Q
+    Ending point:                            u1.strb / D
+    The start point is clocked by            aufgabe1|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            aufgabe1|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+u1.reg[13]           SLE      Q        Out     0.087     0.087 r     -         
+reg[13]              Net      -        -       0.855     -           5         
+u1.p1\.un1_reg_6     CFG2     A        In      -         0.943 r     -         
+u1.p1\.un1_reg_6     CFG2     Y        Out     0.077     1.020 r     -         
+un1_reg_6            Net      -        -       0.248     -           1         
+u1.p1\.un1_reg       CFG4     D        In      -         1.268 r     -         
+u1.p1\.un1_reg       CFG4     Y        Out     0.271     1.540 r     -         
+un1_reg              Net      -        -       0.248     -           1         
+u1.strb              SLE      D        In      -         1.788 r     -         
+===============================================================================
+Total path delay (propagation time + setup) of 2.044 is 0.692(33.8%) logic and 1.352(66.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
+
+---------------------------------------
+Resource Usage Report for aufgabe1 
+
+Mapping to part: m2s005vf400std
+Cell usage:
+CLKINT          2 uses
+CFG2           5 uses
+CFG3           9 uses
+CFG4           13 uses
+
+
+Sequential Cells: 
+SLE            17 uses
+
+DSP Blocks:    0 of 11 (0%)
+
+I/O ports: 26
+I/O primitives: 26
+INBUF          14 uses
+OUTBUF         12 uses
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    27
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  17 + 0 + 0 + 0 = 17;
+Total number of LUTs after P&R:  27 + 0 + 0 + 0 = 27;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 62MB peak: 172MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Nov 23 14:20:03 2022
+
+###########################################################]

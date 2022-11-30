@@ -1,0 +1,6 @@
+@W: CL251 :"E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\hex4x7seg.vhd":62:8:62:9|All reachable assignments to reg(11 downto 0) assign 1, register removed by optimization
+@W: CL190 :"E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\hex4x7seg.vhd":62:8:62:9|Optimizing register bit reg(12) to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\hex4x7seg.vhd":62:8:62:9|Pruning register bit 12 of reg(13 downto 12). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\hex4x7seg.vhd":62:8:62:9|Optimizing register bit reg(13) to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"E:\OneDrive\Dokumente\200_Education\220_Study\222_Semester\S5\DISY\11_Projekte\01_Aufgabe\hex4x7seg.vhd":62:8:62:9|Pruning unused register reg(13). Make sure that there are no unused intermediate registers.
+
