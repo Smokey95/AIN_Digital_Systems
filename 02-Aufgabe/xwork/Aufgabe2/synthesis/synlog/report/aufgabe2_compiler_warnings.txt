@@ -2,6 +2,4 @@
 @W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":14:8:14:12|Signal redge is floating; a simulation mismatch is possible.
 @W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":13:8:13:11|Signal dout is floating; a simulation mismatch is possible.
 @W: CL169 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":30:8:30:9|Pruning unused register NOBLACKBOX_3(30 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":16:8:16:10|Signal dec is floating; a simulation mismatch is possible.
-@W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":15:8:15:11|Signal load is floating; a simulation mismatch is possible.
 

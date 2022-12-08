@@ -13,18 +13,23 @@ Hostname: DESKTOP-ASCAJSC
 Implementation : synthesis
 Synopsys HDL compiler and linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
 
-Modified Files: 1
+Modified Files: 2
 FID:  path (prevtimestamp, timestamp)
-28       E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd (2022-12-08 14:01:38, 2022-12-08 14:05:15)
+28       E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd (2022-12-08 14:05:15, 2022-12-08 14:07:22)
+30       E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd (2022-12-08 12:57:06, 2022-12-08 14:21:00)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 1
+Modules that may have changed as a result of file changes: 3
 MID:  lib.cell.view
 4        work.std_counter.verhalten may have changed because the following files changed:
-                        E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd (2022-12-08 14:01:38, 2022-12-08 14:05:15) <-- (architecture and entity definition)
+                        E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd (2022-12-08 14:05:15, 2022-12-08 14:07:22) <-- (architecture and entity definition)
+8        work.sync_buffer.verhalten may have changed because the following files changed:
+                        E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd (2022-12-08 12:57:06, 2022-12-08 14:21:00) <-- (may instantiate this module)
+6        work.sync_module.verhalten may have changed because the following files changed:
+                        E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd (2022-12-08 12:57:06, 2022-12-08 14:21:00) <-- (architecture and entity definition)
 
 *******************************************************************
-Unmodified files: 15
+Unmodified files: 14
 FID:  path (timestamp)
 16       D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\arith.vhd (2022-06-23 14:48:48)
 17       D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\location.map (2022-06-23 14:48:48)
@@ -39,17 +44,12 @@ FID:  path (timestamp)
 26       E:\00_Git\02_Study\DISY\01-Aufgabe\hex4x7seg.vhd (2022-11-30 16:24:39)
 27       E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd (2022-12-06 11:16:14)
 29       E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd (2022-12-08 12:26:09)
-30       E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd (2022-12-08 12:57:06)
 31       E:\00_Git\02_Study\DISY\bib\lfsr_lib.vhd (2022-12-08 12:10:57)
 
 *******************************************************************
-Unchanged modules: 8
+Unchanged modules: 4
 MID:  lib.cell.view
 0        work.aufgabe2.structure
 1        work.aufgabe2.vhdl
 2        work.hex4x7seg.struktur
 3        work.hex4x7seg.vhdl
-8        work.sync_buffer.verhalten
-9        work.sync_buffer.vhdl
-6        work.sync_module.verhalten
-7        work.sync_module.vhdl

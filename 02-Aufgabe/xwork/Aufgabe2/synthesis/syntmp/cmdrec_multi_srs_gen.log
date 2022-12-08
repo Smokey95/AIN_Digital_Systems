@@ -1,7 +1,7 @@
 D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.aufgabe2  -multisrs  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_comp.srs  -osyn  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_mult.srs  -log  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\aufgabe2_multi_srs_gen.srr 
 relcom:D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\syn_nfilter.exe -link -top work.aufgabe2 -multisrs ..\synwork\aufgabe2_comp.srs -osyn ..\synwork\aufgabe2_mult.srs -log ..\synlog\aufgabe2_multi_srs_gen.srr
 rc:0 success:1 runtime:1
-file:..\synwork\aufgabe2_comp.srs|io:i|time:1670504727|size:8092|exec:0|csum:10A2666BF5FE973E3AEE4BC65740FD7E
-file:..\synwork\aufgabe2_mult.srs|io:o|time:1670504729|size:3402|exec:0|csum:
-file:..\synlog\aufgabe2_multi_srs_gen.srr|io:o|time:1670504729|size:1179|exec:0|csum:
+file:..\synwork\aufgabe2_comp.srs|io:i|time:1670505701|size:8199|exec:0|csum:73167B7629387A9E186AEF0B6880F203
+file:..\synwork\aufgabe2_mult.srs|io:o|time:1670505703|size:3381|exec:0|csum:
+file:..\synlog\aufgabe2_multi_srs_gen.srr|io:o|time:1670505703|size:1179|exec:0|csum:
 file:D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1655988517|size:8737280|exec:1|csum:90AAFAB6F06AE2C85D8574E6DB8CBB07

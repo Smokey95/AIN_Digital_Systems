@@ -43,6 +43,7 @@ File E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd changed - recompiling
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd'.
 VHDL syntax check successful!
 File E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd changed - recompiling
+File E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd changed - recompiling
 @N: CD231 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Synthesizing work.aufgabe2.structure.
 @N: CD630 :"E:\00_Git\02_Study\DISY\01-Aufgabe\hex4x7seg.vhd":6:7:6:15|Synthesizing work.hex4x7seg.struktur.
@@ -64,8 +65,6 @@ Running optimization stage 1 on sync_buffer .......
 Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
 Post processing for work.sync_module.verhalten
 Running optimization stage 1 on sync_module .......
-@W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":16:8:16:10|Signal dec is floating; a simulation mismatch is possible.
-@W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":15:8:15:11|Signal load is floating; a simulation mismatch is possible.
 Finished optimization stage 1 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
 Post processing for work.aufgabe2.structure
 Running optimization stage 1 on aufgabe2 .......
@@ -78,8 +77,6 @@ Running optimization stage 2 on sync_buffer .......
 @N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":12:8:12:10|Input din is unused.
 Finished optimization stage 2 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on sync_module .......
-@N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":13:8:13:11|Input BTN2 is unused.
-@N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":14:8:14:11|Input BTN3 is unused.
 Finished optimization stage 2 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on std_counter .......
 Finished optimization stage 2 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 96MB)
@@ -98,7 +95,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  8 14:05:27 2022
+# Thu Dec  8 14:21:41 2022
 
 ###########################################################]
 ###########################################################[
@@ -125,7 +122,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  8 14:05:27 2022
+# Thu Dec  8 14:21:41 2022
 
 ###########################################################]
 
@@ -135,11 +132,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 24MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 24MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  8 14:05:27 2022
+# Thu Dec  8 14:21:41 2022
 
 ###########################################################]

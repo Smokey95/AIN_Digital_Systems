@@ -3,7 +3,7 @@
 #OS: Windows 10 or later
 #Hostname: DESKTOP-ASCAJSC
 
-# Thu Dec  8 14:05:25 2022
+# Thu Dec  8 14:21:39 2022
 
 #Implementation: synthesis
 
@@ -52,6 +52,7 @@ File E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd changed - recompiling
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd'.
 VHDL syntax check successful!
 File E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd changed - recompiling
+File E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd changed - recompiling
 @N: CD231 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Synthesizing work.aufgabe2.structure.
 @N: CD630 :"E:\00_Git\02_Study\DISY\01-Aufgabe\hex4x7seg.vhd":6:7:6:15|Synthesizing work.hex4x7seg.struktur.
@@ -73,8 +74,6 @@ Running optimization stage 1 on sync_buffer .......
 Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
 Post processing for work.sync_module.verhalten
 Running optimization stage 1 on sync_module .......
-@W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":16:8:16:10|Signal dec is floating; a simulation mismatch is possible.
-@W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":15:8:15:11|Signal load is floating; a simulation mismatch is possible.
 Finished optimization stage 1 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
 Post processing for work.aufgabe2.structure
 Running optimization stage 1 on aufgabe2 .......
@@ -87,8 +86,6 @@ Running optimization stage 2 on sync_buffer .......
 @N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":12:8:12:10|Input din is unused.
 Finished optimization stage 2 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on sync_module .......
-@N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":13:8:13:11|Input BTN2 is unused.
-@N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":14:8:14:11|Input BTN3 is unused.
 Finished optimization stage 2 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on std_counter .......
 Finished optimization stage 2 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 96MB)
@@ -107,7 +104,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  8 14:05:27 2022
+# Thu Dec  8 14:21:41 2022
 
 ###########################################################]
 ###########################################################[
@@ -134,7 +131,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  8 14:05:27 2022
+# Thu Dec  8 14:21:41 2022
 
 ###########################################################]
 
@@ -144,12 +141,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 24MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 24MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  8 14:05:27 2022
+# Thu Dec  8 14:21:41 2022
 
 ###########################################################]
 ###########################################################[
@@ -176,12 +173,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  8 14:05:29 2022
+# Thu Dec  8 14:21:43 2022
 
 ###########################################################]
 Premap Report
 
-# Thu Dec  8 14:05:29 2022
+# Thu Dec  8 14:21:43 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -229,7 +226,9 @@ Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 165MB)
 
-@N: BN115 :"e:\00_git\02_study\disy\02-aufgabe\sync_module.vhd":78:4:78:7|Removing instance buf1 (in view: work.sync_module(verhalten)) because it does not drive other instances.
+@N: BN115 :"e:\00_git\02_study\disy\02-aufgabe\sync_module.vhd":81:4:81:7|Removing instance buf1 (in view: work.sync_module(verhalten)) because it does not drive other instances.
+@N: BN115 :"e:\00_git\02_study\disy\02-aufgabe\sync_module.vhd":93:4:93:7|Removing instance buf2 (in view: work.sync_module(verhalten)) because it does not drive other instances.
+@N: BN115 :"e:\00_git\02_study\disy\02-aufgabe\sync_module.vhd":106:4:106:7|Removing instance buf3 (in view: work.sync_module(verhalten)) because it does not drive other instances.
 @N: BN362 :"e:\00_git\02_study\disy\02-aufgabe\sync_module.vhd":61:8:61:9|Removing sequential instance strb (in view: work.sync_module(verhalten)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN115 :"e:\00_git\02_study\disy\02-aufgabe\aufgabe2.vhd":81:3:81:4|Removing instance u1 (in view: work.aufgabe2(structure)) because it does not drive other instances.
 @N: FX1184 |Applying syn_allowed_resources blockrams=10 on top level netlist aufgabe2 
@@ -267,22 +266,22 @@ Finished Pre Mapping Phase.
 Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 168MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 168MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 169MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 86MB peak: 169MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:01s cputime
-# Thu Dec  8 14:05:32 2022
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Dec  8 14:21:45 2022
 
 ###########################################################]
 Map & Optimize Report
 
-# Thu Dec  8 14:05:32 2022
+# Thu Dec  8 14:21:45 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -316,7 +315,7 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 132MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 132MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 132MB)
 
 
 
@@ -354,17 +353,17 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 169MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
 
 
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 169MB)
@@ -420,7 +419,7 @@ Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01
 
 Writing Analyst data base E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -439,7 +438,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Thu Dec  8 14:05:35 2022
+# Timing report written on Thu Dec  8 14:21:48 2022
 #
 
 
@@ -581,10 +580,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 171MB peak: 172MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 172MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 171MB peak: 172MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 172MB)
 
 ---------------------------------------
 Resource Usage Report for aufgabe2 
@@ -627,6 +626,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 63MB peak: 172MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Thu Dec  8 14:05:35 2022
+# Thu Dec  8 14:21:48 2022
 
 ###########################################################]

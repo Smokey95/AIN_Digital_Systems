@@ -75,6 +75,9 @@ BEGIN
         END IF;
     END PROCESS;
     
+    -- Synchronizer -----------------------------------------------------------
+    
+    -- Syncbuffer for BTN1
     buf1: sync_buffer
     GENERIC MAP(RSTDEF => RSTDEF)
     PORT MAP(   rst => rst,
@@ -85,5 +88,30 @@ BEGIN
                 dout => OPEN,
                 redge => OPEN,
                 fedge => inc);
+    
+    -- Syncbuffer for BTN2
+    buf2: sync_buffer
+    GENERIC MAP(RSTDEF => RSTDEF)
+    PORT MAP(   rst => rst,
+                clk => clk,
+                en  => strb,
+                swrst => swrst,
+                din => BTN2,
+                dout => OPEN,
+                redge => OPEN,
+                fedge => dec);
+                
+    -- Syncbuffer for BTN3
+    -- CHECK IF redge IS CORRECT
+    buf3: sync_buffer
+    GENERIC MAP(RSTDEF => RSTDEF)
+    PORT MAP(   rst => rst,
+                clk => clk,
+                en  => strb,
+                swrst => swrst,
+                din => BTN3,
+                dout => OPEN,
+                redge => load,
+                fedge => OPEN);
 
 END verhalten;

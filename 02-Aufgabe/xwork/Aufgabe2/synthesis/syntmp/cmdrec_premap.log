@@ -1,15 +1,15 @@
 D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\m_generic.exe  -mp  4  -prjfile  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\scratchproject.prs  -prodtype  synplify_pro  -encrypt  -pro  -rundir  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis   -part M2S005  -package VF400  -grade STD    -continue_on_error -report_preserve_cdc -min_cdc_sync_flops 2 -unsafe_cdc_netlist_property 0 -pack_uram_addr_reg 1 -maxfan 10000 -infer_seqShift -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -rep_clkint_driver 1 -microsemi_enhanced_flow 1 -resolveMultipleDriver -ternary_adder_decomp 66 -RWCheckOnRam 0 -local_tmr_rename -summaryfile E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_premap.xml -merge_inferred_clocks 0  -top_level_module  work.aufgabe2  -implementation  synthesis  -ovm  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2.vm  -conchk_prepass  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2_cck.rpt   -freq 100.000   -tcl  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\synthesis.fdc  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_mult.srs  -flow prepass  -gcc_prepass  -osrd  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_prem.srd  -qsap  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2.sap  -devicelib  D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\smartfusion2.v  -ologparam  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\syntmp\aufgabe2.plg  -osyn  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_prem.srd  -prjdir  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\  -prjname  aufgabe2_syn  -log  E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\aufgabe2_premap.srr  -sn  2021.09  -jobname  "premap" 
 relcom:D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\m_generic.exe -mp 4 -prjfile ..\scratchproject.prs -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part M2S005 -package VF400 -grade STD -continue_on_error -report_preserve_cdc -min_cdc_sync_flops 2 -unsafe_cdc_netlist_property 0 -pack_uram_addr_reg 1 -maxfan 10000 -infer_seqShift -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -rep_clkint_driver 1 -microsemi_enhanced_flow 1 -resolveMultipleDriver -ternary_adder_decomp 66 -RWCheckOnRam 0 -local_tmr_rename -summaryfile ..\synlog\report\aufgabe2_premap.xml -merge_inferred_clocks 0 -top_level_module work.aufgabe2 -implementation synthesis -ovm ..\aufgabe2.vm -conchk_prepass ..\aufgabe2_cck.rpt -freq 100.000 -tcl ..\..\designer\aufgabe2\synthesis.fdc ..\synwork\aufgabe2_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\aufgabe2_prem.srd -qsap ..\aufgabe2.sap -devicelib D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\smartfusion2.v -ologparam aufgabe2.plg -osyn ..\synwork\aufgabe2_prem.srd -prjdir ..\ -prjname aufgabe2_syn -log ..\synlog\aufgabe2_premap.srr -sn 2021.09 -jobname "premap"
-rc:1 success:1 runtime:3
+rc:1 success:1 runtime:2
 file:..\scratchproject.prs|io:o|time:1670498288|size:2821|exec:0|csum:
-file:..\aufgabe2.vm|io:o|time:1670504514|size:8703|exec:0|csum:
-file:..\aufgabe2_cck.rpt|io:o|time:1670504731|size:2531|exec:0|csum:
-file:..\..\designer\aufgabe2\synthesis.fdc|io:i|time:1670504723|size:54|exec:0|csum:B43415CFD2EBB9B56403DBA78161FC7E
-file:..\synwork\aufgabe2_mult.srs|io:i|time:1670504729|size:3402|exec:0|csum:5AA16C5206B195B02BB817B6FF867165
-file:..\synwork\aufgabe2_prem.srd|io:o|time:1670504731|size:7000|exec:0|csum:
-file:..\aufgabe2.sap|io:o|time:1670504732|size:488|exec:0|csum:
+file:..\aufgabe2.vm|io:o|time:1670504734|size:8703|exec:0|csum:
+file:..\aufgabe2_cck.rpt|io:o|time:1670505705|size:2531|exec:0|csum:
+file:..\..\designer\aufgabe2\synthesis.fdc|io:i|time:1670505697|size:54|exec:0|csum:4E71D58AD195D4D18AAA1F5B02AAE241
+file:..\synwork\aufgabe2_mult.srs|io:i|time:1670505703|size:3381|exec:0|csum:E723D28003254C30F54BB9A7F4B0FE64
+file:..\synwork\aufgabe2_prem.srd|io:o|time:1670505704|size:6992|exec:0|csum:
+file:..\aufgabe2.sap|io:o|time:1670505705|size:488|exec:0|csum:
 file:D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\smartfusion2.v|io:i|time:1655988526|size:16415|exec:0|csum:9BAA6208AF4C76CF2C10809775E94DAF
-file:aufgabe2.plg|io:o|time:1670504730|size:0|exec:0|csum:
-file:..\synwork\aufgabe2_prem.srd|io:o|time:1670504731|size:7000|exec:0|csum:
-file:..\synlog\aufgabe2_premap.srr|io:o|time:1670504732|size:5336|exec:0|csum:
+file:aufgabe2.plg|io:o|time:1670505703|size:0|exec:0|csum:
+file:..\synwork\aufgabe2_prem.srd|io:o|time:1670505704|size:6992|exec:0|csum:
+file:..\synlog\aufgabe2_premap.srr|io:o|time:1670505705|size:5698|exec:0|csum:
 file:D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\m_generic.exe|io:i|time:1655988516|size:46325248|exec:1|csum:B10F20517CD2D567431250EEDE58F8A0

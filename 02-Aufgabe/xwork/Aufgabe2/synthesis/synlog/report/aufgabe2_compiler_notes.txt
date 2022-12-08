@@ -18,7 +18,5 @@
 @N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":10:8:10:9|Input en is unused.
 @N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":11:8:11:12|Input swrst is unused.
 @N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":12:8:12:10|Input din is unused.
-@N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":13:8:13:11|Input BTN2 is unused.
-@N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":14:8:14:11|Input BTN3 is unused.
 @N|Running in 64-bit mode
 
