@@ -1,0 +1,19 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Top entity is set to aufgabe2.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\std_counter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_buffer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\ds-09\Desktop\DISY\Digital_Systems\bib\lfsr_lib.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\ds-09\Desktop\DISY\Digital_Systems\01-Aufgabe\hex4x7seg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\aufgabe2.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Synthesizing work.aufgabe2.structure.
+@N: CD630 :"C:\Users\ds-09\Desktop\DISY\Digital_Systems\01-Aufgabe\hex4x7seg.vhd":6:7:6:15|Synthesizing work.hex4x7seg.struktur.
+@N: CD630 :"C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\std_counter.vhd":6:7:6:17|Synthesizing work.std_counter.verhalten.
+@N: CD630 :"C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_module.vhd":7:7:7:17|Synthesizing work.sync_module.verhalten.
+@N: CD630 :"C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_buffer.vhd":6:7:6:17|Synthesizing work.sync_buffer.verhalten.
+@N: CL159 :"C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_module.vhd":13:8:13:11|Input BTN2 is unused.
+@N: CL159 :"C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_module.vhd":14:8:14:11|Input BTN3 is unused.
+@N|Running in 64-bit mode
+

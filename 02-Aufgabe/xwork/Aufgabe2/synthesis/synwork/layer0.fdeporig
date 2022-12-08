@@ -1,0 +1,53 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\ds-09\\Desktop\\DISY\\Digital_Systems\\02-Aufgabe\\xwork\\Aufgabe2\\synthesis\\synwork\\aufgabe2_comp.srs|-top|work.aufgabe2|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\bin64\\c_vhdl.exe":1655988517
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\location.map":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1655988528
+#CUR:"C:\\Users\\ds-09\\Desktop\\DISY\\Digital_Systems\\02-Aufgabe\\std_counter.vhd":1670323877
+#CUR:"C:\\Users\\ds-09\\Desktop\\DISY\\Digital_Systems\\02-Aufgabe\\sync_buffer.vhd":1670327098
+#CUR:"C:\\Users\\ds-09\\Desktop\\DISY\\Digital_Systems\\bib\\lfsr_lib.vhd":1670322566
+#CUR:"C:\\Users\\ds-09\\Desktop\\DISY\\Digital_Systems\\02-Aufgabe\\sync_module.vhd":1670327393
+#CUR:"C:\\Users\\ds-09\\Desktop\\DISY\\Digital_Systems\\01-Aufgabe\\hex4x7seg.vhd":1670321715
+#CUR:"C:\\Users\\ds-09\\Desktop\\DISY\\Digital_Systems\\02-Aufgabe\\aufgabe2.vhd":1670321773
+0 "C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\std_counter.vhd" vhdl
+1 "C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_buffer.vhd" vhdl
+2 "C:\Users\ds-09\Desktop\DISY\Digital_Systems\bib\lfsr_lib.vhd" vhdl
+3 "C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_module.vhd" vhdl
+4 "C:\Users\ds-09\Desktop\DISY\Digital_Systems\01-Aufgabe\hex4x7seg.vhd" vhdl
+5 "C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\aufgabe2.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 1 2 
+4 -1
+5 3 0 4 
+
+# Dependency Lists (Users Of)
+0 5 
+1 3 
+2 3 
+3 5 
+4 5 
+5 -1
+
+# Design Unit to File Association
+arch work std_counter verhalten 0
+module work std_counter 0
+arch work sync_buffer verhalten 1
+module work sync_buffer 1
+arch work sync_module verhalten 3
+module work sync_module 3
+arch work hex4x7seg struktur 4
+module work hex4x7seg 4
+arch work aufgabe2 structure 5
+module work aufgabe2 5

@@ -1,0 +1,5 @@
+@W: CD286 :"C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\std_counter.vhd":6:7:6:17|Creating black box for empty architecture std_counter 
+@W: CD286 :"C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_buffer.vhd":6:7:6:17|Creating black box for empty architecture sync_buffer 
+@W: CL240 :"C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_module.vhd":16:8:16:10|Signal dec is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_module.vhd":15:8:15:11|Signal load is floating; a simulation mismatch is possible.
+

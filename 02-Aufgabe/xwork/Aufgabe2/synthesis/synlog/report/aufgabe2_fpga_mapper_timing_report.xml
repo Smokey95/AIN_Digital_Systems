@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\aufgabe2_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>aufgabe2|clk</data>
+<data>100.0 MHz</data>
+<data>489.3 MHz</data>
+<data>7.956</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>895.2 MHz</data>
+<data>8.883</data>
+</row>
+</report_table>

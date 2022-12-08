@@ -1,0 +1,55 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DS-PC09
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+13       C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_module.vhd (2022-12-06 12:42:29, 2022-12-06 12:49:53)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 2
+MID:  lib.cell.view
+8        work.sync_buffer.verhalten may have changed because the following files changed:
+                        C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_module.vhd (2022-12-06 12:42:29, 2022-12-06 12:49:53) <-- (may instantiate this module)
+6        work.sync_module.verhalten may have changed because the following files changed:
+                        C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_module.vhd (2022-12-06 12:42:29, 2022-12-06 12:49:53) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 15
+FID:  path (timestamp)
+0        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\arith.vhd (2022-06-23 14:48:48)
+1        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\location.map (2022-06-23 14:48:48)
+2        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\numeric.vhd (2022-06-23 14:48:48)
+3        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std.vhd (2022-06-23 14:48:48)
+4        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std1164.vhd (2022-06-23 14:48:48)
+5        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std_textio.vhd (2022-06-23 14:48:48)
+6        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\unsigned.vhd (2022-06-23 14:48:48)
+7        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd\hyperents.vhd (2022-06-23 14:48:48)
+8        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd\snps_haps_pkg.vhd (2022-06-23 14:48:48)
+9        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd\umr_capim.vhd (2022-06-23 14:48:48)
+10       C:\Users\ds-09\Desktop\DISY\Digital_Systems\01-Aufgabe\hex4x7seg.vhd (2022-12-06 11:15:15)
+11       C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\aufgabe2.vhd (2022-12-06 11:16:13)
+12       C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\std_counter.vhd (2022-12-06 11:51:17)
+14       C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\sync_buffer.vhd (2022-12-06 12:44:58)
+15       C:\Users\ds-09\Desktop\DISY\Digital_Systems\bib\lfsr_lib.vhd (2022-12-06 11:29:26)
+
+*******************************************************************
+Unchanged modules: 6
+MID:  lib.cell.view
+0        work.aufgabe2.structure
+1        work.aufgabe2.vhdl
+2        work.hex4x7seg.struktur
+3        work.hex4x7seg.vhdl
+4        work.std_counter.verhalten
+5        work.std_counter.vhdl

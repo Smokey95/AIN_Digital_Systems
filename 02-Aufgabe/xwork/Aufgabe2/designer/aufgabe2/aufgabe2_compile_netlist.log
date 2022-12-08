@@ -1,0 +1,7 @@
+Warning Assertion Failed: File D:/pre_capture_jenkins/sn/veer_sjo-sv-winteg05_pre_capture_sn/afi/lib/base/src/mdb/MdbRuntime.cpp, Line 843
+
+Error:  NETLIST:011 Module or UDP : (sync_buffer(RSTDEF=1'b0)) is not defined. FILE <null> LINE 0.
+ERROR: Netlist files read with 1 error(s).
+Error:  The command 'read_verilog' failed.
+Error:  Line 2
+Error running script

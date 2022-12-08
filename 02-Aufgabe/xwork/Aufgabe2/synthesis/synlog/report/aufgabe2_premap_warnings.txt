@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\ds-09\desktop\disy\digital_systems\02-aufgabe\sync_module.vhd":57:8:57:9|Found inferred clock aufgabe2|clk which controls 33 sequential elements including u1.strb. This clock has no specified timing constraint which may adversely impact design performance. 
