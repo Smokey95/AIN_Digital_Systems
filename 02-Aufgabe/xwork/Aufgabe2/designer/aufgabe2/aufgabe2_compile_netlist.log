@@ -1,7 +1,32 @@
-Warning Assertion Failed: File D:/pre_capture_jenkins/sn/veer_sjo-sv-winteg05_pre_capture_sn/afi/lib/base/src/mdb/MdbRuntime.cpp, Line 843
+Warning: CMPG4-007: Top level port btn[3] is not connected to any IO pad
+Warning: CMPG4-007: Top level port btn[2] is not connected to any IO pad
+Warning: CMPG4-007: Top level port btn[1] is not connected to any IO pad
+Warning: CMPG4-007: Top level port sw[8] is not connected to any IO pad
+Warning: CMPG4-007: Top level port sw[7] is not connected to any IO pad
+Warning: CMPG4-007: Top level port sw[6] is not connected to any IO pad
+Warning: CMPG4-007: Top level port sw[5] is not connected to any IO pad
+Warning: CMPG4-007: Top level port sw[4] is not connected to any IO pad
+Warning: CMPG4-007: Top level port sw[3] is not connected to any IO pad
+Warning: CMPG4-007: Top level port sw[2] is not connected to any IO pad
+Warning: CMPG4-007: Top level port sw[1] is not connected to any IO pad
 
-Error:  NETLIST:011 Module or UDP : (sync_buffer(RSTDEF=1'b0)) is not defined. FILE <null> LINE 0.
-ERROR: Netlist files read with 1 error(s).
-Error:  The command 'read_verilog' failed.
-Error:  Line 2
-Error running script
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       2 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     2 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    17     0      0      'clk_ibuf_RNIVTI2' 
+    0      17     0      'rst_ibuf_RNIUUM5' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

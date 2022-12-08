@@ -6,10 +6,10 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
-Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 6.2
 
-Hostname: DS-PC09
+Hostname: DESKTOP-ASCAJSC
 
 Implementation : synthesis
 
@@ -24,19 +24,17 @@ Part:			M2S005VF400STD (Microchip)
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      33                 100 %                
+SLE      17                 100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block aufgabe2:	33 (28.95 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block aufgabe2:	17 (30.91 % Utilization)
 
 
 COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           37                 100 %                
-ARI1          8                  100 %                
-BLACK BOX     2                  100 %                
-======================================================
-Total COMBINATIONAL LOGIC in the block aufgabe2:	47 (41.23 % Utilization)
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block aufgabe2:	15 (27.27 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -44,15 +42,15 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block aufgabe2:	2 (1.75 % Utilization)
+Total GLOBAL BUFFERS in the block aufgabe2:	2 (3.64 % Utilization)
 
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-IO       26                 100 %                
+IO       17                 100 %                
 =================================================
-Total IO PADS in the block aufgabe2:	26 (22.81 % Utilization)
+Total IO PADS in the block aufgabe2:	17 (30.91 % Utilization)
 
 ---------------------------------------------------------------
 ########   Utilization report for  cell:   hex4x7seg   ########
@@ -62,39 +60,17 @@ Instance path:   aufgabe2.hex4x7seg
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      17                 51.5 %               
+SLE      17                 100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block aufgabe2.hex4x7seg:	17 (14.91 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block aufgabe2.hex4x7seg:	17 (30.91 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      21                 56.8 %               
-ARI1     8                  100 %                
+CFG      14                 93.3 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block aufgabe2.hex4x7seg:	29 (25.44 % Utilization)
-
------------------------------------------------------------------
-########   Utilization report for  cell:   sync_module   ########
-Instance path:   aufgabe2.sync_module                            
-=================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      16                 48.5 %               
-=================================================
-Total SEQUENTIAL ELEMENTS in the block aufgabe2.sync_module:	16 (14.04 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           7                  18.9 %               
-BLACK BOX     1                  50 %                 
-======================================================
-Total COMBINATIONAL LOGIC in the block aufgabe2.sync_module:	8 (7.02 % Utilization)
+Total COMBINATIONAL LOGIC in the block aufgabe2.hex4x7seg:	14 (25.45 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

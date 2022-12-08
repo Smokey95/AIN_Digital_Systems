@@ -1,0 +1,52 @@
+m255
+K4
+z2
+!s11e vcom 2022.2 2022.04, Apr 26 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/00_Git/02_Study/DISY/02-Aufgabe
+Estd_counter_tb
+Z1 w1670321774
+!i122 0
+R0
+Z2 8E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd
+Z3 FE:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd
+l0
+L1 1
+VD0YQe5Dn86l>Lf:Ma^95B3
+!s100 glQ2m01jLj04hdSb`dMFI3
+Z4 OW;C;2022.2;75
+32
+Z5 !s110 1670499994
+!i10b 1
+Z6 !s108 1670499994.000000
+Z7 !s90 -reportprogress|300|-work|work|E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd|
+!s107 E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd|
+!i113 1
+Z8 o-work work -O0
+Z9 tExplicit 1 NoCoverage 1 CvgOpt 0
+Averhalten
+DEx4 work 14 std_counter_tb 0 22 D0YQe5Dn86l>Lf:Ma^95B3
+DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
+DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+!i122 0
+l127
+L11 185
+VOG08;RJnkLcJc5`CaJ0BT0
+!s100 AilKIGgI<XZzUW@?[_9ZT1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+Z10 !s107 E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd|
+!i113 1
+R8
+R9

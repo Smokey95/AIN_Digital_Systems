@@ -38,7 +38,92 @@ END std_counter;
 -- cnt = Wert des Zaehlers
 --
 
+
+-- --------------------------------------------------------- First version
 --
 -- Im Rahmen der 2. Aufgabe soll hier die Architekturbeschreibung
 -- zur Entity std_counter implementiert werden
 --
+ARCHITECTURE verhalten OF std_counter IS
+
+    -- Defines a vector with one bit more than the counter length to detect an overflow
+    SIGNAL cnt: STD_LOGIC_VECTOR(CNTLEN DOWNTO 0);
+    SIGNAL overflow: STD_LOGIC;
+
+BEGIN
+
+-- The funktions defined in the Funktionstabelle must be implemented
+-- Test how to save logic gates and how to save the number of flip-flops
+
+        p1: PROCESS(clk, rst) is
+        BEGIN
+            IF rst=RSTDEF THEN
+                overflow <= '0';
+                cnt <= (OTHERS => '0');
+            ELSIF rising_edge(clk) THEN
+                IF swrst=RSTDEF THEN
+                    overflow <= '0';
+                    cnt <= (OTHERS => '0');
+                ELSIF en='1' THEN
+                    IF load='1' THEN
+                        overflow <= '0';
+                        cnt(CNTLEN-1 DOWNTO 0) <= din;
+                    ELSIF dec='1' THEN
+                        overflow <= '0';
+                        cnt <= cnt - 1;         -- Improvement when using cnt <= cnt - dec
+                    ELSIF inc='1' THEN
+                        overflow <= '0';
+                        cnt <= cnt + 1;
+                    END IF;
+                    
+                    -- check if HSB is set
+                    IF cnt(CNTLEN) = '1' THEN
+                        overflow <= '1';                    -- set overflow
+                        cnt(CNTLEN) <= '0';                 -- clear HSB    
+                    END IF;
+                END IF;
+            END IF;
+        END PROCESS p1;
+        
+        
+        cout <= overflow;                                   -- Return the value of the overflow
+        dout <= cnt(CNTLEN-1 DOWNTO 0);                     -- Return the value of the CNTLEN counter bits
+        
+END verhalten;
+
+-- --------------------------------------------------------- Seccond version
+--ARCHITECTURE verhalten OF std_counter IS
+--
+    --SIGNAL cnt: STD_LOGIC_VECTOR((CNTLEN - 1) DOWNTO 0);
+    --SIGNAL overflow: STD_LOGIC;
+    --SIGNAL detect: STD_LOGIC_VECTOR((CNTLEN - 1) DOWNTO 0);
+--BEGIN
+--
+---- The funktions defined in the Funktionstabelle must be implemented
+---- Test how to save logic gates and how to save the number of flip-flops
+--
+    --detect <= (OTHERS => '0');
+                --
+    --p1: PROCESS(clk, rst) is
+    --BEGIN
+        --IF rst=RSTDEF THEN
+                --cnt <= (OTHERS => '0');
+        --ELSIF rising_edge(clk) THEN
+                --
+            --IF swrst=RSTDEF THEN
+                --cnt <= (OTHERS => '0');
+            --ELSIF en='1' THEN
+                --IF load='1' THEN
+                    --cnt <= din;
+                --ELSIF dec='1' THEN
+                    --cnt <= cnt - 1;         -- Improvement when using cnt <= cnt - dec
+                --ELSIF inc='1' THEN
+                    --cnt <= cnt + 1;
+                --END IF;
+            --END IF;
+        --END IF;
+    --END PROCESS p1;
+--
+     --dout <= cnt;                                        -- Return the value of the counter
+        --
+--END verhalten;

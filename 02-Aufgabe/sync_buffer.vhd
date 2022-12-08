@@ -19,3 +19,20 @@ END sync_buffer;
 -- Im Rahmen der 2. Aufgabe soll hier die Architekturbeschreibung
 -- zur Entity sync_buffer implementiert werden.
 --
+
+ARCHITECTURE verhalten OF sync_buffer IS
+    SIGNAL NOBLACKBOX: NATURAL := 1;
+BEGIN
+
+    p1: PROCESS(clk, rst) is
+    BEGIN
+        
+        IF rst=RSTDEF THEN
+            NOBLACKBOX <= 1;
+        ELSIF rising_edge(clk) THEN
+            NOBLACKBOX <= NOBLACKBOX + 1;
+        END IF;
+    
+    END PROCESS p1;
+
+END verhalten;

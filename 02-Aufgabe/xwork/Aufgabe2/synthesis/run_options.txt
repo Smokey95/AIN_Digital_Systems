@@ -1,17 +1,17 @@
 #--  Synopsys, Inc.
 #--  Version S-2021.09M-SP1
-#--  Project file C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\xwork\Aufgabe2\synthesis\run_options.txt
-#--  Written on Tue Dec  6 12:50:03 2022
+#--  Project file E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\run_options.txt
+#--  Written on Thu Dec  8 14:05:24 2022
 
 
 #project files
-add_file -vhdl -lib work "C:/Users/ds-09/Desktop/DISY/Digital_Systems/02-Aufgabe/std_counter.vhd"
-add_file -vhdl -lib work "C:/Users/ds-09/Desktop/DISY/Digital_Systems/02-Aufgabe/sync_buffer.vhd"
-add_file -vhdl -lib work "C:/Users/ds-09/Desktop/DISY/Digital_Systems/bib/lfsr_lib.vhd"
-add_file -vhdl -lib work "C:/Users/ds-09/Desktop/DISY/Digital_Systems/02-Aufgabe/sync_module.vhd"
-add_file -vhdl -lib work "C:/Users/ds-09/Desktop/DISY/Digital_Systems/01-Aufgabe/hex4x7seg.vhd"
-add_file -vhdl -lib work "C:/Users/ds-09/Desktop/DISY/Digital_Systems/02-Aufgabe/aufgabe2.vhd"
-add_file -fpga_constraint "C:/Users/ds-09/Desktop/DISY/Digital_Systems/02-Aufgabe/xwork/Aufgabe2/designer/aufgabe2/synthesis.fdc"
+add_file -vhdl -lib work "E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter.vhd"
+add_file -vhdl -lib work "E:/00_Git/02_Study/DISY/02-Aufgabe/sync_buffer.vhd"
+add_file -vhdl -lib work "E:/00_Git/02_Study/DISY/bib/lfsr_lib.vhd"
+add_file -vhdl -lib work "E:/00_Git/02_Study/DISY/02-Aufgabe/sync_module.vhd"
+add_file -vhdl -lib work "E:/00_Git/02_Study/DISY/01-Aufgabe/hex4x7seg.vhd"
+add_file -vhdl -lib work "E:/00_Git/02_Study/DISY/02-Aufgabe/aufgabe2.vhd"
+add_file -fpga_constraint "E:/00_Git/02_Study/DISY/02-Aufgabe/xwork/Aufgabe2/designer/aufgabe2/synthesis.fdc"
 
 
 #implementation: "synthesis"

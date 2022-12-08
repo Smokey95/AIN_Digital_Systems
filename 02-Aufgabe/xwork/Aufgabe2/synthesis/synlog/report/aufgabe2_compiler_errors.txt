@@ -1,3 +1,2 @@
-@E: CD358 :"C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\aufgabe2.vhd":81:3:81:4|No architecture is available for entity sync_module
-@E: CD358 :"C:\Users\ds-09\Desktop\DISY\Digital_Systems\02-Aufgabe\aufgabe2.vhd":93:3:93:4|No architecture is available for entity std_counter
+@E: CD297 :"E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd":70:24:70:26|Width mismatch, location has width 17, value 16
 
