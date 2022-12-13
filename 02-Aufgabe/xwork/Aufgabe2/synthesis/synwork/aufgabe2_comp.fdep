@@ -1,27 +1,27 @@
-#OPTIONS:"|-layerid|0|-orig_srs|E:\\00_Git\\02_Study\\DISY\\02-Aufgabe\\xwork\\Aufgabe2\\synthesis\\synwork\\aufgabe2_comp.srs|-top|work.aufgabe2|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
-#CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\bin64\\c_vhdl.exe":1655988517
-#CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\location.map":1655988528
-#CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std.vhd":1655988528
-#CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1655988528
-#CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1655988528
-#CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1655988528
-#CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1655988528
-#CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1655988528
-#CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1655988528
-#CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1655988528
-#CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1655988528
-#CUR:"E:\\00_Git\\02_Study\\DISY\\02-Aufgabe\\std_counter.vhd":1670504842
-#CUR:"E:\\00_Git\\02_Study\\DISY\\02-Aufgabe\\sync_buffer.vhd":1670498769
-#CUR:"E:\\00_Git\\02_Study\\DISY\\bib\\lfsr_lib.vhd":1670497857
-#CUR:"E:\\00_Git\\02_Study\\DISY\\01-Aufgabe\\hex4x7seg.vhd":1669821879
-#CUR:"E:\\00_Git\\02_Study\\DISY\\02-Aufgabe\\sync_module.vhd":1670505660
-#CUR:"E:\\00_Git\\02_Study\\DISY\\02-Aufgabe\\aufgabe2.vhd":1670321774
-0			"E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd" vhdl
-1			"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd" vhdl
-2			"E:\00_Git\02_Study\DISY\bib\lfsr_lib.vhd" vhdl
-3			"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd" vhdl
-4			"E:\00_Git\02_Study\DISY\01-Aufgabe\hex4x7seg.vhd" vhdl
-5			"E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd" vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\si741rau\\Desktop\\DISY\\02-Aufgabe\\xwork\\Aufgabe2\\synthesis\\synwork\\aufgabe2_comp.srs|-top|work.aufgabe2|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\bin64\\c_vhdl.exe":1655988517
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\location.map":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1655988528
+#CUR:"C:\\Users\\si741rau\\Desktop\\DISY\\02-Aufgabe\\std_counter.vhd":1670929272
+#CUR:"C:\\Users\\si741rau\\Desktop\\DISY\\02-Aufgabe\\sync_buffer.vhd":1670931080
+#CUR:"C:\\Users\\si741rau\\Desktop\\DISY\\bib\\lfsr_lib.vhd":1670929272
+#CUR:"C:\\Users\\si741rau\\Desktop\\DISY\\01-Aufgabe\\hex4x7seg.vhd":1670929259
+#CUR:"C:\\Users\\si741rau\\Desktop\\DISY\\02-Aufgabe\\sync_module.vhd":1670929645
+#CUR:"C:\\Users\\si741rau\\Desktop\\DISY\\02-Aufgabe\\aufgabe2.vhd":1670929272
+0			"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd" vhdl
+1			"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd" vhdl
+2			"C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd" vhdl
+3			"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd" vhdl
+4			"C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd" vhdl
+5			"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd" vhdl
 #Dependency Lists(Uses List)
 0 -1
 1 -1

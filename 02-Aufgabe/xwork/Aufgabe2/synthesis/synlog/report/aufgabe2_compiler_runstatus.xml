@@ -6,7 +6,7 @@ The file contains the job information from compiler to be displayed as part of t
 
 <job_run_status name="compiler"> 
   <report_link name="Detailed report">
-    <data>E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\aufgabe2_compiler.srr</data>
+    <data>C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\aufgabe2_compiler.srr</data>
     <title>Synopsys HDL Compiler</title>
   </report_link> 
   <job_status>
@@ -15,27 +15,27 @@ The file contains the job information from compiler to be displayed as part of t
 <job_info> 
 			<info name="Notes">
   <data>21</data>
-  <report_link name="more"><data>E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_compiler_notes.txt</data></report_link>
+  <report_link name="more"><data>C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_compiler_notes.txt</data></report_link>
   </info>
 			<info name="Warnings">
-  <data>4</data>
-  <report_link name="more"><data>E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_compiler_warnings.txt</data></report_link>
+  <data>6</data>
+  <report_link name="more"><data>C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_compiler_warnings.txt</data></report_link>
   </info>
 			<info name="Errors">
   <data>0</data>
-  <report_link name="more"><data>E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_compiler_errors.txt</data></report_link>
+  <report_link name="more"><data>C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_compiler_errors.txt</data></report_link>
   </info>
 			<info name="CPU Time">
   <data>-</data>
   </info>
 			<info name="Real Time">
-  <data>00h:00m:02s</data>
+  <data>00h:00m:00s</data>
   </info>
 			<info name="Peak Memory">
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-  <data type="timestamp">1670505701</data>
+  <data type="timestamp">1670931105</data>
   </info>
 			</job_info>
 </job_run_status>

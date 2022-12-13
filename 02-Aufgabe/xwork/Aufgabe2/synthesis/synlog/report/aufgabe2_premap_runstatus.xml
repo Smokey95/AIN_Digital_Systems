@@ -5,7 +5,7 @@ The file contains the job information from mapper to be displayed as part of the
 *******************************************************************************************-->
 <job_run_status name="Mapper">
 <report_link name="Detailed report">
-<data>E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\aufgabe2_premap.srr</data>
+<data>C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\aufgabe2_premap.srr</data>
 <title></title>
 </report_link>
 <job_status>
@@ -15,19 +15,19 @@ The file contains the job information from mapper to be displayed as part of the
 <info name="Notes">
 <data>11</data>
 <report_link name="more">
-<data>E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_premap_notes.txt</data>
+<data>C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_premap_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
 <data>1</data>
 <report_link name="more">
-<data>E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_premap_warnings.txt</data>
+<data>C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_premap_warnings.txt</data>
 </report_link>
 </info>
 <info name="Errors">
 <data>0</data>
 <report_link name="more">
-<data>E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_premap_errors.txt</data>
+<data>C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_premap_errors.txt</data>
 </report_link>
 </info>
 <info name="CPU Time">
@@ -37,10 +37,10 @@ The file contains the job information from mapper to be displayed as part of the
 <data>0h:00m:01s</data>
 </info>
 <info name="Peak Memory">
-<data>169MB</data>
+<data>168MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1670505705</data>
+<data type="timestamp">1670931106</data>
 </info>
 </job_info>
 </job_run_status>

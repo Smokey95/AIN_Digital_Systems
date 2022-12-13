@@ -1,4 +1,4 @@
-# Thu Dec  8 14:21:43 2022
+# Tue Dec 13 12:31:45 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -8,52 +8,52 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
-Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 6.2
 
-Hostname: DESKTOP-ASCAJSC
+Hostname: DS-PC09
 
 Implementation : synthesis
 Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 120MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 131MB)
 
-Reading constraint file: E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\synthesis.fdc
-@L: E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2_scck.rpt 
-See clock summary report "E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2_scck.rpt"
+Reading constraint file: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\synthesis.fdc
+@L: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2_scck.rpt 
+See clock summary report "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2_scck.rpt"
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 132MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 131MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 132MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 131MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 132MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 131MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
 
 
-Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 165MB)
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 164MB)
 
 
-Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 165MB)
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 164MB)
 
-@N: BN115 :"e:\00_git\02_study\disy\02-aufgabe\sync_module.vhd":81:4:81:7|Removing instance buf1 (in view: work.sync_module(verhalten)) because it does not drive other instances.
-@N: BN115 :"e:\00_git\02_study\disy\02-aufgabe\sync_module.vhd":93:4:93:7|Removing instance buf2 (in view: work.sync_module(verhalten)) because it does not drive other instances.
-@N: BN115 :"e:\00_git\02_study\disy\02-aufgabe\sync_module.vhd":106:4:106:7|Removing instance buf3 (in view: work.sync_module(verhalten)) because it does not drive other instances.
-@N: BN362 :"e:\00_git\02_study\disy\02-aufgabe\sync_module.vhd":61:8:61:9|Removing sequential instance strb (in view: work.sync_module(verhalten)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN115 :"e:\00_git\02_study\disy\02-aufgabe\aufgabe2.vhd":81:3:81:4|Removing instance u1 (in view: work.aufgabe2(structure)) because it does not drive other instances.
+@N: BN115 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd":81:4:81:7|Removing instance buf1 (in view: work.sync_module(verhalten)) because it does not drive other instances.
+@N: BN115 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd":93:4:93:7|Removing instance buf2 (in view: work.sync_module(verhalten)) because it does not drive other instances.
+@N: BN115 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd":106:4:106:7|Removing instance buf3 (in view: work.sync_module(verhalten)) because it does not drive other instances.
+@N: BN362 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd":61:8:61:9|Removing sequential instance strb (in view: work.sync_module(verhalten)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\si741rau\desktop\disy\02-aufgabe\aufgabe2.vhd":81:3:81:4|Removing instance u1 (in view: work.aufgabe2(structure)) because it does not drive other instances.
 @N: FX1184 |Applying syn_allowed_resources blockrams=10 on top level netlist aufgabe2 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
 
 
 
@@ -77,25 +77,25 @@ Clock            Load      Pin           Seq Example        Seq Example       Co
 aufgabe2|clk     35        clk(port)     u3.reg[13:0].C     -                 -            
 ===========================================================================================
 
-@W: MT530 :"e:\00_git\02_study\disy\02-aufgabe\std_counter.vhd":60:12:60:13|Found inferred clock aufgabe2|clk which controls 35 sequential elements including u2.cnt[16:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\si741rau\desktop\disy\02-aufgabe\std_counter.vhd":60:12:60:13|Found inferred clock aufgabe2|clk which controls 35 sequential elements including u2.cnt[16:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
-@N: BN225 |Writing default property annotation file E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2.sap.
+@N: BN225 |Writing default property annotation file C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
-
-
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 86MB peak: 169MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 82MB peak: 168MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Dec  8 14:21:45 2022
+# Tue Dec 13 12:31:46 2022
 
 ###########################################################]

@@ -1,4 +1,4 @@
-@W: FA239 :"e:\00_git\02_study\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"e:\00_git\02_study\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\si741rau\desktop\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\si741rau\desktop\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 @W: MT420 |Found inferred clock aufgabe2|clk with period 10.00ns. Please declare a user-defined clock on port clk.

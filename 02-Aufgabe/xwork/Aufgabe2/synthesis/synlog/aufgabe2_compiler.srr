@@ -6,9 +6,9 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
-Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 10 or later
-Hostname: DESKTOP-ASCAJSC
+Hostname: DS-PC09
 
 Implementation : synthesis
 Synopsys HDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
@@ -23,79 +23,81 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
-Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 10 or later
-Hostname: DESKTOP-ASCAJSC
+Hostname: DS-PC09
 
 Implementation : synthesis
 Synopsys VHDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
 
 @N|Running in 64-bit mode
-@N:"E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Top entity is set to aufgabe2.
-File E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd changed - recompiling
-File E:\00_Git\02_Study\DISY\01-Aufgabe\hex4x7seg.vhd changed - recompiling
-File E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd changed - recompiling
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\bib\lfsr_lib.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\01-Aufgabe\hex4x7seg.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd'.
+@N:"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Top entity is set to aufgabe2.
+File C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd changed - recompiling
+File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd changed - recompiling
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd'.
 VHDL syntax check successful!
-File E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd changed - recompiling
-File E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd changed - recompiling
-@N: CD231 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
-@N: CD630 :"E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Synthesizing work.aufgabe2.structure.
-@N: CD630 :"E:\00_Git\02_Study\DISY\01-Aufgabe\hex4x7seg.vhd":6:7:6:15|Synthesizing work.hex4x7seg.struktur.
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD231 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Synthesizing work.aufgabe2.structure.
+@N: CD630 :"C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd":6:7:6:15|Synthesizing work.hex4x7seg.struktur.
 Post processing for work.hex4x7seg.struktur
 Running optimization stage 1 on hex4x7seg .......
-Finished optimization stage 1 on hex4x7seg (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
-@N: CD630 :"E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd":6:7:6:17|Synthesizing work.std_counter.verhalten.
+Finished optimization stage 1 on hex4x7seg (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+@N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd":6:7:6:17|Synthesizing work.std_counter.verhalten.
 Post processing for work.std_counter.verhalten
 Running optimization stage 1 on std_counter .......
-Finished optimization stage 1 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
-@N: CD630 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":7:7:7:17|Synthesizing work.sync_module.verhalten.
-@N: CD630 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":6:7:6:17|Synthesizing work.sync_buffer.verhalten.
+Finished optimization stage 1 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+@N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd":7:7:7:17|Synthesizing work.sync_module.verhalten.
+@N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":6:7:6:17|Synthesizing work.sync_buffer.verhalten.
+@W: CD638 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":26:11:26:12|Signal q3 is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for work.sync_buffer.verhalten
 Running optimization stage 1 on sync_buffer .......
-@W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":15:8:15:12|Signal fedge is floating; a simulation mismatch is possible.
-@W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":14:8:14:12|Signal redge is floating; a simulation mismatch is possible.
-@W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":13:8:13:11|Signal dout is floating; a simulation mismatch is possible.
-@W: CL169 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":30:8:30:9|Pruning unused register NOBLACKBOX_3(30 downto 0). Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
+@W: CL240 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":15:8:15:12|Signal fedge is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":14:8:14:12|Signal redge is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":13:8:13:11|Signal dout is floating; a simulation mismatch is possible.
+@W: CL169 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":47:8:47:9|Pruning unused register q2_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":32:8:32:9|Pruning unused register q1_4. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
 Post processing for work.sync_module.verhalten
 Running optimization stage 1 on sync_module .......
-Finished optimization stage 1 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
+Finished optimization stage 1 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
 Post processing for work.aufgabe2.structure
 Running optimization stage 1 on aufgabe2 .......
-Finished optimization stage 1 on aufgabe2 (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
+Finished optimization stage 1 on aufgabe2 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
 Running optimization stage 2 on sync_buffer .......
-@N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":8:8:8:10|Input rst is unused.
-@N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":9:8:9:10|Input clk is unused.
-@N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":10:8:10:9|Input en is unused.
-@N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":11:8:11:12|Input swrst is unused.
-@N: CL159 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":12:8:12:10|Input din is unused.
-Finished optimization stage 2 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+@N: CL159 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":8:8:8:10|Input rst is unused.
+@N: CL159 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":9:8:9:10|Input clk is unused.
+@N: CL159 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":10:8:10:9|Input en is unused.
+@N: CL159 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":11:8:11:12|Input swrst is unused.
+@N: CL159 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":12:8:12:10|Input din is unused.
+Finished optimization stage 2 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 Running optimization stage 2 on sync_module .......
-Finished optimization stage 2 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Finished optimization stage 2 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 Running optimization stage 2 on std_counter .......
-Finished optimization stage 2 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 96MB)
+Finished optimization stage 2 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
 Running optimization stage 2 on hex4x7seg .......
-Finished optimization stage 2 on hex4x7seg (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+Finished optimization stage 2 on hex4x7seg (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
 Running optimization stage 2 on aufgabe2 .......
-Finished optimization stage 2 on aufgabe2 (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+Finished optimization stage 2 on aufgabe2 (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
-@L: E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\layer0.rt.csv
+@L: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 96MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  8 14:21:41 2022
+# Tue Dec 13 12:31:45 2022
 
 ###########################################################]
 ###########################################################[
@@ -107,36 +109,38 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
-Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 10 or later
-Hostname: DESKTOP-ASCAJSC
+Hostname: DS-PC09
 
 Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
 
 @N|Running in 64-bit mode
-File E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 87MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  8 14:21:41 2022
+# Tue Dec 13 12:31:45 2022
 
 ###########################################################]
 
 For a summary of runtime and memory usage for all design units, please see file:
 ==========================================================
-@L: E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_comp.rt.csv
+@L: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_comp.rt.csv
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 24MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 23MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  8 14:21:41 2022
+# Tue Dec 13 12:31:45 2022
 
 ###########################################################]

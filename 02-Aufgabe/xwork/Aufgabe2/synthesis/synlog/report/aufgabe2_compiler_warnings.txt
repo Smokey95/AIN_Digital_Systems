@@ -1,5 +1,7 @@
-@W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":15:8:15:12|Signal fedge is floating; a simulation mismatch is possible.
-@W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":14:8:14:12|Signal redge is floating; a simulation mismatch is possible.
-@W: CL240 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":13:8:13:11|Signal dout is floating; a simulation mismatch is possible.
-@W: CL169 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":30:8:30:9|Pruning unused register NOBLACKBOX_3(30 downto 0). Make sure that there are no unused intermediate registers.
+@W: CD638 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":26:11:26:12|Signal q3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL240 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":15:8:15:12|Signal fedge is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":14:8:14:12|Signal redge is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":13:8:13:11|Signal dout is floating; a simulation mismatch is possible.
+@W: CL169 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":47:8:47:9|Pruning unused register q2_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":32:8:32:9|Pruning unused register q1_4. Make sure that there are no unused intermediate registers.
 

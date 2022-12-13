@@ -49,7 +49,7 @@ ARCHITECTURE verhalten OF sync_module IS
     
 BEGIN
 
-    -- Modulo-2^14-Counter -----------------------------------------------------
+    -- Modulo-2^15-Counter -----------------------------------------------------
     -- Reduce input frequence from 50MHz to a lower value
     -- The value depends on the RES vector. If the RES vector is 111111111111111
     -- the counter will count up to 2^15-1 therefore reducing the input frequency

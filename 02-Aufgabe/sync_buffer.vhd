@@ -21,18 +21,39 @@ END sync_buffer;
 --
 
 ARCHITECTURE verhalten OF sync_buffer IS
-    SIGNAL NOBLACKBOX: NATURAL := 1;
+    SIGNAL q1:  std_logic;
+    SIGNAL q2:  std_logic;
+    SIGNAL q3:  std_logic;
 BEGIN
 
-    p1: PROCESS(clk, rst) is
+    -- First D-flip Flowp realised with the 1-Process Method
+    flipFlop1: PROCESS(clk, rst) IS
     BEGIN
-        
         IF rst=RSTDEF THEN
-            NOBLACKBOX <= 1;
+            q1 <= '0';
         ELSIF rising_edge(clk) THEN
-            NOBLACKBOX <= NOBLACKBOX + 1;
+            -- @TODO: Better without IF ELSE (see repo odsource)
+            IF swrst = RSTDEF THEN
+                q1 <= '0';
+            ELSE
+                q1 <= din;
+            END IF;
         END IF;
+    END PROCESS flipFlop1;
     
-    END PROCESS p1;
+    -- Second D-flip Flowp realised with the 1-Process Method
+    flipFlop2: PROCESS(clk, rst) IS
+    BEGIN
+        IF rst=RSTDEF THEN
+            q2 <= '0';
+        ELSIF rising_edge(clk) THEN
+            -- @TODO: Better without IF ELSE (see repo odsource)
+            IF swrst = RSTDEF THEN
+                q2 <= '0';
+            ELSE
+                q2 <= q1;
+            END IF;
+        END IF;
+    END PROCESS flipFlop2;
 
 END verhalten;
