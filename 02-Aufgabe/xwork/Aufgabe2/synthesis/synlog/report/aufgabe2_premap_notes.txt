@@ -1,11 +1,6 @@
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
-@N: BN115 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd":81:4:81:7|Removing instance buf1 (in view: work.sync_module(verhalten)) because it does not drive other instances.
-@N: BN115 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd":93:4:93:7|Removing instance buf2 (in view: work.sync_module(verhalten)) because it does not drive other instances.
-@N: BN115 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd":106:4:106:7|Removing instance buf3 (in view: work.sync_module(verhalten)) because it does not drive other instances.
-@N: BN362 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd":61:8:61:9|Removing sequential instance strb (in view: work.sync_module(verhalten)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN115 :"c:\users\si741rau\desktop\disy\02-aufgabe\aufgabe2.vhd":81:3:81:4|Removing instance u1 (in view: work.aufgabe2(structure)) because it does not drive other instances.
 @N: FX1184 |Applying syn_allowed_resources blockrams=10 on top level netlist aufgabe2 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 @N: BN225 |Writing default property annotation file C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2.sap.

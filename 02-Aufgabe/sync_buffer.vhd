@@ -21,9 +21,17 @@ END sync_buffer;
 --
 
 ARCHITECTURE verhalten OF sync_buffer IS
-    SIGNAL q1:  std_logic;
-    SIGNAL q2:  std_logic;
-    SIGNAL q3:  std_logic;
+    SIGNAL q1:  std_logic;      -- output Q from Flip Flop 1
+    SIGNAL q2:  std_logic;      -- output Q from Flip Flop 2
+    SIGNAL q3:  std_logic;      -- output Q from Flip Flop 3
+    SIGNAL qH:  std_logic;      -- output Q from Hysteresis
+    
+    TYPE TState IS (S0, S1);
+    SIGNAL state: TState;
+    
+    -- @TODO Change from linear counter do LFSR???
+    SIGNAL cnt: integer range 0 to 31;  
+    
 BEGIN
 
     -- First D-flip Flowp realised with the 1-Process Method
@@ -41,6 +49,7 @@ BEGIN
         END IF;
     END PROCESS flipFlop1;
     
+    
     -- Second D-flip Flowp realised with the 1-Process Method
     flipFlop2: PROCESS(clk, rst) IS
     BEGIN
@@ -55,5 +64,76 @@ BEGIN
             END IF;
         END IF;
     END PROCESS flipFlop2;
+    
+    
+    -- Hysteresis
+    hysteresis: PROCESS(clk, rst) IS
+    BEGIN
+        IF rst=RSTDEF THEN
+            state   <= S0;
+            qH      <= '0';
+            cnt     <= 0;
+        ELSIF rising_edge(clk) THEN
+            IF en = '1' THEN
+				CASE state IS
+					WHEN S0 =>
+						qH <= '0';
+						IF q2 = '1' THEN
+							IF cnt < 31 THEN
+								cnt <= cnt + 1;
+							ELSE
+								state <= S1;
+							END IF;
+						ELSE
+							IF cnt > 0 THEN
+								cnt <= cnt - 1;
+							END IF;
+						END IF;
+					WHEN S1 =>
+						qH <= '1';
+						IF q2 = '1' THEN
+							IF cnt < 31 THEN
+								cnt <= cnt + 1;
+							END IF;
+					    ELSE
+							IF cnt > 0 THEN
+								cnt <= cnt - 1;
+							ELSE
+								state <= S0;
+							END IF;
+						END IF;
+				END CASE;
+			END IF;
+            
+			IF swrst = RSTDEF THEN
+                state   <= S0;
+				qH      <= '0';
+				cnt     <= 0;
+			end if;
+        END IF;
+    END PROCESS hysteresis;
+    
+    
+    -- Third D-flip Flowp realised with the 1-Process Method
+    flipFlop3: PROCESS(clk, rst) IS
+    BEGIN
+        IF rst=RSTDEF THEN
+            q3 <= '0';
+        ELSIF rising_edge(clk) THEN
+            -- @TODO: Better without IF ELSE (see repo odsource)
+            IF swrst = RSTDEF THEN
+                q3 <= '0';
+            ELSE
+                q3 <= q1;
+            END IF;
+        END IF;
+    END PROCESS flipFlop3;
+    
+    
+    -- Set Output of sync_buffer
+    -- See circuit diagram in task description
+    fedge   <= NOT qH AND q3;
+    dout    <= q3;
+    redge   <= qH AND NOT q3;
 
 END verhalten;

@@ -55,22 +55,22 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\synthesis\aufgabe2.so,so"
 STATE="utd"
-TIME="1670929370"
+TIME="1670931109"
 SIZE="247"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2.vm,syn_vm"
 STATE="utd"
-TIME="1670929370"
+TIME="1670931108"
 SIZE="8752"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2_syn.prj,prj"
 STATE="utd"
-TIME="1670929371"
+TIME="1670931109"
 SIZE="2811"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1670929370"
+TIME="1670931108"
 SIZE="968"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
@@ -237,8 +237,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -310,13 +310,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;synthesis:synplify.log
-HDL;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd;0
-HDL;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd;0
-HDL;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd;0
 StartPage;StartPage;0
-ACTIVEVIEW;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "aufgabe2::work","C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd","FALSE","FALSE"

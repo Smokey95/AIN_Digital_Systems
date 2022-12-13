@@ -13,7 +13,7 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>27</data>
+<data>10</data>
 <report_link name="more">
 <data>C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_fpga_mapper_notes.txt</data>
 </report_link>
@@ -37,10 +37,10 @@ The file contains the job information from mapper to be displayed as part of the
 <data>0h:00m:02s</data>
 </info>
 <info name="Peak Memory">
-<data>170MB</data>
+<data>173MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1670931109</data>
+<data type="timestamp">1670933090</data>
 </info>
 </job_info>
 </job_run_status>

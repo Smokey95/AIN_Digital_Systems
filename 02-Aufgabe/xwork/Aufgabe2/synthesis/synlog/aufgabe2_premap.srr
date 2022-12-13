@@ -1,4 +1,4 @@
-# Tue Dec 13 12:31:45 2022
+# Tue Dec 13 13:04:46 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -20,7 +20,7 @@ Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 131MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 131MB)
 
 Reading constraint file: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\synthesis.fdc
 @L: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2_scck.rpt 
@@ -46,11 +46,6 @@ Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 164MB)
 
-@N: BN115 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd":81:4:81:7|Removing instance buf1 (in view: work.sync_module(verhalten)) because it does not drive other instances.
-@N: BN115 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd":93:4:93:7|Removing instance buf2 (in view: work.sync_module(verhalten)) because it does not drive other instances.
-@N: BN115 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd":106:4:106:7|Removing instance buf3 (in view: work.sync_module(verhalten)) because it does not drive other instances.
-@N: BN362 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd":61:8:61:9|Removing sequential instance strb (in view: work.sync_module(verhalten)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN115 :"c:\users\si741rau\desktop\disy\02-aufgabe\aufgabe2.vhd":81:3:81:4|Removing instance u1 (in view: work.aufgabe2(structure)) because it does not drive other instances.
 @N: FX1184 |Applying syn_allowed_resources blockrams=10 on top level netlist aufgabe2 
 
 Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
@@ -63,7 +58,7 @@ Clock Summary
           Start            Requested     Requested     Clock        Clock          Clock
 Level     Clock            Frequency     Period        Type         Group          Load 
 ----------------------------------------------------------------------------------------
-0 -       aufgabe2|clk     100.0 MHz     10.000        inferred     (multiple)     35   
+0 -       aufgabe2|clk     100.0 MHz     10.000        inferred     (multiple)     78   
 ========================================================================================
 
 
@@ -74,10 +69,10 @@ Clock Load Summary
                  Clock     Source        Clock Pin          Non-clock Pin     Non-clock Pin
 Clock            Load      Pin           Seq Example        Seq Example       Comb Example 
 -------------------------------------------------------------------------------------------
-aufgabe2|clk     35        clk(port)     u3.reg[13:0].C     -                 -            
+aufgabe2|clk     78        clk(port)     u3.reg[13:0].C     -                 -            
 ===========================================================================================
 
-@W: MT530 :"c:\users\si741rau\desktop\disy\02-aufgabe\std_counter.vhd":60:12:60:13|Found inferred clock aufgabe2|clk which controls 35 sequential elements including u2.cnt[16:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_buffer.vhd":72:8:72:9|Found inferred clock aufgabe2|clk which controls 78 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
@@ -86,16 +81,16 @@ Finished Pre Mapping Phase.
 Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 167MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
 
 Pre-mapping successful!
 
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 82MB peak: 168MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Dec 13 12:31:46 2022
+# Tue Dec 13 13:04:48 2022
 
 ###########################################################]

@@ -13,10 +13,6 @@
 @N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd":6:7:6:17|Synthesizing work.std_counter.verhalten.
 @N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd":7:7:7:17|Synthesizing work.sync_module.verhalten.
 @N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":6:7:6:17|Synthesizing work.sync_buffer.verhalten.
-@N: CL159 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":8:8:8:10|Input rst is unused.
-@N: CL159 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":9:8:9:10|Input clk is unused.
-@N: CL159 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":10:8:10:9|Input en is unused.
-@N: CL159 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":11:8:11:12|Input swrst is unused.
-@N: CL159 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":12:8:12:10|Input din is unused.
+@N: CD233 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":29:16:29:17|Using sequential encoding for type tstate.
 @N|Running in 64-bit mode
 

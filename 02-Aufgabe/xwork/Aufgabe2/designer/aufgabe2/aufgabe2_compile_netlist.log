@@ -1,14 +1,3 @@
-Warning: CMPG4-007: Top level port btn[3] is not connected to any IO pad
-Warning: CMPG4-007: Top level port btn[2] is not connected to any IO pad
-Warning: CMPG4-007: Top level port btn[1] is not connected to any IO pad
-Warning: CMPG4-007: Top level port sw[8] is not connected to any IO pad
-Warning: CMPG4-007: Top level port sw[7] is not connected to any IO pad
-Warning: CMPG4-007: Top level port sw[6] is not connected to any IO pad
-Warning: CMPG4-007: Top level port sw[5] is not connected to any IO pad
-Warning: CMPG4-007: Top level port sw[4] is not connected to any IO pad
-Warning: CMPG4-007: Top level port sw[3] is not connected to any IO pad
-Warning: CMPG4-007: Top level port sw[2] is not connected to any IO pad
-Warning: CMPG4-007: Top level port sw[1] is not connected to any IO pad
 
 ===============================================================================.
 
@@ -21,8 +10,8 @@ Info: Global design data:
 Info: List of globals considered for demotion: 
     CLK    ASYN   DATA   Instance Name 
     ---    ----   ----   ------------- 
-    17     0      0      'clk_ibuf_RNIVTI2' 
-    0      17     0      'rst_ibuf_RNIUUM5' 
+    78     0      0      'clk_ibuf_RNIVTI2' 
+    0      78     0      'rst_ibuf_RNIUUM5' 
 
 Info: Demotion information: 
 Info: CMPG4-302: Added 0 row global instances.

@@ -13,7 +13,7 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>11</data>
+<data>6</data>
 <report_link name="more">
 <data>C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_premap_notes.txt</data>
 </report_link>
@@ -40,7 +40,7 @@ The file contains the job information from mapper to be displayed as part of the
 <data>168MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1670931106</data>
+<data type="timestamp">1670933087</data>
 </info>
 </job_info>
 </job_run_status>
