@@ -13,7 +13,7 @@ Hostname: DS-PC09
 
 Implementation : synthesis
 
-# Written on Tue Dec 13 13:04:47 2022
+# Written on Tue Dec 20 10:18:40 2022
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\synthesis.fdc"
@@ -33,7 +33,7 @@ Clock Summary
           Start            Requested     Requested     Clock        Clock          Clock
 Level     Clock            Frequency     Period        Type         Group          Load 
 ----------------------------------------------------------------------------------------
-0 -       aufgabe2|clk     100.0 MHz     10.000        inferred     (multiple)     78   
+0 -       aufgabe2|clk     100.0 MHz     10.000        inferred     (multiple)     81   
 ========================================================================================
 
 
@@ -43,5 +43,5 @@ Clock Load Summary
                  Clock     Source        Clock Pin          Non-clock Pin     Non-clock Pin
 Clock            Load      Pin           Seq Example        Seq Example       Comb Example 
 -------------------------------------------------------------------------------------------
-aufgabe2|clk     78        clk(port)     u3.reg[13:0].C     -                 -            
+aufgabe2|clk     81        clk(port)     u3.reg[13:0].C     -                 -            
 ===========================================================================================

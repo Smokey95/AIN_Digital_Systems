@@ -18,7 +18,7 @@ The file contains the information about resource utilization per module to be di
 </column_headers>
 <module>
 <data>aufgabe2</data>
-<data>78</data>
+<data>81</data>
 <data>90</data>
 <data>25</data>
 <data>0</data>
@@ -53,7 +53,7 @@ The file contains the information about resource utilization per module to be di
 </module>
 <module>
 <data>sync_module</data>
-<data>43</data>
+<data>46</data>
 <data>65</data>
 <data>0</data>
 <data>0</data>
@@ -64,7 +64,7 @@ The file contains the information about resource utilization per module to be di
 <data>0</data>
 <module>
 <data>sync_buffer</data>
-<data>9</data>
+<data>10</data>
 <data>19</data>
 <data>0</data>
 <data>0</data>
@@ -76,7 +76,7 @@ The file contains the information about resource utilization per module to be di
 </module>
 <module>
 <data>sync_buffer_0</data>
-<data>9</data>
+<data>10</data>
 <data>20</data>
 <data>0</data>
 <data>0</data>
@@ -88,7 +88,7 @@ The file contains the information about resource utilization per module to be di
 </module>
 <module>
 <data>sync_buffer_2</data>
-<data>9</data>
+<data>10</data>
 <data>20</data>
 <data>0</data>
 <data>0</data>

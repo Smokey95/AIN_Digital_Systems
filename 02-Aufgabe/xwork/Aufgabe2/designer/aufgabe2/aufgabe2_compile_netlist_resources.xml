@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
-<text>Date: Tue Dec 13 13:04:55 2022
+<text>Date: Tue Dec 20 10:18:50 2022
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -55,7 +55,7 @@
 </row>
 <row>
  <cell>Restrict Probe Pins</cell>
- <cell>Yes</cell>
+ <cell>No</cell>
 </row>
 <row>
  <cell>Restrict SPI Pins</cell>
@@ -112,9 +112,9 @@
 </row>
 <row>
  <cell>DFF</cell>
- <cell>78</cell>
+ <cell>81</cell>
  <cell>6060</cell>
- <cell>1.29</cell>
+ <cell>1.34</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -205,7 +205,7 @@
 <row>
  <cell>Fabric Logic</cell>
  <cell>115</cell>
- <cell>78</cell>
+ <cell>81</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -225,7 +225,7 @@
 <row>
  <cell>Total Used</cell>
  <cell>115</cell>
- <cell>78</cell>
+ <cell>81</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -315,7 +315,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>78</cell>
+ <cell>81</cell>
  <cell>INT_NET</cell>
  <cell>Net   : clk_c</cell>
 </row>
@@ -330,7 +330,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>78</cell>
+ <cell>81</cell>
  <cell>INT_NET</cell>
  <cell>Net   : rst_arst</cell>
 </row>
@@ -381,16 +381,6 @@
  <cell>Driver: u1/buf2/fedge</cell>
 </row>
 <row>
- <cell>16</cell>
- <cell>INT_NET</cell>
- <cell>Net   : u1_buf3_q3</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: u1/buf3/q3</cell>
-</row>
-<row>
  <cell>14</cell>
  <cell>INT_NET</cell>
  <cell>Net   : u3/sel_Z[0]</cell>
@@ -401,7 +391,7 @@
  <cell>Driver: u3/sel[0]</cell>
 </row>
 <row>
- <cell>10</cell>
+ <cell>11</cell>
  <cell>INT_NET</cell>
  <cell>Net   : u1_buf3_qH</cell>
 </row>
@@ -411,6 +401,16 @@
  <cell>Driver: u1/buf3/qH</cell>
 </row>
 <row>
+ <cell>10</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : u1_buf3_q3</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: u1/buf3/q3</cell>
+</row>
+<row>
  <cell>9</cell>
  <cell>INT_NET</cell>
  <cell>Net   : load_i</cell>
@@ -418,7 +418,7 @@
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: u1/buf3/qH_RNI16BE</cell>
+ <cell>Driver: u1/buf3/q3_RNI16BE</cell>
 </row>
 <row>
  <cell>9</cell>
@@ -431,26 +431,6 @@
  <cell>Driver: u3/sel[1]</cell>
 </row>
 <row>
- <cell>8</cell>
- <cell>INT_NET</cell>
- <cell>Net   : u1_buf2_q3</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: u1/buf2/q3</cell>
-</row>
-<row>
- <cell>7</cell>
- <cell>INT_NET</cell>
- <cell>Net   : u1_buf1_q3</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: u1/buf1/q3</cell>
-</row>
-<row>
  <cell>7</cell>
  <cell>INT_NET</cell>
  <cell>Net   : u3/seg_sel[3]</cell>
@@ -459,6 +439,26 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: u3/seg_sel_3_1_0_wmux[3]</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : u3/seg_sel[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: u3/seg_sel_3_1_0_wmux[2]</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : u3/seg_sel[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: u3/seg_sel_3_1_0_wmux[1]</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -489,16 +489,6 @@
  <cell>Driver: u1/buf2/fedge</cell>
 </row>
 <row>
- <cell>16</cell>
- <cell>INT_NET</cell>
- <cell>Net   : u1_buf3_q3</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: u1/buf3/q3</cell>
-</row>
-<row>
  <cell>14</cell>
  <cell>INT_NET</cell>
  <cell>Net   : u3/sel_Z[0]</cell>
@@ -509,7 +499,7 @@
  <cell>Driver: u3/sel[0]</cell>
 </row>
 <row>
- <cell>10</cell>
+ <cell>11</cell>
  <cell>INT_NET</cell>
  <cell>Net   : u1_buf3_qH</cell>
 </row>
@@ -519,6 +509,16 @@
  <cell>Driver: u1/buf3/qH</cell>
 </row>
 <row>
+ <cell>10</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : u1_buf3_q3</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: u1/buf3/q3</cell>
+</row>
+<row>
  <cell>9</cell>
  <cell>INT_NET</cell>
  <cell>Net   : load_i</cell>
@@ -526,7 +526,7 @@
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: u1/buf3/qH_RNI16BE</cell>
+ <cell>Driver: u1/buf3/q3_RNI16BE</cell>
 </row>
 <row>
  <cell>9</cell>
@@ -539,26 +539,6 @@
  <cell>Driver: u3/sel[1]</cell>
 </row>
 <row>
- <cell>8</cell>
- <cell>INT_NET</cell>
- <cell>Net   : u1_buf2_q3</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: u1/buf2/q3</cell>
-</row>
-<row>
- <cell>7</cell>
- <cell>INT_NET</cell>
- <cell>Net   : u1_buf1_q3</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: u1/buf1/q3</cell>
-</row>
-<row>
  <cell>7</cell>
  <cell>INT_NET</cell>
  <cell>Net   : u3/seg_sel[3]</cell>
@@ -567,6 +547,26 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: u3/seg_sel_3_1_0_wmux[3]</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : u3/seg_sel[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: u3/seg_sel_3_1_0_wmux[2]</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : u3/seg_sel[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: u3/seg_sel_3_1_0_wmux[1]</cell>
 </row>
 </table>
 </doc>

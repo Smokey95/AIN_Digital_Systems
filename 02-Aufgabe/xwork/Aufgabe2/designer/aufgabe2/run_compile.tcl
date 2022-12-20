@@ -66,7 +66,7 @@ set_compile_info \
 set_compile_info \
     -category {"Device Selection"} \
     -name {"Restrict Probe Pins"} \
-    -value {"Yes"}
+    -value {"No"}
 set_compile_info \
     -category {"Device Selection"} \
     -name {"Restrict SPI Pins"} \

@@ -1,2 +1,9 @@
-@E: CD297 :"E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd":70:24:70:26|Width mismatch, location has width 17, value 16
+@E: CL219 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":26:11:26:12|Multiple non-tristate drivers for net dout in sync_buffer
+@E: CL219 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":25:11:25:12|Multiple non-tristate drivers for net q2 in sync_buffer
+@E: CL219 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":24:11:24:12|Multiple non-tristate drivers for net q1 in sync_buffer
+@E: CL229 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":24:11:24:12|Unresolved tristate drivers for net q1 in sync_buffer
+@E: CL229 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":25:11:25:12|Unresolved tristate drivers for net q2 in sync_buffer
+@E: CL229 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":26:11:26:12|Unresolved tristate drivers for net dout in sync_buffer
+@E: Could not find specified top level aufgabe2 (library: work, cell: aufgabe2)
+@E::Error while linking, aborting.
 

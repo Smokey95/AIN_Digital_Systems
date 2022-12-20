@@ -32,6 +32,7 @@ Synopsys VHDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 1
 
 @N|Running in 64-bit mode
 @N:"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Top entity is set to aufgabe2.
+File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd changed - recompiling
 File C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd changed - recompiling
 File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd changed - recompiling
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd'.
@@ -41,9 +42,7 @@ File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd changed - recompi
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd'.
 VHDL syntax check successful!
-
-Compiler output is up to date.  No re-compile necessary
-
+File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd changed - recompiling
 @N: CD231 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Synthesizing work.aufgabe2.structure.
 @N: CD630 :"C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd":6:7:6:15|Synthesizing work.hex4x7seg.struktur.
@@ -59,7 +58,6 @@ Finished optimization stage 1 on std_counter (CPU Time 0h:00m:00s, Memory Used c
 @N: CD233 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":29:16:29:17|Using sequential encoding for type tstate.
 Post processing for work.sync_buffer.verhalten
 Running optimization stage 1 on sync_buffer .......
-@W: CL177 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":56:8:56:9|Sharing sequential element q2 and merging q3. Add a syn_preserve attribute to the element to prevent sharing.
 Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Post processing for work.sync_module.verhalten
 Running optimization stage 1 on sync_module .......
@@ -83,12 +81,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 96MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Dec 13 13:04:46 2022
+# Tue Dec 20 10:18:38 2022
 
 ###########################################################]
 ###########################################################[
@@ -108,16 +106,14 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
 
 @N|Running in 64-bit mode
+File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\layer0.srs changed - recompiling
 
-Linker output is up to date. No re-linking necessary
-
-
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 87MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Dec 13 13:04:46 2022
+# Tue Dec 20 10:18:38 2022
 
 ###########################################################]
 
@@ -127,11 +123,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 23MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Dec 13 13:04:46 2022
+# Tue Dec 20 10:18:38 2022
 
 ###########################################################]

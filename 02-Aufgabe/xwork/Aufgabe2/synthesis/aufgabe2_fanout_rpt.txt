@@ -7,6 +7,6 @@ GLOBAL THRESHOLD - 5000
 
 NET NAME     CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
 ------------------------------------------------------------------------------------------------------
-clk_c        78              0                   0              78               YES                  
-rst_arst     0               78                  0              78               YES                  
+clk_c        81              0                   0              81               YES                  
+rst_arst     0               81                  0              81               YES                  
 ======================================================================================================

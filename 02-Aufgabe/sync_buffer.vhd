@@ -40,11 +40,9 @@ BEGIN
         IF rst=RSTDEF THEN
             q1 <= '0';
         ELSIF rising_edge(clk) THEN
-            -- @TODO: Better without IF ELSE (see repo odsource)
+            q1 <= din;                -- default output
             IF swrst = RSTDEF THEN
                 q1 <= '0';
-            ELSE
-                q1 <= din;
             END IF;
         END IF;
     END PROCESS flipFlop1;
@@ -56,11 +54,9 @@ BEGIN
         IF rst=RSTDEF THEN
             q2 <= '0';
         ELSIF rising_edge(clk) THEN
-            -- @TODO: Better without IF ELSE (see repo odsource)
+            q2 <= q1;
             IF swrst = RSTDEF THEN
                 q2 <= '0';
-            ELSE
-                q2 <= q1;
             END IF;
         END IF;
     END PROCESS flipFlop2;
@@ -109,7 +105,7 @@ BEGIN
                 state   <= S0;
 				qH      <= '0';
 				cnt     <= 0;
-			end if;
+			END IF;
         END IF;
     END PROCESS hysteresis;
     
@@ -120,11 +116,9 @@ BEGIN
         IF rst=RSTDEF THEN
             q3 <= '0';
         ELSIF rising_edge(clk) THEN
-            -- @TODO: Better without IF ELSE (see repo odsource)
+            q3 <= qH;
             IF swrst = RSTDEF THEN
                 q3 <= '0';
-            ELSE
-                q3 <= q1;
             END IF;
         END IF;
     END PROCESS flipFlop3;

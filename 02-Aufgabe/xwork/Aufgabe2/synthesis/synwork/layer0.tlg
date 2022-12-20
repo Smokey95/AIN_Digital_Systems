@@ -13,7 +13,6 @@ Finished optimization stage 1 on std_counter (CPU Time 0h:00m:00s, Memory Used c
 @N: CD233 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":29:16:29:17|Using sequential encoding for type tstate.
 Post processing for work.sync_buffer.verhalten
 Running optimization stage 1 on sync_buffer .......
-@W: CL177 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":56:8:56:9|Sharing sequential element q2 and merging q3. Add a syn_preserve attribute to the element to prevent sharing.
 Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Post processing for work.sync_module.verhalten
 Running optimization stage 1 on sync_module .......
