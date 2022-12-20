@@ -1,9 +1,3 @@
-@E: CL219 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":26:11:26:12|Multiple non-tristate drivers for net dout in sync_buffer
-@E: CL219 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":25:11:25:12|Multiple non-tristate drivers for net q2 in sync_buffer
-@E: CL219 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":24:11:24:12|Multiple non-tristate drivers for net q1 in sync_buffer
-@E: CL229 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":24:11:24:12|Unresolved tristate drivers for net q1 in sync_buffer
-@E: CL229 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":25:11:25:12|Unresolved tristate drivers for net q2 in sync_buffer
-@E: CL229 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":26:11:26:12|Unresolved tristate drivers for net dout in sync_buffer
-@E: Could not find specified top level aufgabe2 (library: work, cell: aufgabe2)
-@E::Error while linking, aborting.
+@E: CD216 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd":87:20:87:21|label required for generate
+@E: Parse errors encountered - exiting
 

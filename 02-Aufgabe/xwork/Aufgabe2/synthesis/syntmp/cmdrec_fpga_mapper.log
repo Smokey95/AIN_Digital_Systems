@@ -2,14 +2,14 @@ C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\m_generic.exe  -prodtype  synp
 relcom:..\..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\m_generic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part M2S005 -package VF400 -grade STD -continue_on_error -report_preserve_cdc -min_cdc_sync_flops 2 -unsafe_cdc_netlist_property 0 -pack_uram_addr_reg 1 -maxfan 10000 -infer_seqShift -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -rep_clkint_driver 1 -microsemi_enhanced_flow 1 -resolveMultipleDriver -ternary_adder_decomp 66 -RWCheckOnRam 0 -local_tmr_rename -summaryfile ..\synlog\report\aufgabe2_fpga_mapper.xml -merge_inferred_clocks 0 -top_level_module work.aufgabe2 -implementation synthesis -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -multisrs -ovm ..\aufgabe2.vm -freq 100.000 -tcl ..\..\designer\aufgabe2\synthesis.fdc ..\synwork\aufgabe2_prem.srd -sap ..\aufgabe2.sap -otap ..\aufgabe2.tap -omap ..\aufgabe2.map -devicelib ..\..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\smartfusion2.v -ologparam aufgabe2.plg -osyn ..\aufgabe2.srm -prjdir ..\ -prjname aufgabe2_syn -log ..\synlog\aufgabe2_fpga_mapper.srr -sn 2021.09 -jobname "fpga_mapper"
 rc:1 success:1 runtime:3
 file:..\scratchproject.prs|io:o|time:1670929364|size:2891|exec:0|csum:
-file:..\aufgabe2.vm|io:o|time:1671527923|size:43559|exec:0|csum:
-file:..\..\designer\aufgabe2\synthesis.fdc|io:i|time:1671527916|size:54|exec:0|csum:812BB79B1856D1F20879DA1723A4CFAC
-file:..\synwork\aufgabe2_prem.srd|io:i|time:1671527921|size:15443|exec:0|csum:BF3B1CCF6FA1A5058BCEBB7DB6D4789D
-file:..\aufgabe2.sap|io:o|time:1671527921|size:735|exec:0|csum:
+file:..\aufgabe2.vm|io:o|time:1671536497|size:43559|exec:0|csum:
+file:..\..\designer\aufgabe2\synthesis.fdc|io:i|time:1671536490|size:54|exec:0|csum:C7E7BCBFA051EF9319485530E77538F0
+file:..\synwork\aufgabe2_prem.srd|io:i|time:1671536494|size:15114|exec:0|csum:41990E694AD5D618A4A8A75A4F279C8A
+file:..\aufgabe2.sap|io:o|time:1671536495|size:752|exec:0|csum:
 file:..\aufgabe2.tap|io:o|time:0|size:-1|exec:0|csum:
-file:..\aufgabe2.map|io:o|time:1671527924|size:28|exec:0|csum:
+file:..\aufgabe2.map|io:o|time:1671536498|size:28|exec:0|csum:
 file:..\..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\smartfusion2.v|io:i|time:1655988526|size:16415|exec:0|csum:9BAA6208AF4C76CF2C10809775E94DAF
-file:aufgabe2.plg|io:o|time:1671527924|size:423|exec:0|csum:
-file:..\aufgabe2.srm|io:o|time:1671527923|size:7739|exec:0|csum:
-file:..\synlog\aufgabe2_fpga_mapper.srr|io:o|time:1671527924|size:16493|exec:0|csum:
+file:aufgabe2.plg|io:o|time:1671536498|size:423|exec:0|csum:
+file:..\aufgabe2.srm|io:o|time:1671536497|size:7768|exec:0|csum:
+file:..\synlog\aufgabe2_fpga_mapper.srr|io:o|time:1671536498|size:16493|exec:0|csum:
 file:..\..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\m_generic.exe|io:i|time:1655988516|size:46325248|exec:1|csum:B10F20517CD2D567431250EEDE58F8A0

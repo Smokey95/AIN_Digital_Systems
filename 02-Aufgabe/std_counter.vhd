@@ -61,33 +61,42 @@ BEGIN
                 overflow <= '0';
                 cnt <= (OTHERS => '0');
             ELSIF rising_edge(clk) THEN
-                IF swrst=RSTDEF THEN
-                    overflow <= '0';
-                    cnt <= (OTHERS => '0');
-                ELSIF en='1' THEN
+                
+                IF en='1' THEN
+                    
                     IF load='1' THEN
                         overflow <= '0';
                         cnt(CNTLEN-1 DOWNTO 0) <= din;
                     ELSIF dec='1' THEN
                         overflow <= '0';
-                        cnt <= cnt - 1;         -- Improvement when using cnt <= cnt - dec
+                        cnt <= cnt - dec;
                     ELSIF inc='1' THEN
                         overflow <= '0';
-                        cnt <= cnt + 1;
+                        cnt <= cnt + inc;
                     END IF;
                     
                     -- check if HSB is set
+                    -- Signal one clk delayed!!!
                     IF cnt(CNTLEN) = '1' THEN
                         overflow <= '1';                    -- set overflow
                         cnt(CNTLEN) <= '0';                 -- clear HSB    
                     END IF;
+                
                 END IF;
+                
+                IF swrst=RSTDEF THEN
+                    overflow <= '0';
+                    cnt <= (OTHERS => '0');
+                END IF;
+            
             END IF;
+        
         END PROCESS p1;
         
         
         cout <= overflow;                                   -- Return the value of the overflow
         dout <= cnt(CNTLEN-1 DOWNTO 0);                     -- Return the value of the CNTLEN counter bits
+        
         
 END verhalten;
 

@@ -3,7 +3,7 @@
 #OS: Windows 10 or later
 #Hostname: DS-PC09
 
-# Tue Dec 20 10:18:37 2022
+# Tue Dec 20 12:41:31 2022
 
 #Implementation: synthesis
 
@@ -41,7 +41,7 @@ Synopsys VHDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 1
 
 @N|Running in 64-bit mode
 @N:"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Top entity is set to aufgabe2.
-File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd changed - recompiling
+File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd changed - recompiling
 File C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd changed - recompiling
 File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd changed - recompiling
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd'.
@@ -51,7 +51,7 @@ File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd changed - recompi
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd'.
 VHDL syntax check successful!
-File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd changed - recompiling
+File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd changed - recompiling
 @N: CD231 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Synthesizing work.aufgabe2.structure.
 @N: CD630 :"C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd":6:7:6:15|Synthesizing work.hex4x7seg.struktur.
@@ -90,12 +90,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 96MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Dec 20 10:18:38 2022
+# Tue Dec 20 12:41:32 2022
 
 ###########################################################]
 ###########################################################[
@@ -122,7 +122,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Dec 20 10:18:38 2022
+# Tue Dec 20 12:41:32 2022
 
 ###########################################################]
 
@@ -137,7 +137,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Dec 20 10:18:38 2022
+# Tue Dec 20 12:41:32 2022
 
 ###########################################################]
 ###########################################################[
@@ -164,12 +164,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Dec 20 10:18:40 2022
+# Tue Dec 20 12:41:34 2022
 
 ###########################################################]
 Premap Report
 
-# Tue Dec 20 10:18:40 2022
+# Tue Dec 20 12:41:34 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -262,12 +262,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 82MB peak: 168MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Dec 20 10:18:41 2022
+# Tue Dec 20 12:41:35 2022
 
 ###########################################################]
 Map & Optimize Report
 
-# Tue Dec 20 10:18:41 2022
+# Tue Dec 20 12:41:35 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -406,7 +406,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Tue Dec 20 10:18:43 2022
+# Timing report written on Tue Dec 20 12:41:37 2022
 #
 
 
@@ -605,9 +605,9 @@ Total number of LUTs after P&R:  115 + 0 + 0 + 0 = 115;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 63MB peak: 173MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 61MB peak: 173MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Tue Dec 20 10:18:44 2022
+# Tue Dec 20 12:41:38 2022
 
 ###########################################################]

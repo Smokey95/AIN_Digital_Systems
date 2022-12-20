@@ -15,13 +15,13 @@ Synopsys HDL compiler and linker, Version comp202109synp2, Build 152R, Built Jun
 
 Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-35       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd (2022-12-20 10:13:43, 2022-12-20 10:14:59)
+34       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd (2022-12-20 12:31:12, 2022-12-20 12:40:53)
 
 *******************************************************************
 Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
-8        work.sync_buffer.verhalten may have changed because the following files changed:
-                        C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd (2022-12-20 10:13:43, 2022-12-20 10:14:59) <-- (architecture and entity definition)
+4        work.std_counter.verhalten may have changed because the following files changed:
+                        C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd (2022-12-20 12:31:12, 2022-12-20 12:40:53) <-- (architecture and entity definition)
 
 *******************************************************************
 Unmodified files: 15
@@ -38,8 +38,8 @@ FID:  path (timestamp)
 9        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd\umr_capim.vhd (2022-06-23 14:48:48)
 32       C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd (2022-12-13 12:00:59)
 33       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd (2022-12-13 12:01:12)
-34       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd (2022-12-13 12:01:12)
-36       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd (2022-12-20 10:08:50)
+35       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd (2022-12-20 10:28:30)
+36       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd (2022-12-20 11:28:24)
 37       C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd (2022-12-13 12:01:12)
 
 *******************************************************************
@@ -49,7 +49,7 @@ MID:  lib.cell.view
 1        work.aufgabe2.vhdl
 2        work.hex4x7seg.struktur
 3        work.hex4x7seg.vhdl
-4        work.std_counter.verhalten
-5        work.std_counter.vhdl
+8        work.sync_buffer.verhalten
+9        work.sync_buffer.vhdl
 6        work.sync_module.verhalten
 7        work.sync_module.vhdl

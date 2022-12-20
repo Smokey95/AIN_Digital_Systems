@@ -55,27 +55,27 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\synthesis\aufgabe2.so,so"
 STATE="utd"
-TIME="1670933090"
+TIME="1671533135"
 SIZE="247"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2.vm,syn_vm"
-STATE="utd"
-TIME="1670933090"
-SIZE="43062"
+STATE="ood"
+TIME="1671533135"
+SIZE="43559"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2_syn.prj,prj"
 STATE="utd"
-TIME="1670933091"
+TIME="1671533136"
 SIZE="2811"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1670933090"
+TIME="1671533135"
 SIZE="968"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1670929272"
+TIME="1671532356"
 SIZE="159"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd,hdl"
@@ -85,7 +85,7 @@ SIZE="7853"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.pdc,io_pdc"
 STATE="utd"
-TIME="1670929272"
+TIME="1671524426"
 SIZE="4731"
 IS_READONLY="TRUE"
 ENDFILE
@@ -96,8 +96,8 @@ SIZE="4654"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd,hdl"
 STATE="utd"
-TIME="1670929272"
-SIZE="4883"
+TIME="1671533224"
+SIZE="4964"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter_tb.vhd,hdl"
 STATE="utd"
@@ -106,13 +106,13 @@ SIZE="7086"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd,hdl"
 STATE="utd"
-TIME="1670932727"
-SIZE="3749"
+TIME="1671528510"
+SIZE="3518"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd,hdl"
 STATE="utd"
-TIME="1670929645"
-SIZE="4042"
+TIME="1671532104"
+SIZE="4185"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd,hdl"
 STATE="utd"
@@ -130,7 +130,6 @@ VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.pdc,io_pdc"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
-ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -150,16 +149,6 @@ VALUE "<project>\designer\impl1\aufgabe2.fdb,fdb"
 VALUE "<project>\designer\impl1\aufgabe2.pdb,pdb"
 VALUE "<project>\designer\impl1\aufgabe2.stp,stp"
 VALUE "<project>\designer\impl1\aufgabe2_fp\aufgabe2.pro,pro"
-ENDUsed_File_List
-ENDLIST
-LIST Impl2
-ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
 ENDUsed_File_List
 ENDLIST
 ENDLIST
@@ -264,7 +253,6 @@ ENDLIST
 LIST ProjectState5.1
 LIST "aufgabe2::work"
 LIST Impl1
-ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -284,16 +272,6 @@ VALUE "<project>\designer\impl1\aufgabe2.fdb,fdb"
 VALUE "<project>\designer\impl1\aufgabe2.pdb,pdb"
 VALUE "<project>\designer\impl1\aufgabe2.stp,stp"
 VALUE "<project>\designer\impl1\aufgabe2_fp\aufgabe2.pro,pro"
-ENDUsed_File_List
-ENDLIST
-LIST Impl2
-ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
 ENDUsed_File_List
 ENDLIST
 ENDLIST

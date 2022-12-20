@@ -1,4 +1,4 @@
-# Tue Dec 20 10:18:41 2022
+# Tue Dec 20 12:41:35 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -137,7 +137,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Tue Dec 20 10:18:43 2022
+# Timing report written on Tue Dec 20 12:41:37 2022
 #
 
 
@@ -336,9 +336,9 @@ Total number of LUTs after P&R:  115 + 0 + 0 + 0 = 115;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 63MB peak: 173MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 61MB peak: 173MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Tue Dec 20 10:18:44 2022
+# Tue Dec 20 12:41:38 2022
 
 ###########################################################]

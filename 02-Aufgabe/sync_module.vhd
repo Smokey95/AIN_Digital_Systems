@@ -41,9 +41,9 @@ ARCHITECTURE verhalten OF sync_module IS
     CONSTANT LENDEF: natural := 15;
     -- Polynom: x^15 + x^1 + 1
     CONSTANT    POLY: std_logic_vector(LENDEF DOWNTO 0) := "1000000000000011";
-    CONSTANT    RES:  std_logic_vector                  := "101010101010101";
+    -- CONSTANT    RES:  std_logic_vector                  := "101010101010101";
     -- Check if RES is correct
-    -- CONSTANT    RES:  std_logic_vector := "111111111111111";                       -- mod (2^15 - 1)
+    CONSTANT    RES:  std_logic_vector := "111111111111111";                       -- mod (2^15 - 1)
     -- CONSTANT    RES:  std_logic_vector := "000000000000000";
     
     SIGNAL      strb: std_logic;    -- enable signal for mod15 counter
