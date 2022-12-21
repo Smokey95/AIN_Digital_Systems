@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "S-2021.09M-SP1"
 // Program "Synplify Pro", Mapper "map202109actsp1, Build 056R"
-// Tue Dec 20 12:41:37 2022
+// Wed Dec 21 11:00:02 2022
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -910,13 +910,6 @@ defparam \hysteresis.un7_enlto4_1 .INIT=4'h7;
 	.Y(un11_en_1)
 );
 defparam \hysteresis.un11_enlto4_1 .INIT=4'hE;
-// @9:80
-  CFG2 q3_RNI16BE (
-	.A(qH_1z),
-	.B(q3_1z),
-	.Y(load_i)
-);
-defparam q3_RNI16BE.INIT=4'hD;
 // @10:104
   CFG4 \un1_cnt_1.ANC1_a0  (
 	.A(q2_Z),
@@ -926,6 +919,13 @@ defparam q3_RNI16BE.INIT=4'hD;
 	.Y(ANC1_a0)
 );
 defparam \un1_cnt_1.ANC1_a0 .INIT=16'h8000;
+// @9:67
+  CFG2 q3_RNI16BE (
+	.A(qH_1z),
+	.B(q3_1z),
+	.Y(load_i)
+);
+defparam q3_RNI16BE.INIT=4'hD;
 // @10:104
   CFG4 \un1_cnt_1.CO1_1  (
 	.A(cnt_Z[0]),
@@ -1395,15 +1395,13 @@ wire LD1_c ;
 wire clk_c ;
 wire rst_arst ;
 wire [16:1] cnt_5;
-wire [16:16] cnt_Z;
 wire [16:16] cnt_8;
+wire [16:16] un1_inc_Z;
 wire VCC ;
 wire GND ;
 wire cnt_5_cry_0_0_Y ;
-wire overflow_1_sqmuxa_i_Z ;
 wire cnt_5_cry_0 ;
 wire cnt_5_cry_0_0_S ;
-wire overflow_1_sqmuxa_1 ;
 wire cnt_5_cry_1 ;
 wire cnt_5_cry_1_0_Y ;
 wire cnt_5_cry_2 ;
@@ -1437,6 +1435,66 @@ wire cnt_5_s_16_Y ;
 wire cnt_5_cry_15 ;
 wire cnt_5_cry_15_0_Y ;
 // @9:60
+  SLE \cnt_Z[6]  (
+	.Q(cnt[6]),
+	.ADn(VCC),
+	.ALn(rst_arst),
+	.CLK(clk_c),
+	.D(cnt_5[6]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:60
+  SLE \cnt_Z[5]  (
+	.Q(cnt[5]),
+	.ADn(VCC),
+	.ALn(rst_arst),
+	.CLK(clk_c),
+	.D(cnt_5[5]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:60
+  SLE \cnt_Z[4]  (
+	.Q(cnt[4]),
+	.ADn(VCC),
+	.ALn(rst_arst),
+	.CLK(clk_c),
+	.D(cnt_5[4]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:60
+  SLE \cnt_Z[3]  (
+	.Q(cnt[3]),
+	.ADn(VCC),
+	.ALn(rst_arst),
+	.CLK(clk_c),
+	.D(cnt_5[3]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:60
+  SLE \cnt_Z[2]  (
+	.Q(cnt[2]),
+	.ADn(VCC),
+	.ALn(rst_arst),
+	.CLK(clk_c),
+	.D(cnt_5[2]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:60
   SLE \cnt_Z[1]  (
 	.Q(cnt[1]),
 	.ADn(VCC),
@@ -1461,20 +1519,8 @@ wire cnt_5_cry_15_0_Y ;
 	.SLn(VCC)
 );
 // @9:60
-  SLE overflow (
-	.Q(LD1_c),
-	.ADn(VCC),
-	.ALn(rst_arst),
-	.CLK(clk_c),
-	.D(cnt_Z[16]),
-	.EN(overflow_1_sqmuxa_i_Z),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
-// @9:60
   SLE \cnt[16]  (
-	.Q(cnt_Z[16]),
+	.Q(LD1_c),
 	.ADn(VCC),
 	.ALn(rst_arst),
 	.CLK(clk_c),
@@ -1592,66 +1638,6 @@ wire cnt_5_cry_15_0_Y ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @9:60
-  SLE \cnt_Z[6]  (
-	.Q(cnt[6]),
-	.ADn(VCC),
-	.ALn(rst_arst),
-	.CLK(clk_c),
-	.D(cnt_5[6]),
-	.EN(VCC),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
-// @9:60
-  SLE \cnt_Z[5]  (
-	.Q(cnt[5]),
-	.ADn(VCC),
-	.ALn(rst_arst),
-	.CLK(clk_c),
-	.D(cnt_5[5]),
-	.EN(VCC),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
-// @9:60
-  SLE \cnt_Z[4]  (
-	.Q(cnt[4]),
-	.ADn(VCC),
-	.ALn(rst_arst),
-	.CLK(clk_c),
-	.D(cnt_5[4]),
-	.EN(VCC),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
-// @9:60
-  SLE \cnt_Z[3]  (
-	.Q(cnt[3]),
-	.ADn(VCC),
-	.ALn(rst_arst),
-	.CLK(clk_c),
-	.D(cnt_5[3]),
-	.EN(VCC),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
-// @9:60
-  SLE \cnt_Z[2]  (
-	.Q(cnt[2]),
-	.ADn(VCC),
-	.ALn(rst_arst),
-	.CLK(clk_c),
-	.D(cnt_5[2]),
-	.EN(VCC),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
 // @9:67
   ARI1 \p1.cnt_5_cry_0_0  (
 	.FCO(cnt_5_cry_0),
@@ -1659,11 +1645,11 @@ wire cnt_5_cry_15_0_Y ;
 	.Y(cnt_5_cry_0_0_Y),
 	.B(load_i),
 	.C(sw_c[1]),
-	.D(overflow_1_sqmuxa_1),
+	.D(un1_inc_Z[16]),
 	.A(cnt[0]),
 	.FCI(GND)
 );
-defparam \p1.cnt_5_cry_0_0 .INIT=20'h5B11B;
+defparam \p1.cnt_5_cry_0_0 .INIT=20'h51BB1;
 // @9:67
   ARI1 \p1.cnt_5_cry_1_0  (
 	.FCO(cnt_5_cry_1),
@@ -1837,13 +1823,13 @@ defparam \p1.cnt_5_cry_14_0 .INIT=20'h50BB0;
 	.FCO(cnt_5_s_16_FCO),
 	.S(cnt_5[16]),
 	.Y(cnt_5_s_16_Y),
-	.B(dec),
-	.C(load_i),
-	.D(cnt_Z[16]),
+	.B(LD1_c),
+	.C(dec),
+	.D(load_i),
 	.A(VCC),
 	.FCI(cnt_5_cry_15)
 );
-defparam \p1.cnt_5_s_16 .INIT=20'h47800;
+defparam \p1.cnt_5_s_16 .INIT=20'h46A00;
 // @9:67
   ARI1 \p1.cnt_5_cry_15_0  (
 	.FCO(cnt_5_cry_15),
@@ -1857,30 +1843,21 @@ defparam \p1.cnt_5_s_16 .INIT=20'h47800;
 );
 defparam \p1.cnt_5_cry_15_0 .INIT=20'h50BB0;
 // @9:67
-  CFG4 \un1_inc_i_0_a2[16]  (
+  CFG4 \un1_inc[16]  (
 	.A(q3_0),
 	.B(q3_1),
 	.C(qH_0),
 	.D(qH_1),
-	.Y(overflow_1_sqmuxa_1)
+	.Y(un1_inc_Z[16])
 );
-defparam \un1_inc_i_0_a2[16] .INIT=16'hF531;
+defparam \un1_inc[16] .INIT=16'h0ACE;
 // @9:82
   CFG2 \p1.cnt_8[16]  (
 	.A(cnt_5[16]),
-	.B(cnt_Z[16]),
+	.B(LD1_c),
 	.Y(cnt_8[16])
 );
 defparam \p1.cnt_8[16] .INIT=4'h2;
-// @9:60
-  CFG4 overflow_1_sqmuxa_i (
-	.A(q3),
-	.B(cnt_Z[16]),
-	.C(overflow_1_sqmuxa_1),
-	.D(qH),
-	.Y(overflow_1_sqmuxa_i_Z)
-);
-defparam overflow_1_sqmuxa_i.INIT=16'hDFCF;
   GND GND_Z (
 	.Y(GND)
 );
@@ -2358,15 +2335,6 @@ defparam \p1.un1_reg .INIT=16'h8000;
 );
 defparam \seg_1_7_1_.m18 .INIT=16'h3EDB;
 // @12:148
-  CFG4 \seg_1_7_1_.m10  (
-	.A(seg_sel[3]),
-	.B(seg_sel[2]),
-	.C(seg_sel[1]),
-	.D(seg_sel[0]),
-	.Y(seg_c[2])
-);
-defparam \seg_1_7_1_.m10 .INIT=16'h5B37;
-// @12:148
   CFG4 \seg_1_7_1_.m15  (
 	.A(seg_sel[3]),
 	.B(seg_sel[2]),
@@ -2375,6 +2343,15 @@ defparam \seg_1_7_1_.m10 .INIT=16'h5B37;
 	.Y(seg_c[3])
 );
 defparam \seg_1_7_1_.m15 .INIT=16'h7F67;
+// @12:148
+  CFG4 \seg_1_7_1_.m10  (
+	.A(seg_sel[3]),
+	.B(seg_sel[2]),
+	.C(seg_sel[1]),
+	.D(seg_sel[0]),
+	.Y(seg_c[2])
+);
+defparam \seg_1_7_1_.m10 .INIT=16'h5B37;
   CFG4 \seg_1_7_1_.N_27_i  (
 	.A(seg_sel[3]),
 	.B(seg_sel[2]),

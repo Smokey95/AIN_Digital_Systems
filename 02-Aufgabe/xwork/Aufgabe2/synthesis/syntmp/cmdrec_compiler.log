@@ -1,12 +1,12 @@
 C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\c_hdl.exe  -osyn  C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_comp.srs  -top  work.aufgabe2  -hdllog  C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\aufgabe2_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro   -infer_seqShift -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram  -actel -work_is_curlib 1  -encrypt  -pro  -dmgen  C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008 -work_is_curlib 1  -ignore_undefined_lib  -lib work C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd -lib work C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd -lib work C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd -lib work C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd -lib work C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd -lib work C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd  -jobname  "compiler" 
 relcom:..\..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\aufgabe2_comp.srs -top work.aufgabe2 -hdllog ..\synlog\aufgabe2_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -infer_seqShift -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram -actel -work_is_curlib 1 -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -vhdl2008 -work_is_curlib 1 -ignore_undefined_lib -lib work ..\..\..\..\std_counter.vhd -lib work ..\..\..\..\sync_buffer.vhd -lib work ..\..\..\..\..\bib\lfsr_lib.vhd -lib work ..\..\..\..\sync_module.vhd -lib work ..\..\..\..\..\01-Aufgabe\hex4x7seg.vhd -lib work ..\..\..\..\aufgabe2.vhd -jobname "compiler"
 rc:0 success:1 runtime:3
-file:..\synwork\aufgabe2_comp.srs|io:o|time:1671536492|size:9809|exec:0|csum:
-file:..\synlog\aufgabe2_compiler.srr|io:o|time:1671536492|size:7545|exec:0|csum:
-file:..\..\..\..\std_counter.vhd|io:i|time:1671536453|size:5018|exec:0|csum:1A8B2702A35903B68A6A73DF110EFDAE
-file:..\..\..\..\sync_buffer.vhd|io:i|time:1671528510|size:3518|exec:0|csum:E978AFC897FECD00EB53D4BDB72DE8EE
-file:..\..\..\..\..\bib\lfsr_lib.vhd|io:i|time:1670929272|size:1362|exec:0|csum:F4A856CF4E099E84E3FB256B70090C50
-file:..\..\..\..\sync_module.vhd|io:i|time:1671532104|size:4185|exec:0|csum:DE7BFB731401285C8F81ABB8C4C46639
-file:..\..\..\..\..\01-Aufgabe\hex4x7seg.vhd|io:i|time:1670929259|size:7853|exec:0|csum:94CB3896B19D54AC986B8BCE0A2CE59B
-file:..\..\..\..\aufgabe2.vhd|io:i|time:1670929272|size:4654|exec:0|csum:024571A5EC27DF5BB1B244A9F802CE03
+file:..\synwork\aufgabe2_comp.srs|io:o|time:1671616797|size:9488|exec:0|csum:
+file:..\synlog\aufgabe2_compiler.srr|io:o|time:1671616797|size:7545|exec:0|csum:
+file:..\..\..\..\std_counter.vhd|io:i|time:1671616784|size:5122|exec:0|csum:4B3C2C6EB8881B5E795273902FB3D725
+file:..\..\..\..\sync_buffer.vhd|io:i|time:1671615841|size:3518|exec:0|csum:E978AFC897FECD00EB53D4BDB72DE8EE
+file:..\..\..\..\..\bib\lfsr_lib.vhd|io:i|time:1671615841|size:1362|exec:0|csum:F4A856CF4E099E84E3FB256B70090C50
+file:..\..\..\..\sync_module.vhd|io:i|time:1671615841|size:4185|exec:0|csum:DE7BFB731401285C8F81ABB8C4C46639
+file:..\..\..\..\..\01-Aufgabe\hex4x7seg.vhd|io:i|time:1671615828|size:7853|exec:0|csum:94CB3896B19D54AC986B8BCE0A2CE59B
+file:..\..\..\..\aufgabe2.vhd|io:i|time:1671615841|size:4654|exec:0|csum:024571A5EC27DF5BB1B244A9F802CE03
 file:..\..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\c_hdl.exe|io:i|time:1655988517|size:5622272|exec:1|csum:E8DF5D55710AC35C86A6EC2668DEF93B

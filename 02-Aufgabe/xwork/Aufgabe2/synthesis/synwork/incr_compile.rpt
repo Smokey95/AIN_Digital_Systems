@@ -8,20 +8,20 @@ Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
 Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 10 or later
-Hostname: DS-PC09
+Hostname: DS-PC07
 
 Implementation : synthesis
 Synopsys HDL compiler and linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
 
 Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-34       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd (2022-12-20 12:31:12, 2022-12-20 12:40:53)
+34       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd (2022-12-21 10:44:01, 2022-12-21 10:59:44)
 
 *******************************************************************
 Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
 4        work.std_counter.verhalten may have changed because the following files changed:
-                        C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd (2022-12-20 12:31:12, 2022-12-20 12:40:53) <-- (architecture and entity definition)
+                        C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd (2022-12-21 10:44:01, 2022-12-21 10:59:44) <-- (architecture and entity definition)
 
 *******************************************************************
 Unmodified files: 15
@@ -36,11 +36,11 @@ FID:  path (timestamp)
 7        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd\hyperents.vhd (2022-06-23 14:48:48)
 8        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd\snps_haps_pkg.vhd (2022-06-23 14:48:48)
 9        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd\umr_capim.vhd (2022-06-23 14:48:48)
-32       C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd (2022-12-13 12:00:59)
-33       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd (2022-12-13 12:01:12)
-35       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd (2022-12-20 10:28:30)
-36       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd (2022-12-20 11:28:24)
-37       C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd (2022-12-13 12:01:12)
+32       C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd (2022-12-21 10:43:48)
+33       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd (2022-12-21 10:44:01)
+35       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd (2022-12-21 10:44:01)
+36       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd (2022-12-21 10:44:01)
+37       C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd (2022-12-21 10:44:01)
 
 *******************************************************************
 Unchanged modules: 8

@@ -10,12 +10,12 @@ z2
 cModel Technology
 dE:/00_Git/02_Study/DISY/02-Aufgabe
 Estd_counter
-Z0 w1671536453
+Z0 w1671616784
 Z1 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
 Z2 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
 Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
 Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
-!i122 30
+!i122 34
 Z5 dC:/Users/si741rau/Desktop/DISY/02-Aufgabe
 Z6 8C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd
 Z7 FC:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd
@@ -25,9 +25,9 @@ V7lbE><ac^ahj<EH7ofj[T3
 !s100 SloV4g<zlXh=z3D?Jcz`l2
 Z8 OW;C;2022.2;75
 32
-Z9 !s110 1671536479
+Z9 !s110 1671616797
 !i10b 1
-Z10 !s108 1671536479.000000
+Z10 !s108 1671616797.000000
 Z11 !s90 -reportprogress|300|-work|work|-O0|C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd|
 Z12 !s107 C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd|
 !i113 1
@@ -39,11 +39,11 @@ R2
 R3
 R4
 Z15 DEx4 work 11 std_counter 0 22 7lbE><ac^ahj<EH7ofj[T3
-!i122 30
+!i122 34
 l53
 Z16 L47 55
-VTQ_g8eKnG>=8]0gfl^_g;0
-!s100 dUIA?16;AQQRT1L@?^ON;0
+V=i``XJ<lLe1^28JD6FQAR0
+!s100 YTMKgL[dYIHWO_bJVR[H72
 R8
 32
 R9
@@ -55,8 +55,8 @@ R12
 R13
 R14
 Estd_counter_tb
-Z17 w1671534061
-!i122 13
+Z17 w1671615841
+!i122 31
 R5
 Z18 8C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd
 Z19 FC:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd
@@ -66,9 +66,9 @@ Vaa1^YNndM?Dc9Bc2Vaak03
 !s100 glQ2m01jLj04hdSb`dMFI3
 R8
 32
-Z20 !s110 1671534065
+Z20 !s110 1671615962
 !i10b 1
-Z21 !s108 1671534065.000000
+Z21 !s108 1671615961.000000
 Z22 !s90 -reportprogress|300|-work|work|-O0|C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd|
 Z23 !s107 C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd|
 !i113 1
@@ -80,7 +80,7 @@ R1
 R2
 R4
 R3
-!i122 13
+!i122 31
 l127
 L11 185
 Vh>bDcfN4___c:K2k3lPc<2

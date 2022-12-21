@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
-<text>Date: Tue Dec 20 12:41:44 2022
+<text>Date: Wed Dec 21 11:00:08 2022
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -106,15 +106,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>115</cell>
+ <cell>114</cell>
  <cell>6060</cell>
- <cell>1.90</cell>
+ <cell>1.88</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>81</cell>
+ <cell>80</cell>
  <cell>6060</cell>
- <cell>1.34</cell>
+ <cell>1.32</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -204,8 +204,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>115</cell>
- <cell>81</cell>
+ <cell>114</cell>
+ <cell>80</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -224,8 +224,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>115</cell>
- <cell>81</cell>
+ <cell>114</cell>
+ <cell>80</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -315,7 +315,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>81</cell>
+ <cell>80</cell>
  <cell>INT_NET</cell>
  <cell>Net   : clk_c</cell>
 </row>
@@ -330,7 +330,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>81</cell>
+ <cell>80</cell>
  <cell>INT_NET</cell>
  <cell>Net   : rst_arst</cell>
 </row>
@@ -391,7 +391,7 @@
  <cell>Driver: u3/sel[0]</cell>
 </row>
 <row>
- <cell>11</cell>
+ <cell>10</cell>
  <cell>INT_NET</cell>
  <cell>Net   : u1_buf3_qH</cell>
 </row>
@@ -401,7 +401,7 @@
  <cell>Driver: u1/buf3/qH</cell>
 </row>
 <row>
- <cell>10</cell>
+ <cell>9</cell>
  <cell>INT_NET</cell>
  <cell>Net   : u1_buf3_q3</cell>
 </row>
@@ -499,7 +499,7 @@
  <cell>Driver: u3/sel[0]</cell>
 </row>
 <row>
- <cell>11</cell>
+ <cell>10</cell>
  <cell>INT_NET</cell>
  <cell>Net   : u1_buf3_qH</cell>
 </row>
@@ -509,7 +509,7 @@
  <cell>Driver: u1/buf3/qH</cell>
 </row>
 <row>
- <cell>10</cell>
+ <cell>9</cell>
  <cell>INT_NET</cell>
  <cell>Net   : u1_buf3_q3</cell>
 </row>

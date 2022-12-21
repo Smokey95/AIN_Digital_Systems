@@ -1,6 +1,6 @@
 Resource Report
 Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
-Date: Tue Dec 20 12:41:44 2022
+Date: Wed Dec 21 11:00:08 2022
 
 Device Selection
 +--------------------------------+----------------+
@@ -37,8 +37,8 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 115  | 6060  | 1.90       |
-| DFF                       | 81   | 6060  | 1.34       |
+| 4LUT                      | 114  | 6060  | 1.88       |
+| DFF                       | 80   | 6060  | 1.32       |
 | I/O Register              | 0    | 252   | 0.00       |
 | User I/O                  | 28   | 84    | 33.33      |
 | -- Single-ended I/O       | 28   | 84    | 33.33      |
@@ -58,11 +58,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 115  | 81  |
+| Fabric Logic             | 114  | 80  |
 | RAM64x18 Interface Logic | 0    | 0   |
 | RAM1K18 Interface Logic  | 0    | 0   |
 | MACC Interface Logic     | 0    | 0   |
-| Total Used               | 115  | 81  |
+| Total Used               | 114  | 80  |
 +--------------------------+------+-----+
 
 Detailed Carry Chains Resource Usage
@@ -95,10 +95,10 @@ Nets assigned to chip global resources
 +--------+---------+----------------------------------+
 | Fanout | Type    | Name                             |
 +--------+---------+----------------------------------+
-| 81     | INT_NET | Net   : clk_c                    |
+| 80     | INT_NET | Net   : clk_c                    |
 |        |         | Driver: clk_ibuf_RNIVTI2/U0_RGB1 |
 |        |         | Source: NETLIST                  |
-| 81     | INT_NET | Net   : rst_arst                 |
+| 80     | INT_NET | Net   : rst_arst                 |
 |        |         | Driver: rst_ibuf_RNIUUM5/U0_RGB1 |
 |        |         | Source: NETLIST                  |
 +--------+---------+----------------------------------+
@@ -119,9 +119,9 @@ High fanout nets
 |        |         | Driver: u1/buf2/fedge            |
 | 14     | INT_NET | Net   : u3/sel_Z[0]              |
 |        |         | Driver: u3/sel[0]                |
-| 11     | INT_NET | Net   : u1_buf3_qH               |
+| 10     | INT_NET | Net   : u1_buf3_qH               |
 |        |         | Driver: u1/buf3/qH               |
-| 10     | INT_NET | Net   : u1_buf3_q3               |
+| 9      | INT_NET | Net   : u1_buf3_q3               |
 |        |         | Driver: u1/buf3/q3               |
 | 9      | INT_NET | Net   : load_i                   |
 |        |         | Driver: u1/buf3/q3_RNI16BE       |
@@ -145,9 +145,9 @@ High fanout nets (through buffer trees)
 |        |         | Driver: u1/buf2/fedge            |
 | 14     | INT_NET | Net   : u3/sel_Z[0]              |
 |        |         | Driver: u3/sel[0]                |
-| 11     | INT_NET | Net   : u1_buf3_qH               |
+| 10     | INT_NET | Net   : u1_buf3_qH               |
 |        |         | Driver: u1/buf3/qH               |
-| 10     | INT_NET | Net   : u1_buf3_q3               |
+| 9      | INT_NET | Net   : u1_buf3_q3               |
 |        |         | Driver: u1/buf3/q3               |
 | 9      | INT_NET | Net   : load_i                   |
 |        |         | Driver: u1/buf3/q3_RNI16BE       |

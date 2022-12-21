@@ -9,11 +9,11 @@ Build: S-2021.09M-SP1
 Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 6.2
 
-Hostname: DS-PC09
+Hostname: DS-PC07
 
 Implementation : synthesis
 
-# Written on Tue Dec 20 12:41:34 2022
+# Written on Wed Dec 21 10:59:58 2022
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\synthesis.fdc"
@@ -33,7 +33,7 @@ Clock Summary
           Start            Requested     Requested     Clock        Clock          Clock
 Level     Clock            Frequency     Period        Type         Group          Load 
 ----------------------------------------------------------------------------------------
-0 -       aufgabe2|clk     100.0 MHz     10.000        inferred     (multiple)     81   
+0 -       aufgabe2|clk     100.0 MHz     10.000        inferred     (multiple)     80   
 ========================================================================================
 
 
@@ -43,5 +43,5 @@ Clock Load Summary
                  Clock     Source        Clock Pin          Non-clock Pin     Non-clock Pin
 Clock            Load      Pin           Seq Example        Seq Example       Comb Example 
 -------------------------------------------------------------------------------------------
-aufgabe2|clk     81        clk(port)     u3.reg[13:0].C     -                 -            
+aufgabe2|clk     80        clk(port)     u3.reg[13:0].C     -                 -            
 ===========================================================================================

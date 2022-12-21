@@ -48,7 +48,7 @@ ARCHITECTURE verhalten OF std_counter IS
 
     -- Defines a vector with one bit more than the counter length to detect an overflow
     SIGNAL cnt: STD_LOGIC_VECTOR(CNTLEN DOWNTO 0);
-    SIGNAL overflow: STD_LOGIC;
+    -- SIGNAL overflow: STD_LOGIC;
 
 BEGIN
 
@@ -58,34 +58,34 @@ BEGIN
         p1: PROCESS(clk, rst) is
         BEGIN
             IF rst=RSTDEF THEN
-                overflow <= '0';
+                -- overflow <= '0';
                 cnt <= (OTHERS => '0');
             ELSIF rising_edge(clk) THEN
                 
                 IF en='1' THEN
                     
                     IF load='1' THEN
-                        overflow <= '0';
+                        -- overflow <= '0';
                         cnt(CNTLEN-1 DOWNTO 0) <= din;
                     ELSIF dec='1' THEN
-                        overflow <= '0';
+                        -- overflow <= '0';
                         cnt <= cnt - dec;
                     ELSIF inc='1' THEN
-                        overflow <= '0';
+                        -- overflow <= '0';
                         cnt <= cnt + inc;
                     END IF;
                     
                     -- check if HSB is set
-                    -- Signal one clk delayed!!!
+                    -- Signal Reset one clk LATER (see figure on paper)!!!
                     IF cnt(CNTLEN) = '1' THEN
-                        overflow <= '1';                    -- set overflow
+                        --overflow <= '1';                    -- set overflow
                         cnt(CNTLEN) <= '0';                 -- clear HSB    
                     END IF;
                 
                 END IF;
                 
                 IF swrst=RSTDEF THEN
-                    overflow <= '0';
+                    -- overflow <= '0';
                     cnt <= (OTHERS => '0');
                 END IF;
             
@@ -93,8 +93,8 @@ BEGIN
         
         END PROCESS p1;
         
-        
-        cout <= overflow;                                   -- Return the value of the overflow
+        -- Not with extra overflow flip flop (see figure on paper)
+        cout <= cnt(CNTLEN);                                -- Return the value of the overflow
         dout <= cnt(CNTLEN-1 DOWNTO 0);                     -- Return the value of the CNTLEN counter bits
         
         
