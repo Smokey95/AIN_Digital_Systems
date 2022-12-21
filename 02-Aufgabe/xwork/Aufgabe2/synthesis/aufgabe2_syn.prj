@@ -1,11 +1,16 @@
 #add_file options
 add_file -vhdl "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd"
-add_file -vhdl "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/sync_buffer.vhd"
 add_file -vhdl "C:/Users/si741rau/Desktop/DISY/bib/lfsr_lib.vhd"
+add_file -vhdl "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/sync_buffer.vhd"
 add_file -vhdl "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/sync_module.vhd"
 add_file -vhdl "C:/Users/si741rau/Desktop/DISY/01-Aufgabe/hex4x7seg.vhd"
 add_file -vhdl "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/aufgabe2.vhd"
 add_file -fpga_constraint "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/xwork/Aufgabe2/designer/aufgabe2/synthesis.fdc"
+<<<<<<< Updated upstream
+=======
+
+#project files
+>>>>>>> Stashed changes
 #project files
 #implementation: "synthesis"
 impl -add synthesis -type fpga
@@ -26,6 +31,7 @@ set_option -hdl_strict_syntax 0
 set_option -frequency 100.000
 set_option -resolve_multiple_driver 1
 set_option -srs_instrumentation 1
+
 
 
 

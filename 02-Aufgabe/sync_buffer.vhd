@@ -2,6 +2,7 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.std_logic_unsigned.ALL;
+USE work.lfsr_lib.ALL;          -- Include bib to realize LFSR
 
 ENTITY sync_buffer IS
    GENERIC(RSTDEF:  std_logic := '1');
@@ -30,7 +31,14 @@ ARCHITECTURE verhalten OF sync_buffer IS
     SIGNAL state: TState;
     
     -- @TODO Change from linear counter do LFSR???
-    SIGNAL cnt: integer range 0 to 31;  
+    SIGNAL cnt: integer range 0 to 31; 
+   
+    CONSTANT LENDEF: natural := 5;
+    -- Polynom x^5 + x^2 + 1
+    CONSTANT CNTMAX: natural:= 31;
+    CONSTANT POLY:   std_logic_vector(LENDEF   DOWNTO 0) := "100101";
+    CONSTANT RES:    std_logic_vector(LENDEF-1 DOWNTO 0) := "11101";    -- exec(POLY, CNTMAX);
+    SIGNAL   reg:    std_logic_vector(LENDEF-1 DOWNTO 0);
     
 BEGIN
 

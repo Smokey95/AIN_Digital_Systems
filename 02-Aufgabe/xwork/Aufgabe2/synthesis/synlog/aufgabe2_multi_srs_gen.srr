@@ -22,6 +22,10 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
+<<<<<<< Updated upstream
 # Wed Dec 21 10:59:58 2022
+=======
+# Tue Dec 20 12:52:24 2022
+>>>>>>> Stashed changes
 
 ###########################################################]

@@ -40,7 +40,11 @@ The file contains the job information from mapper to be displayed as part of the
 <data>174MB</data>
 </info>
 <info name="Date &amp; Time">
+<<<<<<< Updated upstream
 <data type="timestamp">1671616802</data>
+=======
+<data type="timestamp">1671537149</data>
+>>>>>>> Stashed changes
 </info>
 </job_info>
 </job_run_status>

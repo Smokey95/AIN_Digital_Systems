@@ -13,7 +13,11 @@ Hostname: DS-PC07
 
 Implementation : synthesis
 
+<<<<<<< Updated upstream
 # Written on Wed Dec 21 10:59:58 2022
+=======
+# Written on Tue Dec 20 12:52:25 2022
+>>>>>>> Stashed changes
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\synthesis.fdc"

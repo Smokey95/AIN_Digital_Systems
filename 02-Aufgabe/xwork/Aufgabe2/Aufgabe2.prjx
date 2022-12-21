@@ -62,18 +62,18 @@ SIZE="247"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2.vm,syn_vm"
 STATE="ood"
-TIME="1671619843"
-SIZE="43111"
+TIME="1671620219"
+SIZE="43742"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2_syn.prj,prj"
 STATE="utd"
-TIME="1671619966"
-SIZE="2475"
+TIME="1671620219"
+SIZE="3251"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1671619843"
-SIZE="968"
+TIME="1671620219"
+SIZE="1124"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
@@ -108,13 +108,13 @@ SIZE="7302"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd,hdl"
 STATE="utd"
-TIME="1671619832"
-SIZE="3518"
+TIME="1671620219"
+SIZE="3914"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd,hdl"
 STATE="utd"
-TIME="1671619832"
-SIZE="4185"
+TIME="1671620219"
+SIZE="4204"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd,hdl"
 STATE="utd"
@@ -362,8 +362,12 @@ LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
 ReportsCurrentItem;synthesis:synplify.log
+HDL;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd;0
+HDL;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd;0
+HDL;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd;0
+HDL;C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd;0
 StartPage;StartPage;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "aufgabe2::work","C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd","FALSE","FALSE"

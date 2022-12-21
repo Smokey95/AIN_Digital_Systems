@@ -1,13 +1,17 @@
 #--  Synopsys, Inc.
 #--  Version S-2021.09M-SP1
 #--  Project file C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\run_options.txt
+<<<<<<< Updated upstream
 #--  Written on Wed Dec 21 11:55:56 2022
+=======
+#--  Written on Tue Dec 20 12:52:22 2022
+>>>>>>> Stashed changes
 
 
 #project files
 add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd"
-add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/sync_buffer.vhd"
 add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/bib/lfsr_lib.vhd"
+add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/sync_buffer.vhd"
 add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/sync_module.vhd"
 add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/01-Aufgabe/hex4x7seg.vhd"
 add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/aufgabe2.vhd"

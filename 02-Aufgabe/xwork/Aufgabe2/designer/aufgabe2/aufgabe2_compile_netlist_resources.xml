@@ -3,7 +3,11 @@
 <doc>
 <title>Resource Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
+<<<<<<< Updated upstream
 <text>Date: Wed Dec 21 11:00:08 2022
+=======
+<text>Date: Tue Dec 20 12:52:35 2022
+>>>>>>> Stashed changes
 </text>
 <section><name>Device Selection</name></section>
 <table>

@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 # Wed Dec 21 10:59:58 2022
+=======
+# Tue Dec 20 12:52:25 2022
+>>>>>>> Stashed changes
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -72,7 +76,11 @@ Clock            Load      Pin           Seq Example        Seq Example       Co
 aufgabe2|clk     80        clk(port)     u3.reg[13:0].C     -                 -            
 ===========================================================================================
 
+<<<<<<< Updated upstream
 @W: MT530 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_buffer.vhd":68:8:68:9|Found inferred clock aufgabe2|clk which controls 80 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+=======
+@W: MT530 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_buffer.vhd":74:8:74:9|Found inferred clock aufgabe2|clk which controls 81 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+>>>>>>> Stashed changes
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
@@ -84,13 +92,21 @@ Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 168MB)
 
 
+<<<<<<< Updated upstream
 Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 168MB)
+=======
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+>>>>>>> Stashed changes
 
 Pre-mapping successful!
 
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 169MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+<<<<<<< Updated upstream
 # Wed Dec 21 10:59:59 2022
+=======
+# Tue Dec 20 12:52:26 2022
+>>>>>>> Stashed changes
 
 ###########################################################]

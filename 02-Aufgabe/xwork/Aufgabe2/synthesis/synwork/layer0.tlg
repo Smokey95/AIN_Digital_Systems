@@ -9,8 +9,8 @@ Post processing for work.std_counter.verhalten
 Running optimization stage 1 on std_counter .......
 Finished optimization stage 1 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 @N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd":7:7:7:17|Synthesizing work.sync_module.verhalten.
-@N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":6:7:6:17|Synthesizing work.sync_buffer.verhalten.
-@N: CD233 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":29:16:29:17|Using sequential encoding for type tstate.
+@N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":7:7:7:17|Synthesizing work.sync_buffer.verhalten.
+@N: CD233 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":30:16:30:17|Using sequential encoding for type tstate.
 Post processing for work.sync_buffer.verhalten
 Running optimization stage 1 on sync_buffer .......
 Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)

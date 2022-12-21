@@ -4,8 +4,8 @@
 
 #project files
 add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd"
-add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/sync_buffer.vhd"
 add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/bib/lfsr_lib.vhd"
+add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/sync_buffer.vhd"
 add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/sync_module.vhd"
 add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/01-Aufgabe/hex4x7seg.vhd"
 add_file -vhdl -lib work "C:/Users/si741rau/Desktop/DISY/02-Aufgabe/aufgabe2.vhd"

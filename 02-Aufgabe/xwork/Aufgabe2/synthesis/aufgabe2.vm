@@ -2,7 +2,11 @@
 // Written by Synplify Pro 
 // Product Version "S-2021.09M-SP1"
 // Program "Synplify Pro", Mapper "map202109actsp1, Build 056R"
+<<<<<<< Updated upstream
 // Wed Dec 21 11:00:02 2022
+=======
+// Tue Dec 20 12:52:28 2022
+>>>>>>> Stashed changes
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -16,9 +20,9 @@
 // file 7 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\unsigned.vhd "
 // file 8 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd\hyperents.vhd "
 // file 9 "\c:\users\si741rau\desktop\disy\02-aufgabe\std_counter.vhd "
-// file 10 "\c:\users\si741rau\desktop\disy\02-aufgabe\sync_buffer.vhd "
-// file 11 "\c:\users\si741rau\desktop\disy\bib\lfsr_lib.vhd "
-// file 12 "\c:\users\si741rau\desktop\disy\01-aufgabe\hex4x7seg.vhd "
+// file 10 "\c:\users\si741rau\desktop\disy\bib\lfsr_lib.vhd "
+// file 11 "\c:\users\si741rau\desktop\disy\01-aufgabe\hex4x7seg.vhd "
+// file 12 "\c:\users\si741rau\desktop\disy\02-aufgabe\sync_buffer.vhd "
 // file 13 "\c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd "
 // file 14 "\c:\users\si741rau\desktop\disy\02-aufgabe\aufgabe2.vhd "
 // file 15 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\nlconst.dat "
@@ -58,21 +62,21 @@ wire q1_Z ;
 wire un1_state_0_sqmuxa_i ;
 wire un1_qh5_Z ;
 wire CO2 ;
-wire un11_en_1 ;
+wire un10_en_1 ;
 wire ANC1 ;
 wire CO2_0 ;
 wire ANC1_a0_0 ;
-wire un7_enlto4_1 ;
+wire un6_enlto4_1 ;
 wire CO1_0 ;
-wire un7_en ;
-wire un11_en ;
+wire un6_en ;
+wire un10_en ;
 wire cnt_0_sqmuxa_Z ;
   CFG1 q1_RNO (
 	.A(btn_c_0),
 	.Y(btn_c_i[1])
 );
 defparam q1_RNO.INIT=2'h1;
-// @10:116
+// @12:122
   SLE q3 (
 	.Q(q3_1z),
 	.ADn(VCC),
@@ -84,7 +88,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:54
+// @12:60
   SLE q2 (
 	.Q(q2_Z),
 	.ADn(VCC),
@@ -96,7 +100,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:40
+// @12:46
   SLE q1 (
 	.Q(q1_Z),
 	.ADn(VCC),
@@ -108,7 +112,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[4]  (
 	.Q(cnt_Z[4]),
 	.ADn(VCC),
@@ -120,7 +124,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[3]  (
 	.Q(cnt_Z[3]),
 	.ADn(VCC),
@@ -132,7 +136,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[2]  (
 	.Q(cnt_Z[2]),
 	.ADn(VCC),
@@ -144,7 +148,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[1]  (
 	.Q(cnt_Z[1]),
 	.ADn(VCC),
@@ -156,7 +160,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[0]  (
 	.Q(cnt_Z[0]),
 	.ADn(VCC),
@@ -168,7 +172,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE qH (
 	.Q(qH_1z),
 	.ADn(VCC),
@@ -180,7 +184,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \state[0]  (
 	.Q(state_Z[0]),
 	.ADn(VCC),
@@ -192,7 +196,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.SUM[4]  (
 	.A(cnt_Z[4]),
 	.B(cnt_Z[3]),
@@ -201,16 +205,16 @@ defparam q1_RNO.INIT=2'h1;
 	.Y(cnt_9[4])
 );
 defparam \un1_cnt_1.SUM[4] .INIT=16'hA96A;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.SUM_1[4]  (
 	.A(cnt_Z[2]),
 	.B(cnt_Z[3]),
 	.C(CO2),
-	.D(un11_en_1),
+	.D(un10_en_1),
 	.Y(SUM_1[4])
 );
 defparam \un1_cnt_1.SUM_1[4] .INIT=16'h0C1D;
-// @10:104
+// @12:110
   CFG3 \un1_cnt_1.CO2  (
 	.A(cnt_Z[2]),
 	.B(ANC1),
@@ -218,7 +222,7 @@ defparam \un1_cnt_1.SUM_1[4] .INIT=16'h0C1D;
 	.Y(CO2)
 );
 defparam \un1_cnt_1.CO2 .INIT=8'hF8;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.ANC1_0  (
 	.A(strb),
 	.B(ANC1_a0_0),
@@ -227,21 +231,21 @@ defparam \un1_cnt_1.CO2 .INIT=8'hF8;
 	.Y(ANC1)
 );
 defparam \un1_cnt_1.ANC1_0 .INIT=16'h2000;
-// @10:78
-  CFG2 \hysteresis.un7_enlto4_1  (
+// @12:84
+  CFG2 \hysteresis.un6_enlto4_1  (
 	.A(cnt_Z[2]),
 	.B(cnt_Z[0]),
-	.Y(un7_enlto4_1)
+	.Y(un6_enlto4_1)
 );
-defparam \hysteresis.un7_enlto4_1 .INIT=4'h7;
-// @10:84
-  CFG2 \hysteresis.un11_enlto4_1  (
+defparam \hysteresis.un6_enlto4_1 .INIT=4'h7;
+// @12:90
+  CFG2 \hysteresis.un10_enlto4_1  (
 	.A(cnt_Z[0]),
 	.B(cnt_Z[1]),
-	.Y(un11_en_1)
+	.Y(un10_en_1)
 );
-defparam \hysteresis.un11_enlto4_1 .INIT=4'hE;
-// @10:104
+defparam \hysteresis.un10_enlto4_1 .INIT=4'hE;
+// @12:110
   CFG4 \un1_cnt_1.ANC1_a0  (
 	.A(q2_Z),
 	.B(cnt_Z[4]),
@@ -250,7 +254,7 @@ defparam \hysteresis.un11_enlto4_1 .INIT=4'hE;
 	.Y(ANC1_a0_0)
 );
 defparam \un1_cnt_1.ANC1_a0 .INIT=16'h8000;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.CO1_1  (
 	.A(cnt_Z[0]),
 	.B(strb),
@@ -259,50 +263,50 @@ defparam \un1_cnt_1.ANC1_a0 .INIT=16'h8000;
 	.Y(CO1_0)
 );
 defparam \un1_cnt_1.CO1_1 .INIT=16'h00C8;
-// @10:78
-  CFG4 \hysteresis.un7_enlto4  (
+// @12:84
+  CFG4 \hysteresis.un6_enlto4  (
 	.A(cnt_Z[1]),
 	.B(cnt_Z[4]),
-	.C(un7_enlto4_1),
+	.C(un6_enlto4_1),
 	.D(cnt_Z[3]),
-	.Y(un7_en)
+	.Y(un6_en)
 );
-defparam \hysteresis.un7_enlto4 .INIT=16'hF7FF;
-// @10:104
+defparam \hysteresis.un6_enlto4 .INIT=16'hF7FF;
+// @12:110
   CFG4 \un1_cnt_1.CO2_1  (
 	.A(q2_Z),
 	.B(cnt_Z[2]),
 	.C(strb),
-	.D(un11_en_1),
+	.D(un10_en_1),
 	.Y(CO2_0)
 );
 defparam \un1_cnt_1.CO2_1 .INIT=16'h5040;
-// @10:84
-  CFG4 \hysteresis.un11_enlto4  (
+// @12:90
+  CFG4 \hysteresis.un10_enlto4  (
 	.A(cnt_Z[2]),
-	.B(un11_en_1),
+	.B(un10_en_1),
 	.C(cnt_Z[4]),
 	.D(cnt_Z[3]),
-	.Y(un11_en)
+	.Y(un10_en)
 );
-defparam \hysteresis.un11_enlto4 .INIT=16'hFFFE;
-// @10:73
+defparam \hysteresis.un10_enlto4 .INIT=16'hFFFE;
+// @12:79
   CFG3 un1_qh5 (
 	.A(strb),
-	.B(un11_en),
+	.B(un10_en),
 	.C(q2_Z),
 	.Y(un1_qh5_Z)
 );
 defparam un1_qh5.INIT=8'hF7;
-// @10:77
+// @12:83
   CFG3 cnt_0_sqmuxa (
 	.A(strb),
-	.B(un7_en),
+	.B(un6_en),
 	.C(q2_Z),
 	.Y(cnt_0_sqmuxa_Z)
 );
 defparam cnt_0_sqmuxa.INIT=8'h80;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.SUM[2]  (
 	.A(cnt_Z[2]),
 	.B(CO1_0),
@@ -311,7 +315,7 @@ defparam cnt_0_sqmuxa.INIT=8'h80;
 	.Y(cnt_9[2])
 );
 defparam \un1_cnt_1.SUM[2] .INIT=16'h56A9;
-// @10:104
+// @12:110
   CFG3 \un1_cnt_1.SUM[3]  (
 	.A(cnt_Z[3]),
 	.B(CO2),
@@ -319,7 +323,7 @@ defparam \un1_cnt_1.SUM[2] .INIT=16'h56A9;
 	.Y(cnt_9[3])
 );
 defparam \un1_cnt_1.SUM[3] .INIT=8'h69;
-// @10:104
+// @12:110
   CFG3 \un1_cnt_1.SUM[0]  (
 	.A(cnt_Z[0]),
 	.B(cnt_0_sqmuxa_Z),
@@ -327,16 +331,16 @@ defparam \un1_cnt_1.SUM[3] .INIT=8'h69;
 	.Y(cnt_9[0])
 );
 defparam \un1_cnt_1.SUM[0] .INIT=8'h65;
-// @10:68
+// @12:74
   CFG4 \state_RNO[0]  (
 	.A(q2_Z),
 	.B(state_Z[0]),
-	.C(un11_en),
-	.D(un7_en),
+	.C(un10_en),
+	.D(un6_en),
 	.Y(un1_state_0_sqmuxa_i)
 );
 defparam \state_RNO[0] .INIT=16'hC8EA;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.SUM[1]  (
 	.A(cnt_Z[0]),
 	.B(cnt_Z[1]),
@@ -389,21 +393,21 @@ wire q1_Z ;
 wire un1_state_0_sqmuxa_i ;
 wire un1_qh5_Z ;
 wire CO2 ;
-wire un11_en_1 ;
+wire un10_en_1 ;
 wire ANC1 ;
 wire CO2_0 ;
 wire ANC1_a0_1 ;
-wire un7_enlto4_1 ;
+wire un6_enlto4_1 ;
 wire CO1_0 ;
-wire un7_en ;
-wire un11_en ;
+wire un6_en ;
+wire un10_en ;
 wire cnt_0_sqmuxa_Z ;
   CFG1 q1_RNO (
 	.A(btn_c_0),
 	.Y(btn_c_i[2])
 );
 defparam q1_RNO.INIT=2'h1;
-// @10:116
+// @12:122
   SLE q3 (
 	.Q(q3_1z),
 	.ADn(VCC),
@@ -415,7 +419,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:54
+// @12:60
   SLE q2 (
 	.Q(q2_Z),
 	.ADn(VCC),
@@ -427,7 +431,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:40
+// @12:46
   SLE q1 (
 	.Q(q1_Z),
 	.ADn(VCC),
@@ -439,7 +443,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[4]  (
 	.Q(cnt_Z[4]),
 	.ADn(VCC),
@@ -451,7 +455,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[3]  (
 	.Q(cnt_Z[3]),
 	.ADn(VCC),
@@ -463,7 +467,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[2]  (
 	.Q(cnt_Z[2]),
 	.ADn(VCC),
@@ -475,7 +479,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[1]  (
 	.Q(cnt_Z[1]),
 	.ADn(VCC),
@@ -487,7 +491,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[0]  (
 	.Q(cnt_Z[0]),
 	.ADn(VCC),
@@ -499,7 +503,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE qH (
 	.Q(qH_1z),
 	.ADn(VCC),
@@ -511,7 +515,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \state[0]  (
 	.Q(state_Z[0]),
 	.ADn(VCC),
@@ -523,7 +527,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.SUM[4]  (
 	.A(cnt_Z[4]),
 	.B(cnt_Z[3]),
@@ -532,16 +536,16 @@ defparam q1_RNO.INIT=2'h1;
 	.Y(cnt_9[4])
 );
 defparam \un1_cnt_1.SUM[4] .INIT=16'hA96A;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.SUM_1[4]  (
 	.A(cnt_Z[2]),
 	.B(cnt_Z[3]),
 	.C(CO2),
-	.D(un11_en_1),
+	.D(un10_en_1),
 	.Y(SUM_1[4])
 );
 defparam \un1_cnt_1.SUM_1[4] .INIT=16'h0C1D;
-// @10:104
+// @12:110
   CFG3 \un1_cnt_1.CO2  (
 	.A(cnt_Z[2]),
 	.B(ANC1),
@@ -549,7 +553,7 @@ defparam \un1_cnt_1.SUM_1[4] .INIT=16'h0C1D;
 	.Y(CO2)
 );
 defparam \un1_cnt_1.CO2 .INIT=8'hF8;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.ANC1_0  (
 	.A(strb),
 	.B(ANC1_a0_1),
@@ -558,28 +562,28 @@ defparam \un1_cnt_1.CO2 .INIT=8'hF8;
 	.Y(ANC1)
 );
 defparam \un1_cnt_1.ANC1_0 .INIT=16'h2000;
-// @10:78
-  CFG2 \hysteresis.un7_enlto4_1  (
+// @12:84
+  CFG2 \hysteresis.un6_enlto4_1  (
 	.A(cnt_Z[2]),
 	.B(cnt_Z[0]),
-	.Y(un7_enlto4_1)
+	.Y(un6_enlto4_1)
 );
-defparam \hysteresis.un7_enlto4_1 .INIT=4'h7;
-// @10:84
-  CFG2 \hysteresis.un11_enlto4_1  (
+defparam \hysteresis.un6_enlto4_1 .INIT=4'h7;
+// @12:90
+  CFG2 \hysteresis.un10_enlto4_1  (
 	.A(cnt_Z[0]),
 	.B(cnt_Z[1]),
-	.Y(un11_en_1)
+	.Y(un10_en_1)
 );
-defparam \hysteresis.un11_enlto4_1 .INIT=4'hE;
-// @10:129
+defparam \hysteresis.un10_enlto4_1 .INIT=4'hE;
+// @12:135
   CFG2 fedge (
 	.A(qH_1z),
 	.B(q3_1z),
 	.Y(dec)
 );
 defparam fedge.INIT=4'h4;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.ANC1_a0  (
 	.A(q2_Z),
 	.B(cnt_Z[4]),
@@ -588,7 +592,7 @@ defparam fedge.INIT=4'h4;
 	.Y(ANC1_a0_1)
 );
 defparam \un1_cnt_1.ANC1_a0 .INIT=16'h8000;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.CO1_1  (
 	.A(cnt_Z[0]),
 	.B(strb),
@@ -597,50 +601,50 @@ defparam \un1_cnt_1.ANC1_a0 .INIT=16'h8000;
 	.Y(CO1_0)
 );
 defparam \un1_cnt_1.CO1_1 .INIT=16'h00C8;
-// @10:78
-  CFG4 \hysteresis.un7_enlto4  (
+// @12:84
+  CFG4 \hysteresis.un6_enlto4  (
 	.A(cnt_Z[1]),
 	.B(cnt_Z[4]),
-	.C(un7_enlto4_1),
+	.C(un6_enlto4_1),
 	.D(cnt_Z[3]),
-	.Y(un7_en)
+	.Y(un6_en)
 );
-defparam \hysteresis.un7_enlto4 .INIT=16'hF7FF;
-// @10:104
+defparam \hysteresis.un6_enlto4 .INIT=16'hF7FF;
+// @12:110
   CFG4 \un1_cnt_1.CO2_1  (
 	.A(q2_Z),
 	.B(cnt_Z[2]),
 	.C(strb),
-	.D(un11_en_1),
+	.D(un10_en_1),
 	.Y(CO2_0)
 );
 defparam \un1_cnt_1.CO2_1 .INIT=16'h5040;
-// @10:84
-  CFG4 \hysteresis.un11_enlto4  (
+// @12:90
+  CFG4 \hysteresis.un10_enlto4  (
 	.A(cnt_Z[2]),
-	.B(un11_en_1),
+	.B(un10_en_1),
 	.C(cnt_Z[4]),
 	.D(cnt_Z[3]),
-	.Y(un11_en)
+	.Y(un10_en)
 );
-defparam \hysteresis.un11_enlto4 .INIT=16'hFFFE;
-// @10:73
+defparam \hysteresis.un10_enlto4 .INIT=16'hFFFE;
+// @12:79
   CFG3 un1_qh5 (
 	.A(strb),
-	.B(un11_en),
+	.B(un10_en),
 	.C(q2_Z),
 	.Y(un1_qh5_Z)
 );
 defparam un1_qh5.INIT=8'hF7;
-// @10:77
+// @12:83
   CFG3 cnt_0_sqmuxa (
 	.A(strb),
-	.B(un7_en),
+	.B(un6_en),
 	.C(q2_Z),
 	.Y(cnt_0_sqmuxa_Z)
 );
 defparam cnt_0_sqmuxa.INIT=8'h80;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.SUM[2]  (
 	.A(cnt_Z[2]),
 	.B(CO1_0),
@@ -649,7 +653,7 @@ defparam cnt_0_sqmuxa.INIT=8'h80;
 	.Y(cnt_9[2])
 );
 defparam \un1_cnt_1.SUM[2] .INIT=16'h56A9;
-// @10:104
+// @12:110
   CFG3 \un1_cnt_1.SUM[3]  (
 	.A(cnt_Z[3]),
 	.B(CO2),
@@ -657,7 +661,7 @@ defparam \un1_cnt_1.SUM[2] .INIT=16'h56A9;
 	.Y(cnt_9[3])
 );
 defparam \un1_cnt_1.SUM[3] .INIT=8'h69;
-// @10:104
+// @12:110
   CFG3 \un1_cnt_1.SUM[0]  (
 	.A(cnt_Z[0]),
 	.B(cnt_0_sqmuxa_Z),
@@ -665,16 +669,16 @@ defparam \un1_cnt_1.SUM[3] .INIT=8'h69;
 	.Y(cnt_9[0])
 );
 defparam \un1_cnt_1.SUM[0] .INIT=8'h65;
-// @10:68
+// @12:74
   CFG4 \state_RNO[0]  (
 	.A(q2_Z),
 	.B(state_Z[0]),
-	.C(un11_en),
-	.D(un7_en),
+	.C(un10_en),
+	.D(un6_en),
 	.Y(un1_state_0_sqmuxa_i)
 );
 defparam \state_RNO[0] .INIT=16'hC8EA;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.SUM[1]  (
 	.A(cnt_Z[0]),
 	.B(cnt_Z[1]),
@@ -727,21 +731,21 @@ wire q1_Z ;
 wire un1_state_0_sqmuxa_i ;
 wire un1_qh5_Z ;
 wire CO2 ;
-wire un11_en_1 ;
+wire un10_en_1 ;
 wire ANC1 ;
 wire CO2_0 ;
 wire ANC1_a0 ;
-wire un7_enlto4_1 ;
+wire un6_enlto4_1 ;
 wire CO1_0 ;
-wire un7_en ;
-wire un11_en ;
+wire un6_en ;
+wire un10_en ;
 wire cnt_0_sqmuxa_Z ;
   CFG1 q1_RNO (
 	.A(btn_c_0),
 	.Y(btn_c_i[3])
 );
 defparam q1_RNO.INIT=2'h1;
-// @10:116
+// @12:122
   SLE q3 (
 	.Q(q3_1z),
 	.ADn(VCC),
@@ -753,7 +757,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:54
+// @12:60
   SLE q2 (
 	.Q(q2_Z),
 	.ADn(VCC),
@@ -765,7 +769,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:40
+// @12:46
   SLE q1 (
 	.Q(q1_Z),
 	.ADn(VCC),
@@ -777,7 +781,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[4]  (
 	.Q(cnt_Z[4]),
 	.ADn(VCC),
@@ -789,7 +793,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[3]  (
 	.Q(cnt_Z[3]),
 	.ADn(VCC),
@@ -801,7 +805,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[2]  (
 	.Q(cnt_Z[2]),
 	.ADn(VCC),
@@ -813,7 +817,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[1]  (
 	.Q(cnt_Z[1]),
 	.ADn(VCC),
@@ -825,7 +829,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \cnt[0]  (
 	.Q(cnt_Z[0]),
 	.ADn(VCC),
@@ -837,7 +841,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE qH (
 	.Q(qH_1z),
 	.ADn(VCC),
@@ -849,7 +853,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:68
+// @12:74
   SLE \state[0]  (
 	.Q(state_Z[0]),
 	.ADn(VCC),
@@ -861,7 +865,7 @@ defparam q1_RNO.INIT=2'h1;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.SUM[4]  (
 	.A(cnt_Z[4]),
 	.B(cnt_Z[3]),
@@ -870,16 +874,16 @@ defparam q1_RNO.INIT=2'h1;
 	.Y(cnt_9[4])
 );
 defparam \un1_cnt_1.SUM[4] .INIT=16'hA96A;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.SUM_1[4]  (
 	.A(cnt_Z[2]),
 	.B(cnt_Z[3]),
 	.C(CO2),
-	.D(un11_en_1),
+	.D(un10_en_1),
 	.Y(SUM_1[4])
 );
 defparam \un1_cnt_1.SUM_1[4] .INIT=16'h0C1D;
-// @10:104
+// @12:110
   CFG3 \un1_cnt_1.CO2  (
 	.A(cnt_Z[2]),
 	.B(ANC1),
@@ -887,7 +891,7 @@ defparam \un1_cnt_1.SUM_1[4] .INIT=16'h0C1D;
 	.Y(CO2)
 );
 defparam \un1_cnt_1.CO2 .INIT=8'hF8;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.ANC1_0  (
 	.A(strb),
 	.B(ANC1_a0),
@@ -896,21 +900,33 @@ defparam \un1_cnt_1.CO2 .INIT=8'hF8;
 	.Y(ANC1)
 );
 defparam \un1_cnt_1.ANC1_0 .INIT=16'h2000;
-// @10:78
-  CFG2 \hysteresis.un7_enlto4_1  (
+// @12:84
+  CFG2 \hysteresis.un6_enlto4_1  (
 	.A(cnt_Z[2]),
 	.B(cnt_Z[0]),
-	.Y(un7_enlto4_1)
+	.Y(un6_enlto4_1)
 );
-defparam \hysteresis.un7_enlto4_1 .INIT=4'h7;
-// @10:84
-  CFG2 \hysteresis.un11_enlto4_1  (
+defparam \hysteresis.un6_enlto4_1 .INIT=4'h7;
+// @12:90
+  CFG2 \hysteresis.un10_enlto4_1  (
 	.A(cnt_Z[0]),
 	.B(cnt_Z[1]),
-	.Y(un11_en_1)
+	.Y(un10_en_1)
 );
+<<<<<<< Updated upstream
 defparam \hysteresis.un11_enlto4_1 .INIT=4'hE;
 // @10:104
+=======
+defparam \hysteresis.un10_enlto4_1 .INIT=4'hE;
+// @9:80
+  CFG2 q3_RNI16BE (
+	.A(qH_1z),
+	.B(q3_1z),
+	.Y(load_i)
+);
+defparam q3_RNI16BE.INIT=4'hD;
+// @12:110
+>>>>>>> Stashed changes
   CFG4 \un1_cnt_1.ANC1_a0  (
 	.A(q2_Z),
 	.B(cnt_Z[4]),
@@ -919,6 +935,7 @@ defparam \hysteresis.un11_enlto4_1 .INIT=4'hE;
 	.Y(ANC1_a0)
 );
 defparam \un1_cnt_1.ANC1_a0 .INIT=16'h8000;
+<<<<<<< Updated upstream
 // @9:67
   CFG2 q3_RNI16BE (
 	.A(qH_1z),
@@ -927,6 +944,9 @@ defparam \un1_cnt_1.ANC1_a0 .INIT=16'h8000;
 );
 defparam q3_RNI16BE.INIT=4'hD;
 // @10:104
+=======
+// @12:110
+>>>>>>> Stashed changes
   CFG4 \un1_cnt_1.CO1_1  (
 	.A(cnt_Z[0]),
 	.B(strb),
@@ -935,50 +955,50 @@ defparam q3_RNI16BE.INIT=4'hD;
 	.Y(CO1_0)
 );
 defparam \un1_cnt_1.CO1_1 .INIT=16'h00C8;
-// @10:78
-  CFG4 \hysteresis.un7_enlto4  (
+// @12:84
+  CFG4 \hysteresis.un6_enlto4  (
 	.A(cnt_Z[1]),
 	.B(cnt_Z[4]),
-	.C(un7_enlto4_1),
+	.C(un6_enlto4_1),
 	.D(cnt_Z[3]),
-	.Y(un7_en)
+	.Y(un6_en)
 );
-defparam \hysteresis.un7_enlto4 .INIT=16'hF7FF;
-// @10:104
+defparam \hysteresis.un6_enlto4 .INIT=16'hF7FF;
+// @12:110
   CFG4 \un1_cnt_1.CO2_1  (
 	.A(q2_Z),
 	.B(cnt_Z[2]),
 	.C(strb),
-	.D(un11_en_1),
+	.D(un10_en_1),
 	.Y(CO2_0)
 );
 defparam \un1_cnt_1.CO2_1 .INIT=16'h5040;
-// @10:84
-  CFG4 \hysteresis.un11_enlto4  (
+// @12:90
+  CFG4 \hysteresis.un10_enlto4  (
 	.A(cnt_Z[2]),
-	.B(un11_en_1),
+	.B(un10_en_1),
 	.C(cnt_Z[4]),
 	.D(cnt_Z[3]),
-	.Y(un11_en)
+	.Y(un10_en)
 );
-defparam \hysteresis.un11_enlto4 .INIT=16'hFFFE;
-// @10:73
+defparam \hysteresis.un10_enlto4 .INIT=16'hFFFE;
+// @12:79
   CFG3 un1_qh5 (
 	.A(strb),
-	.B(un11_en),
+	.B(un10_en),
 	.C(q2_Z),
 	.Y(un1_qh5_Z)
 );
 defparam un1_qh5.INIT=8'hF7;
-// @10:77
+// @12:83
   CFG3 cnt_0_sqmuxa (
 	.A(strb),
-	.B(un7_en),
+	.B(un6_en),
 	.C(q2_Z),
 	.Y(cnt_0_sqmuxa_Z)
 );
 defparam cnt_0_sqmuxa.INIT=8'h80;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.SUM[2]  (
 	.A(cnt_Z[2]),
 	.B(CO1_0),
@@ -987,7 +1007,7 @@ defparam cnt_0_sqmuxa.INIT=8'h80;
 	.Y(cnt_9[2])
 );
 defparam \un1_cnt_1.SUM[2] .INIT=16'h56A9;
-// @10:104
+// @12:110
   CFG3 \un1_cnt_1.SUM[3]  (
 	.A(cnt_Z[3]),
 	.B(CO2),
@@ -995,7 +1015,7 @@ defparam \un1_cnt_1.SUM[2] .INIT=16'h56A9;
 	.Y(cnt_9[3])
 );
 defparam \un1_cnt_1.SUM[3] .INIT=8'h69;
-// @10:104
+// @12:110
   CFG3 \un1_cnt_1.SUM[0]  (
 	.A(cnt_Z[0]),
 	.B(cnt_0_sqmuxa_Z),
@@ -1003,16 +1023,16 @@ defparam \un1_cnt_1.SUM[3] .INIT=8'h69;
 	.Y(cnt_9[0])
 );
 defparam \un1_cnt_1.SUM[0] .INIT=8'h65;
-// @10:68
+// @12:74
   CFG4 \state_RNO[0]  (
 	.A(q2_Z),
 	.B(state_Z[0]),
-	.C(un11_en),
-	.D(un7_en),
+	.C(un10_en),
+	.D(un6_en),
 	.Y(un1_state_0_sqmuxa_i)
 );
 defparam \state_RNO[0] .INIT=16'hC8EA;
-// @10:104
+// @12:110
   CFG4 \un1_cnt_1.SUM[1]  (
 	.A(cnt_Z[0]),
 	.B(cnt_Z[1]),
@@ -1266,7 +1286,7 @@ wire un28_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @11:24
+// @10:24
   CFG2 \p1.lfsr.tmp[2]  (
 	.A(reg_Z[14]),
 	.B(reg_Z[0]),
@@ -1914,7 +1934,7 @@ wire un1_reg_6 ;
 wire un1_reg_9 ;
 wire un1_reg_8 ;
 wire un1_reg_7 ;
-// @12:40
+// @11:40
   SLE strb (
 	.Q(strb_Z),
 	.ADn(VCC),
@@ -1926,7 +1946,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[9]  (
 	.Q(reg_Z[9]),
 	.ADn(GND),
@@ -1938,7 +1958,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[8]  (
 	.Q(reg_Z[8]),
 	.ADn(GND),
@@ -1950,7 +1970,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[7]  (
 	.Q(reg_Z[7]),
 	.ADn(GND),
@@ -1962,7 +1982,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[6]  (
 	.Q(reg_Z[6]),
 	.ADn(GND),
@@ -1974,7 +1994,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[5]  (
 	.Q(reg_Z[5]),
 	.ADn(GND),
@@ -1986,7 +2006,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[4]  (
 	.Q(reg_Z[4]),
 	.ADn(GND),
@@ -1998,7 +2018,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[3]  (
 	.Q(reg_Z[3]),
 	.ADn(GND),
@@ -2010,7 +2030,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[2]  (
 	.Q(reg_Z[2]),
 	.ADn(GND),
@@ -2022,7 +2042,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[1]  (
 	.Q(reg_Z[1]),
 	.ADn(GND),
@@ -2034,7 +2054,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[0]  (
 	.Q(reg_Z[0]),
 	.ADn(GND),
@@ -2046,7 +2066,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:79
+// @11:79
   SLE \sel[1]  (
 	.Q(sel_Z[1]),
 	.ADn(VCC),
@@ -2058,7 +2078,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:79
+// @11:79
   SLE \sel[0]  (
 	.Q(sel_Z[0]),
 	.ADn(VCC),
@@ -2070,7 +2090,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[13]  (
 	.Q(reg_Z[13]),
 	.ADn(GND),
@@ -2082,7 +2102,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[12]  (
 	.Q(reg_Z[12]),
 	.ADn(GND),
@@ -2094,7 +2114,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[11]  (
 	.Q(reg_Z[11]),
 	.ADn(GND),
@@ -2106,7 +2126,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:40
+// @11:40
   SLE \reg[10]  (
 	.Q(reg_Z[10]),
 	.ADn(GND),
@@ -2118,7 +2138,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:124
+// @11:124
   ARI1 \seg_sel_3_1_0_wmux_0[0]  (
 	.FCO(seg_sel_3_1_0_co1[0]),
 	.S(seg_sel_3_1_0_wmux_0_S[0]),
@@ -2130,7 +2150,7 @@ wire un1_reg_7 ;
 	.FCI(seg_sel_3_1_0_co0[0])
 );
 defparam \seg_sel_3_1_0_wmux_0[0] .INIT=20'h0F588;
-// @12:124
+// @11:124
   ARI1 \seg_sel_3_1_0_wmux[0]  (
 	.FCO(seg_sel_3_1_0_co0[0]),
 	.S(seg_sel_3_1_0_wmux_S[0]),
@@ -2142,7 +2162,7 @@ defparam \seg_sel_3_1_0_wmux_0[0] .INIT=20'h0F588;
 	.FCI(VCC)
 );
 defparam \seg_sel_3_1_0_wmux[0] .INIT=20'h0FA44;
-// @12:124
+// @11:124
   ARI1 \seg_sel_3_1_0_wmux_0[3]  (
 	.FCO(seg_sel_3_1_0_co1[3]),
 	.S(seg_sel_3_1_0_wmux_0_S[3]),
@@ -2154,7 +2174,7 @@ defparam \seg_sel_3_1_0_wmux[0] .INIT=20'h0FA44;
 	.FCI(seg_sel_3_1_0_co0[3])
 );
 defparam \seg_sel_3_1_0_wmux_0[3] .INIT=20'h0F588;
-// @12:124
+// @11:124
   ARI1 \seg_sel_3_1_0_wmux[3]  (
 	.FCO(seg_sel_3_1_0_co0[3]),
 	.S(seg_sel_3_1_0_wmux_S[3]),
@@ -2166,7 +2186,7 @@ defparam \seg_sel_3_1_0_wmux_0[3] .INIT=20'h0F588;
 	.FCI(VCC)
 );
 defparam \seg_sel_3_1_0_wmux[3] .INIT=20'h0FA44;
-// @12:124
+// @11:124
   ARI1 \seg_sel_3_1_0_wmux_0[1]  (
 	.FCO(seg_sel_3_1_0_co1[1]),
 	.S(seg_sel_3_1_0_wmux_0_S[1]),
@@ -2178,7 +2198,7 @@ defparam \seg_sel_3_1_0_wmux[3] .INIT=20'h0FA44;
 	.FCI(seg_sel_3_1_0_co0[1])
 );
 defparam \seg_sel_3_1_0_wmux_0[1] .INIT=20'h0F588;
-// @12:124
+// @11:124
   ARI1 \seg_sel_3_1_0_wmux[1]  (
 	.FCO(seg_sel_3_1_0_co0[1]),
 	.S(seg_sel_3_1_0_wmux_S[1]),
@@ -2190,7 +2210,7 @@ defparam \seg_sel_3_1_0_wmux_0[1] .INIT=20'h0F588;
 	.FCI(VCC)
 );
 defparam \seg_sel_3_1_0_wmux[1] .INIT=20'h0FA44;
-// @12:124
+// @11:124
   ARI1 \seg_sel_3_1_0_wmux_0[2]  (
 	.FCO(seg_sel_3_1_0_co1[2]),
 	.S(seg_sel_3_1_0_wmux_0_S[2]),
@@ -2202,7 +2222,7 @@ defparam \seg_sel_3_1_0_wmux[1] .INIT=20'h0FA44;
 	.FCI(seg_sel_3_1_0_co0[2])
 );
 defparam \seg_sel_3_1_0_wmux_0[2] .INIT=20'h0F588;
-// @12:124
+// @11:124
   ARI1 \seg_sel_3_1_0_wmux[2]  (
 	.FCO(seg_sel_3_1_0_co0[2]),
 	.S(seg_sel_3_1_0_wmux_S[2]),
@@ -2214,42 +2234,42 @@ defparam \seg_sel_3_1_0_wmux_0[2] .INIT=20'h0F588;
 	.FCI(VCC)
 );
 defparam \seg_sel_3_1_0_wmux[2] .INIT=20'h0FA44;
-// @12:49
+// @11:49
   CFG2 \p1.un1_reg_6  (
 	.A(reg_Z[13]),
 	.B(reg_Z[11]),
 	.Y(un1_reg_6)
 );
 defparam \p1.un1_reg_6 .INIT=4'h8;
-// @12:88
+// @11:88
   CFG2 \sel_RNO[0]  (
 	.A(sel_Z[0]),
 	.B(strb_Z),
 	.Y(sel_RNO_Z[0])
 );
 defparam \sel_RNO[0] .INIT=4'h6;
-// @12:61
+// @11:61
   CFG2 \p1.reg_8[8]  (
 	.A(reg_Z[13]),
 	.B(reg_Z[7]),
 	.Y(reg_8[8])
 );
 defparam \p1.reg_8[8] .INIT=4'h6;
-// @12:63
+// @11:63
   CFG2 \p1.reg_8[6]  (
 	.A(reg_Z[13]),
 	.B(reg_Z[5]),
 	.Y(reg_8[6])
 );
 defparam \p1.reg_8[6] .INIT=4'h6;
-// @12:65
+// @11:65
   CFG2 \p1.reg_8[1]  (
 	.A(reg_Z[13]),
 	.B(reg_Z[0]),
 	.Y(reg_8[1])
 );
 defparam \p1.reg_8[1] .INIT=4'h6;
-// @12:49
+// @11:49
   CFG4 \p1.un1_reg_9  (
 	.A(reg_Z[12]),
 	.B(reg_Z[10]),
@@ -2258,7 +2278,7 @@ defparam \p1.reg_8[1] .INIT=4'h6;
 	.Y(un1_reg_9)
 );
 defparam \p1.un1_reg_9 .INIT=16'h8000;
-// @12:49
+// @11:49
   CFG4 \p1.un1_reg_8  (
 	.A(reg_Z[7]),
 	.B(reg_Z[6]),
@@ -2267,7 +2287,7 @@ defparam \p1.un1_reg_9 .INIT=16'h8000;
 	.Y(un1_reg_8)
 );
 defparam \p1.un1_reg_8 .INIT=16'h8000;
-// @12:49
+// @11:49
   CFG4 \p1.un1_reg_7  (
 	.A(reg_Z[3]),
 	.B(reg_Z[2]),
@@ -2276,7 +2296,7 @@ defparam \p1.un1_reg_8 .INIT=16'h8000;
 	.Y(un1_reg_7)
 );
 defparam \p1.un1_reg_7 .INIT=16'h8000;
-// @12:104
+// @11:104
   CFG3 \ena[0]  (
 	.A(sel_Z[1]),
 	.B(sel_Z[0]),
@@ -2284,7 +2304,7 @@ defparam \p1.un1_reg_7 .INIT=16'h8000;
 	.Y(digi_c[1])
 );
 defparam \ena[0] .INIT=8'h10;
-// @12:104
+// @11:104
   CFG3 \ena[2]  (
 	.A(sel_Z[1]),
 	.B(sel_Z[0]),
@@ -2292,7 +2312,7 @@ defparam \ena[0] .INIT=8'h10;
 	.Y(digi_c[3])
 );
 defparam \ena[2] .INIT=8'h20;
-// @12:88
+// @11:88
   CFG3 \sel_RNO[1]  (
 	.A(strb_Z),
 	.B(sel_Z[1]),
@@ -2300,7 +2320,7 @@ defparam \ena[2] .INIT=8'h20;
 	.Y(sel_RNO_Z[1])
 );
 defparam \sel_RNO[1] .INIT=8'h6C;
-// @12:104
+// @11:104
   CFG3 \ena[3]  (
 	.A(sel_Z[1]),
 	.B(sel_Z[0]),
@@ -2308,7 +2328,7 @@ defparam \sel_RNO[1] .INIT=8'h6C;
 	.Y(digi_c[4])
 );
 defparam \ena[3] .INIT=8'h80;
-// @12:104
+// @11:104
   CFG3 \ena[1]  (
 	.A(sel_Z[1]),
 	.B(sel_Z[0]),
@@ -2316,7 +2336,7 @@ defparam \ena[3] .INIT=8'h80;
 	.Y(digi_c[2])
 );
 defparam \ena[1] .INIT=8'h40;
-// @12:49
+// @11:49
   CFG4 \p1.un1_reg  (
 	.A(un1_reg_9),
 	.B(un1_reg_8),
@@ -2325,7 +2345,7 @@ defparam \ena[1] .INIT=8'h40;
 	.Y(un1_reg)
 );
 defparam \p1.un1_reg .INIT=16'h8000;
-// @12:148
+// @11:148
   CFG4 \seg_1_7_1_.m18  (
 	.A(seg_sel[3]),
 	.B(seg_sel[2]),
@@ -2334,7 +2354,20 @@ defparam \p1.un1_reg .INIT=16'h8000;
 	.Y(seg_c[4])
 );
 defparam \seg_1_7_1_.m18 .INIT=16'h3EDB;
+<<<<<<< Updated upstream
 // @12:148
+=======
+// @11:148
+  CFG4 \seg_1_7_1_.m10  (
+	.A(seg_sel[3]),
+	.B(seg_sel[2]),
+	.C(seg_sel[1]),
+	.D(seg_sel[0]),
+	.Y(seg_c[2])
+);
+defparam \seg_1_7_1_.m10 .INIT=16'h5B37;
+// @11:148
+>>>>>>> Stashed changes
   CFG4 \seg_1_7_1_.m15  (
 	.A(seg_sel[3]),
 	.B(seg_sel[2]),
