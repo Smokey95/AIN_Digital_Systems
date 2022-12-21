@@ -49,75 +49,76 @@ LIST REVISIONS
 VALUE="Impl1",NUM=1
 VALUE="Impl2",NUM=2
 VALUE="Impl3",NUM=3
-CURREV=3
+VALUE="Impl4",NUM=4
+CURREV=4
 ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
 LIST FileManager
 VALUE "<project>\synthesis\aufgabe2.so,so"
 STATE="utd"
-TIME="1671615841"
+TIME="1671537148"
 SIZE="247"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2.vm,syn_vm"
-STATE="utd"
-TIME="1671615841"
-SIZE="43559"
+STATE="ood"
+TIME="1671619843"
+SIZE="43111"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2_syn.prj,prj"
 STATE="utd"
-TIME="1671615841"
-SIZE="2811"
+TIME="1671619966"
+SIZE="2475"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1671615841"
+TIME="1671619843"
 SIZE="968"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1671615841"
+TIME="1671532356"
 SIZE="159"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd,hdl"
 STATE="utd"
-TIME="1671615828"
+TIME="1670929259"
 SIZE="7853"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.pdc,io_pdc"
 STATE="utd"
-TIME="1671615841"
+TIME="1671524426"
 SIZE="4731"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd,hdl"
 STATE="utd"
-TIME="1671615841"
+TIME="1670929272"
 SIZE="4654"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd,hdl"
 STATE="utd"
-TIME="1671616784"
+TIME="1671619843"
 SIZE="5122"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter_tb.vhd,hdl"
 STATE="utd"
-TIME="1671615841"
+TIME="1671534061"
 SIZE="7302"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd,hdl"
 STATE="utd"
-TIME="1671615841"
+TIME="1671619832"
 SIZE="3518"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd,hdl"
 STATE="utd"
-TIME="1671615841"
+TIME="1671619832"
 SIZE="4185"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd,hdl"
 STATE="utd"
-TIME="1671615841"
+TIME="1670929272"
 SIZE="1362"
 ENDFILE
 ENDLIST
@@ -131,7 +132,8 @@ VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.pdc,io_pdc"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
-ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateFailure
+ideSYNTHESIS(<project>\synthesis\aufgabe2.edn,syn_edn)=StateFailure
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -154,7 +156,8 @@ VALUE "<project>\designer\impl1\aufgabe2_fp\aufgabe2.pro,pro"
 ENDUsed_File_List
 ENDLIST
 LIST Impl2
-ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateFailure
+ideSYNTHESIS(<project>\synthesis\aufgabe2.edn,syn_edn)=StateFailure
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -164,7 +167,19 @@ Used_File_List
 ENDUsed_File_List
 ENDLIST
 LIST Impl3
-ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateFailure
+ideSYNTHESIS(<project>\synthesis\aufgabe2.edn,syn_edn)=StateFailure
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl4
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateFailure
+ideSYNTHESIS(<project>\synthesis\aufgabe2.edn,syn_edn)=StateFailure
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -275,7 +290,8 @@ ENDLIST
 LIST ProjectState5.1
 LIST "aufgabe2::work"
 LIST Impl1
-ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateFailure
+ideSYNTHESIS(<project>\synthesis\aufgabe2.edn,syn_edn)=StateFailure
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -298,7 +314,8 @@ VALUE "<project>\designer\impl1\aufgabe2_fp\aufgabe2.pro,pro"
 ENDUsed_File_List
 ENDLIST
 LIST Impl2
-ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateFailure
+ideSYNTHESIS(<project>\synthesis\aufgabe2.edn,syn_edn)=StateFailure
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -308,7 +325,19 @@ Used_File_List
 ENDUsed_File_List
 ENDLIST
 LIST Impl3
-ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateFailure
+ideSYNTHESIS(<project>\synthesis\aufgabe2.edn,syn_edn)=StateFailure
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl4
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateFailure
+ideSYNTHESIS(<project>\synthesis\aufgabe2.edn,syn_edn)=StateFailure
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -332,11 +361,9 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Run Programming Action:aufgabe2_PROGRAM.log
-Constraint Manager;Constraint Manager;0
-HDL;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd;0
+ReportsCurrentItem;synthesis:synplify.log
 StartPage;StartPage;0
-ACTIVEVIEW;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "aufgabe2::work","C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd","FALSE","FALSE"

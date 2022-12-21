@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version S-2021.09M-SP1
 #--  Project file C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\run_options.txt
-#--  Written on Wed Dec 21 10:59:55 2022
+#--  Written on Wed Dec 21 11:55:56 2022
 
 
 #project files
