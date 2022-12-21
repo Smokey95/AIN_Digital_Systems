@@ -3,9 +3,9 @@ Resource Usage Report for aufgabe2
 Mapping to part: m2s005vf400std
 Cell usage:
 CLKINT          2 uses
-CFG1           4 uses
-CFG2           15 uses
-CFG3           21 uses
+CFG1           5 uses
+CFG2           23 uses
+CFG3           29 uses
 CFG4           49 uses
 
 Carry cells:
@@ -27,7 +27,7 @@ OUTBUF         14 uses
 
 Global Clock Buffers: 2
 
-Total LUTs:    114
+Total LUTs:    131
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -36,5 +36,5 @@ RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
 Total number of SLEs after P&R:  80 + 0 + 0 + 0 = 80;
-Total number of LUTs after P&R:  114 + 0 + 0 + 0 = 114;
+Total number of LUTs after P&R:  131 + 0 + 0 + 0 = 131;
 

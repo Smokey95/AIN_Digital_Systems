@@ -48,7 +48,15 @@ ARCHITECTURE verhalten OF std_counter IS
 
     -- Defines a vector with one bit more than the counter length to detect an overflow
     SIGNAL cnt: STD_LOGIC_VECTOR(CNTLEN DOWNTO 0);
-    -- SIGNAL overflow: STD_LOGIC;
+    -- SIGNAL cntOld: STD_LOGIC_VECTOR(CNTLEN DOWNTO 0);
+    
+    -- SIGNAL cntOnes: STD_LOGIC_VECTOR(CNTLEN DOWNTO 0) := (OTHERS => '1'); 
+    -- cntOnes <= (OTHERS => '1');
+    
+    -- SIGNAL cntZero: STD_LOGIC_VECTOR(CNTLEN DOWNTO 0) := (OTHERS => '0');
+    -- cntZero <= (OTHERS => '0');
+    
+    --SIGNAL overflow: STD_LOGIC;
 
 BEGIN
 
@@ -58,34 +66,29 @@ BEGIN
         p1: PROCESS(clk, rst) is
         BEGIN
             IF rst=RSTDEF THEN
-                -- overflow <= '0';
                 cnt <= (OTHERS => '0');
             ELSIF rising_edge(clk) THEN
                 
                 IF en='1' THEN
                     
                     IF load='1' THEN
-                        -- overflow <= '0';
+
+                        cnt(CNTLEN) <= '0';                 -- clear HSB (overflow bit)  
                         cnt(CNTLEN-1 DOWNTO 0) <= din;
+                        
                     ELSIF dec='1' THEN
-                        -- overflow <= '0';
-                        cnt <= cnt - dec;
+                        
+                        cnt <= ('0' & cnt(CNTLEN - 1 DOWNTO 0)) - 1;
+                        
                     ELSIF inc='1' THEN
-                        -- overflow <= '0';
-                        cnt <= cnt + inc;
-                    END IF;
-                    
-                    -- check if HSB is set
-                    -- Signal Reset one clk LATER (see figure on paper)!!!
-                    IF cnt(CNTLEN) = '1' THEN
-                        --overflow <= '1';                    -- set overflow
-                        cnt(CNTLEN) <= '0';                 -- clear HSB    
+
+                        cnt <= ('0' & cnt(CNTLEN - 1 DOWNTO 0)) + 1;
+                        
                     END IF;
                 
                 END IF;
                 
                 IF swrst=RSTDEF THEN
-                    -- overflow <= '0';
                     cnt <= (OTHERS => '0');
                 END IF;
             

@@ -1,5 +1,1 @@
-<<<<<<< Updated upstream
-@W: MT530 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_buffer.vhd":68:8:68:9|Found inferred clock aufgabe2|clk which controls 80 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
-=======
-@W: MT530 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_buffer.vhd":74:8:74:9|Found inferred clock aufgabe2|clk which controls 81 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
->>>>>>> Stashed changes
+@W: MT530 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_buffer.vhd":76:8:76:9|Found inferred clock aufgabe2|clk which controls 80 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 

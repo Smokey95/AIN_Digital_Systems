@@ -7,10 +7,11 @@ Finished optimization stage 1 on hex4x7seg (CPU Time 0h:00m:00s, Memory Used cur
 @N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd":6:7:6:17|Synthesizing work.std_counter.verhalten.
 Post processing for work.std_counter.verhalten
 Running optimization stage 1 on std_counter .......
-Finished optimization stage 1 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Finished optimization stage 1 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
 @N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd":7:7:7:17|Synthesizing work.sync_module.verhalten.
 @N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":7:7:7:17|Synthesizing work.sync_buffer.verhalten.
 @N: CD233 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":30:16:30:17|Using sequential encoding for type tstate.
+@W: CD638 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":41:13:41:15|Signal reg is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for work.sync_buffer.verhalten
 Running optimization stage 1 on sync_buffer .......
 Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
@@ -25,7 +26,7 @@ Finished optimization stage 2 on sync_buffer (CPU Time 0h:00m:00s, Memory Used c
 Running optimization stage 2 on sync_module .......
 Finished optimization stage 2 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on std_counter .......
-Finished optimization stage 2 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 96MB)
+Finished optimization stage 2 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
 Running optimization stage 2 on hex4x7seg .......
 Finished optimization stage 2 on hex4x7seg (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
 Running optimization stage 2 on aufgabe2 .......

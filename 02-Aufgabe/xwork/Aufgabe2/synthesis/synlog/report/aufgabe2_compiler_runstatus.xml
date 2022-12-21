@@ -1,30 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- *************************************************************************************
-FILE DESCRIPTION 
- The file contains the job information from compiler to be displayed as part of the summary report.
-*******************************************************************************************--> 
+FILE DESCRIPTION
+The file contains the job information from compiler to be displayed as part of the summary report.
+*******************************************************************************************-->
 
 <job_run_status name="compiler"> 
-																<job_status> <data>Running</data> 
-			</job_status>
+  <report_link name="Detailed report">
+    <data>C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\aufgabe2_compiler.srr</data>
+    <title>Synopsys HDL Compiler</title>
+  </report_link> 
+  <job_status>
+    <data>Completed    </data>
+  </job_status>
 <job_info> 
-</job_info> 
- </job_run_status>
-		 <job_info> 
-			<info name="Notes"> 
-  <data>0</data>
-<<<<<<< Updated upstream
-  </info>			<info name="Warnings"><data>0</data> 
- </info> 
- 			<info name="Errors"><data>0</data>
- </info> 
-			<info name="CPU Time"><data>-</data></info> 
- 			<info name="Real Time"><data>-</data></info> 
- 			<info name="Peak Memory"><data>-</data></info> 
- 			<info name="Date &amp;Time"><data>-</data></info> 
- 			</job_info> 
-             </job_run_status>
-=======
+			<info name="Notes">
+  <data>17</data>
+  <report_link name="more"><data>C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_compiler_notes.txt</data></report_link>
+  </info>
+			<info name="Warnings">
+  <data>1</data>
   <report_link name="more"><data>C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synlog\report\aufgabe2_compiler_warnings.txt</data></report_link>
   </info>
 			<info name="Errors">
@@ -41,8 +35,7 @@ FILE DESCRIPTION
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-  <data type="timestamp">1671537143</data>
+  <data type="timestamp">1671631180</data>
   </info>
 			</job_info>
 </job_run_status>
->>>>>>> Stashed changes

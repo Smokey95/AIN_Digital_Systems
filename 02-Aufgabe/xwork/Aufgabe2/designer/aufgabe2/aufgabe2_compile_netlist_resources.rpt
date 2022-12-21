@@ -1,10 +1,6 @@
 Resource Report
 Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
-<<<<<<< Updated upstream
-Date: Wed Dec 21 11:00:08 2022
-=======
-Date: Tue Dec 20 12:52:35 2022
->>>>>>> Stashed changes
+Date: Wed Dec 21 14:59:52 2022
 
 Device Selection
 +--------------------------------+----------------+
@@ -41,7 +37,7 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 114  | 6060  | 1.88       |
+| 4LUT                      | 131  | 6060  | 2.16       |
 | DFF                       | 80   | 6060  | 1.32       |
 | I/O Register              | 0    | 252   | 0.00       |
 | User I/O                  | 28   | 84    | 33.33      |
@@ -62,11 +58,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 114  | 80  |
+| Fabric Logic             | 131  | 80  |
 | RAM64x18 Interface Logic | 0    | 0   |
 | RAM1K18 Interface Logic  | 0    | 0   |
 | MACC Interface Logic     | 0    | 0   |
-| Total Used               | 114  | 80  |
+| Total Used               | 131  | 80  |
 +--------------------------+------+-----+
 
 Detailed Carry Chains Resource Usage
@@ -119,24 +115,24 @@ High fanout nets
 +--------+---------+----------------------------------+
 | 21     | INT_NET | Net   : u1/strb_Z                |
 |        |         | Driver: u1/strb                  |
-| 16     | INT_NET | Net   : dec                      |
+| 19     | INT_NET | Net   : load                     |
+|        |         | Driver: u1/buf3/redge            |
+| 17     | INT_NET | Net   : dec                      |
 |        |         | Driver: u1/buf2/fedge            |
+| 17     | INT_NET | Net   : u1_buf3_qH               |
+|        |         | Driver: u1/buf3/qH               |
+| 17     | INT_NET | Net   : u2/un8_en                |
+|        |         | Driver: u2/p1.un8_en             |
+| 16     | INT_NET | Net   : u1_buf3_q3               |
+|        |         | Driver: u1/buf3/q3               |
 | 14     | INT_NET | Net   : u3/sel_Z[0]              |
 |        |         | Driver: u3/sel[0]                |
-| 10     | INT_NET | Net   : u1_buf3_qH               |
-|        |         | Driver: u1/buf3/qH               |
-| 9      | INT_NET | Net   : u1_buf3_q3               |
-|        |         | Driver: u1/buf3/q3               |
-| 9      | INT_NET | Net   : load_i                   |
-|        |         | Driver: u1/buf3/q3_RNI16BE       |
 | 9      | INT_NET | Net   : u3/sel_Z[1]              |
 |        |         | Driver: u3/sel[1]                |
 | 7      | INT_NET | Net   : u3/seg_sel[3]            |
 |        |         | Driver: u3/seg_sel_3_1_0_wmux[3] |
 | 7      | INT_NET | Net   : u3/seg_sel[2]            |
 |        |         | Driver: u3/seg_sel_3_1_0_wmux[2] |
-| 7      | INT_NET | Net   : u3/seg_sel[1]            |
-|        |         | Driver: u3/seg_sel_3_1_0_wmux[1] |
 +--------+---------+----------------------------------+
 
 High fanout nets (through buffer trees)
@@ -145,23 +141,23 @@ High fanout nets (through buffer trees)
 +--------+---------+----------------------------------+
 | 21     | INT_NET | Net   : u1/strb_Z                |
 |        |         | Driver: u1/strb                  |
-| 16     | INT_NET | Net   : dec                      |
+| 19     | INT_NET | Net   : load                     |
+|        |         | Driver: u1/buf3/redge            |
+| 17     | INT_NET | Net   : dec                      |
 |        |         | Driver: u1/buf2/fedge            |
+| 17     | INT_NET | Net   : u1_buf3_qH               |
+|        |         | Driver: u1/buf3/qH               |
+| 17     | INT_NET | Net   : u2/un8_en                |
+|        |         | Driver: u2/p1.un8_en             |
+| 16     | INT_NET | Net   : u1_buf3_q3               |
+|        |         | Driver: u1/buf3/q3               |
 | 14     | INT_NET | Net   : u3/sel_Z[0]              |
 |        |         | Driver: u3/sel[0]                |
-| 10     | INT_NET | Net   : u1_buf3_qH               |
-|        |         | Driver: u1/buf3/qH               |
-| 9      | INT_NET | Net   : u1_buf3_q3               |
-|        |         | Driver: u1/buf3/q3               |
-| 9      | INT_NET | Net   : load_i                   |
-|        |         | Driver: u1/buf3/q3_RNI16BE       |
 | 9      | INT_NET | Net   : u3/sel_Z[1]              |
 |        |         | Driver: u3/sel[1]                |
 | 7      | INT_NET | Net   : u3/seg_sel[3]            |
 |        |         | Driver: u3/seg_sel_3_1_0_wmux[3] |
 | 7      | INT_NET | Net   : u3/seg_sel[2]            |
 |        |         | Driver: u3/seg_sel_3_1_0_wmux[2] |
-| 7      | INT_NET | Net   : u3/seg_sel[1]            |
-|        |         | Driver: u3/seg_sel_3_1_0_wmux[1] |
 +--------+---------+----------------------------------+
 

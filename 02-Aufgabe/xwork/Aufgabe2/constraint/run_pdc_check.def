@@ -1,8 +1,0 @@
-DESIGN=aufgabe2
-DESDIR=C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2
-TARGET_DIR=C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2
-FAM=SmartFusion2
-DIE=PA4M500
-PACKAGE=tq144
-SPEED=STD
-PDC_FILE=C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.pdc,,

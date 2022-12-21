@@ -13,34 +13,18 @@ Hostname: DS-PC09
 Implementation : synthesis
 Synopsys HDL compiler and linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
 
-<<<<<<< Updated upstream
-Modified Files: 0
+Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
+12       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd (2022-12-21 14:59:09, 2022-12-21 14:59:30)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 0
+Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
+4        work.std_counter.verhalten may have changed because the following files changed:
+                        C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd (2022-12-21 14:59:09, 2022-12-21 14:59:30) <-- (architecture and entity definition)
 
 *******************************************************************
-Unmodified files: 16
-=======
-Modified Files: 2
-FID:  path (prevtimestamp, timestamp)
-35       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd (2022-12-20 10:28:30, 2022-12-20 12:52:14)
-36       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd (2022-12-20 11:28:24, 2022-12-20 12:51:46)
-
-*******************************************************************
-Modules that may have changed as a result of file changes: 2
-MID:  lib.cell.view
-8        work.sync_buffer.verhalten may have changed because the following files changed:
-                        C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd (2022-12-20 10:28:30, 2022-12-20 12:52:14) <-- (architecture and entity definition)
-                        C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd (2022-12-20 11:28:24, 2022-12-20 12:51:46) <-- (may instantiate this module)
-6        work.sync_module.verhalten may have changed because the following files changed:
-                        C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd (2022-12-20 11:28:24, 2022-12-20 12:51:46) <-- (architecture and entity definition)
-
-*******************************************************************
-Unmodified files: 14
->>>>>>> Stashed changes
+Unmodified files: 15
 FID:  path (timestamp)
 0        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\arith.vhd (2022-06-23 14:48:48)
 1        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\location.map (2022-06-23 14:48:48)
@@ -52,34 +36,20 @@ FID:  path (timestamp)
 7        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd\hyperents.vhd (2022-06-23 14:48:48)
 8        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd\snps_haps_pkg.vhd (2022-06-23 14:48:48)
 9        C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd\umr_capim.vhd (2022-06-23 14:48:48)
-32       C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd (2022-12-13 12:00:59)
-33       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd (2022-12-13 12:01:12)
-<<<<<<< Updated upstream
-34       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd (2022-12-21 11:50:43)
-35       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd (2022-12-21 11:50:32)
-36       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd (2022-12-21 11:50:32)
-37       C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd (2022-12-13 12:01:12)
+10       C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd (2022-12-21 12:03:35)
+11       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd (2022-12-21 12:03:44)
+13       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd (2022-12-21 13:33:42)
+14       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd (2022-12-21 12:03:44)
+15       C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd (2022-12-21 12:03:44)
 
 *******************************************************************
-Unchanged modules: 10
-=======
-34       C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd (2022-12-20 12:40:53)
-37       C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd (2022-12-13 12:01:12)
-
-*******************************************************************
-Unchanged modules: 6
->>>>>>> Stashed changes
+Unchanged modules: 8
 MID:  lib.cell.view
 0        work.aufgabe2.structure
 1        work.aufgabe2.vhdl
 2        work.hex4x7seg.struktur
 3        work.hex4x7seg.vhdl
-4        work.std_counter.verhalten
-5        work.std_counter.vhdl
-<<<<<<< Updated upstream
-8        work.sync_buffer.verhalten
-9        work.sync_buffer.vhdl
-6        work.sync_module.verhalten
-7        work.sync_module.vhdl
-=======
->>>>>>> Stashed changes
+6        work.sync_buffer.verhalten
+7        work.sync_buffer.vhdl
+8        work.sync_module.verhalten
+9        work.sync_module.vhdl

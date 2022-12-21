@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-# Wed Dec 21 10:59:58 2022
-=======
-# Tue Dec 20 12:52:25 2022
->>>>>>> Stashed changes
+# Wed Dec 21 14:59:42 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -15,16 +11,16 @@ Build: S-2021.09M-SP1
 Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 6.2
 
-Hostname: DS-PC07
+Hostname: DS-PC09
 
 Implementation : synthesis
 Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 120MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 131MB)
 
 Reading constraint file: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\synthesis.fdc
 @L: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2_scck.rpt 
@@ -33,26 +29,26 @@ See clock summary report "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgab
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 132MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 131MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 132MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 131MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 132MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 131MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
 
 
-Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
 
 
-Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=10 on top level netlist aufgabe2 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
 
 
 
@@ -76,37 +72,25 @@ Clock            Load      Pin           Seq Example        Seq Example       Co
 aufgabe2|clk     80        clk(port)     u3.reg[13:0].C     -                 -            
 ===========================================================================================
 
-<<<<<<< Updated upstream
-@W: MT530 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_buffer.vhd":68:8:68:9|Found inferred clock aufgabe2|clk which controls 80 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
-=======
-@W: MT530 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_buffer.vhd":74:8:74:9|Found inferred clock aufgabe2|clk which controls 81 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
->>>>>>> Stashed changes
+@W: MT530 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_buffer.vhd":76:8:76:9|Found inferred clock aufgabe2|clk which controls 80 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 168MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 167MB)
 
 
-<<<<<<< Updated upstream
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 168MB)
-=======
 Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
->>>>>>> Stashed changes
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 169MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 82MB peak: 168MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-<<<<<<< Updated upstream
-# Wed Dec 21 10:59:59 2022
-=======
-# Tue Dec 20 12:52:26 2022
->>>>>>> Stashed changes
+# Wed Dec 21 14:59:43 2022
 
 ###########################################################]

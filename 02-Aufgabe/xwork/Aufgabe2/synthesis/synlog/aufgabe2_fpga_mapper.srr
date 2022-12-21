@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-# Wed Dec 21 10:59:59 2022
-=======
-# Tue Dec 20 12:52:26 2022
->>>>>>> Stashed changes
+# Wed Dec 21 14:59:43 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -15,32 +11,32 @@ Build: S-2021.09M-SP1
 Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 6.2
 
-Hostname: DS-PC07
+Hostname: DS-PC09
 
 Implementation : synthesis
 Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 120MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
 
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 131MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 131MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 131MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 132MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 131MB)
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
 
 
 #### START OF SSF LOG MESSAGES ####
@@ -50,51 +46,51 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 @W: FA239 :"c:\users\si741rau\desktop\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
 @N: MO106 :"c:\users\si741rau\desktop\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|Found ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) with 16 words by 7 bits.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		     4.22ns		 118 /        80
-@N: FP130 |Promoting Net rst_arst on CLKINT  I_63 
-@N: FP130 |Promoting Net clk_c on CLKINT  I_64 
+   1		0h:00m:01s		     3.35ns		 135 /        80
+@N: FP130 |Promoting Net rst_arst on CLKINT  I_88 
+@N: FP130 |Promoting Net clk_c on CLKINT  I_89 
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
 
 
 
@@ -118,45 +114,30 @@ Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample I
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-<<<<<<< Updated upstream
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 173MB)
-=======
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 172MB)
->>>>>>> Stashed changes
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 172MB)
 
 Writing Analyst data base C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 173MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 172MB)
 
 
-<<<<<<< Updated upstream
-Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 173MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 173MB)
-=======
-Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 172MB)
-
-
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 171MB peak: 172MB)
->>>>>>> Stashed changes
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 171MB peak: 173MB)
 
 @W: MT420 |Found inferred clock aufgabe2|clk with period 10.00ns. Please declare a user-defined clock on port clk.
 
 
 ##### START OF TIMING REPORT #####[
-<<<<<<< Updated upstream
-# Timing report written on Wed Dec 21 11:00:02 2022
-=======
-# Timing report written on Tue Dec 20 12:52:28 2022
->>>>>>> Stashed changes
+# Timing report written on Wed Dec 21 14:59:45 2022
 #
 
 
@@ -222,16 +203,16 @@ Starting Points with Worst Slack
 Instance           Reference        Type     Pin     Net        Time        Slack
                    Clock                                                         
 ---------------------------------------------------------------------------------
-u1.buf3.cnt[1]     aufgabe2|clk     SLE      Q       cnt[1]     0.108       5.583
 u1.buf2.cnt[1]     aufgabe2|clk     SLE      Q       cnt[1]     0.108       5.583
 u1.buf1.cnt[1]     aufgabe2|clk     SLE      Q       cnt[1]     0.108       5.583
+u1.buf3.cnt[1]     aufgabe2|clk     SLE      Q       cnt[1]     0.108       5.583
 u1.buf2.cnt[0]     aufgabe2|clk     SLE      Q       cnt[0]     0.108       5.619
-u1.buf1.cnt[0]     aufgabe2|clk     SLE      Q       cnt[0]     0.108       5.619
 u1.buf3.cnt[0]     aufgabe2|clk     SLE      Q       cnt[0]     0.108       5.619
+u1.buf1.cnt[0]     aufgabe2|clk     SLE      Q       cnt[0]     0.108       5.619
+u1.buf3.q3         aufgabe2|clk     SLE      Q       q3         0.087       5.690
+u1.buf3.qH         aufgabe2|clk     SLE      Q       qH         0.108       5.716
 u1.buf3.cnt[3]     aufgabe2|clk     SLE      Q       cnt[3]     0.108       5.849
 u1.buf1.cnt[3]     aufgabe2|clk     SLE      Q       cnt[3]     0.108       5.849
-u1.buf2.cnt[3]     aufgabe2|clk     SLE      Q       cnt[3]     0.108       5.849
-u1.buf1.cnt[2]     aufgabe2|clk     SLE      Q       cnt[2]     0.108       5.886
 =================================================================================
 
 
@@ -242,16 +223,16 @@ Ending Points with Worst Slack
 Instance           Reference        Type     Pin     Net          Time         Slack
                    Clock                                                            
 ------------------------------------------------------------------------------------
-u1.buf3.cnt[4]     aufgabe2|clk     SLE      D       cnt_9[4]     9.745        5.583
 u1.buf1.cnt[4]     aufgabe2|clk     SLE      D       cnt_9[4]     9.745        5.583
 u1.buf2.cnt[4]     aufgabe2|clk     SLE      D       cnt_9[4]     9.745        5.583
-u1.buf3.cnt[2]     aufgabe2|clk     SLE      D       cnt_9[2]     9.745        5.632
-u1.buf1.cnt[2]     aufgabe2|clk     SLE      D       cnt_9[2]     9.745        5.632
+u1.buf3.cnt[4]     aufgabe2|clk     SLE      D       cnt_9[4]     9.745        5.583
 u1.buf2.cnt[2]     aufgabe2|clk     SLE      D       cnt_9[2]     9.745        5.632
-u1.buf1.cnt[0]     aufgabe2|clk     SLE      D       cnt_9[0]     9.745        5.733
-u1.buf2.cnt[0]     aufgabe2|clk     SLE      D       cnt_9[0]     9.745        5.733
-u1.buf3.cnt[0]     aufgabe2|clk     SLE      D       cnt_9[0]     9.745        5.733
-u1.buf2.cnt[1]     aufgabe2|clk     SLE      D       cnt_9[1]     9.745        5.733
+u1.buf1.cnt[2]     aufgabe2|clk     SLE      D       cnt_9[2]     9.745        5.632
+u1.buf3.cnt[2]     aufgabe2|clk     SLE      D       cnt_9[2]     9.745        5.632
+u2.cnt[0]          aufgabe2|clk     SLE      EN      un8_en       9.662        5.690
+u2.cnt[1]          aufgabe2|clk     SLE      EN      un8_en       9.662        5.690
+u2.cnt[2]          aufgabe2|clk     SLE      EN      un8_en       9.662        5.690
+u2.cnt[3]          aufgabe2|clk     SLE      EN      un8_en       9.662        5.690
 ====================================================================================
 
 
@@ -271,33 +252,33 @@ Path information for path number 1:
     = Slack (critical) :                     5.583
 
     Number of logic level(s):                5
-    Starting point:                          u1.buf3.cnt[1] / Q
-    Ending point:                            u1.buf3.cnt[4] / D
+    Starting point:                          u1.buf2.cnt[1] / Q
+    Ending point:                            u1.buf2.cnt[4] / D
     The start point is clocked by            aufgabe2|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
     The end   point is clocked by            aufgabe2|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
 
-Instance / Net                                 Pin      Pin               Arrival     No. of    
-Name                                  Type     Name     Dir     Delay     Time        Fan Out(s)
-------------------------------------------------------------------------------------------------
-u1.buf3.cnt[1]                        SLE      Q        Out     0.108     0.108 f     -         
-cnt[1]                                Net      -        -       0.855     -           5         
-u1.buf3.hysteresis\.un10_enlto4_1     CFG2     B        In      -         0.963 f     -         
-u1.buf3.hysteresis\.un10_enlto4_1     CFG2     Y        Out     0.164     1.128 f     -         
-un10_en_1                             Net      -        -       0.745     -           3         
-u1.buf3.un1_cnt_1.CO2_1               CFG4     D        In      -         1.873 f     -         
-u1.buf3.un1_cnt_1.CO2_1               CFG4     Y        Out     0.288     2.161 f     -         
-CO2_0                                 Net      -        -       0.248     -           1         
-u1.buf3.un1_cnt_1.CO2                 CFG3     C        In      -         2.409 f     -         
-u1.buf3.un1_cnt_1.CO2                 CFG3     Y        Out     0.210     2.619 f     -         
-CO2                                   Net      -        -       0.497     -           2         
-u1.buf3.un1_cnt_1.SUM_1[4]            CFG4     C        In      -         3.116 f     -         
-u1.buf3.un1_cnt_1.SUM_1[4]            CFG4     Y        Out     0.223     3.339 r     -         
-SUM_1[4]                              Net      -        -       0.248     -           1         
-u1.buf3.un1_cnt_1.SUM[4]              CFG4     D        In      -         3.587 r     -         
-u1.buf3.un1_cnt_1.SUM[4]              CFG4     Y        Out     0.326     3.913 r     -         
-cnt_9[4]                              Net      -        -       0.248     -           1         
-u1.buf3.cnt[4]                        SLE      D        In      -         4.162 r     -         
-================================================================================================
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+u1.buf2.cnt[1]                       SLE      Q        Out     0.108     0.108 f     -         
+cnt[1]                               Net      -        -       0.855     -           5         
+u1.buf2.hysteresis\.un9_enlto4_1     CFG2     B        In      -         0.963 f     -         
+u1.buf2.hysteresis\.un9_enlto4_1     CFG2     Y        Out     0.164     1.128 f     -         
+un9_en_1                             Net      -        -       0.745     -           3         
+u1.buf2.un1_cnt_1.CO2_1              CFG4     D        In      -         1.873 f     -         
+u1.buf2.un1_cnt_1.CO2_1              CFG4     Y        Out     0.288     2.161 f     -         
+CO2_0                                Net      -        -       0.248     -           1         
+u1.buf2.un1_cnt_1.CO2                CFG3     C        In      -         2.409 f     -         
+u1.buf2.un1_cnt_1.CO2                CFG3     Y        Out     0.210     2.619 f     -         
+CO2                                  Net      -        -       0.497     -           2         
+u1.buf2.un1_cnt_1.SUM_1[4]           CFG4     C        In      -         3.116 f     -         
+u1.buf2.un1_cnt_1.SUM_1[4]           CFG4     Y        Out     0.223     3.339 r     -         
+SUM_1[4]                             Net      -        -       0.248     -           1         
+u1.buf2.un1_cnt_1.SUM[4]             CFG4     D        In      -         3.587 r     -         
+u1.buf2.un1_cnt_1.SUM[4]             CFG4     Y        Out     0.326     3.913 r     -         
+cnt_9[4]                             Net      -        -       0.248     -           1         
+u1.buf2.cnt[4]                       SLE      D        In      -         4.162 r     -         
+===============================================================================================
 Total path delay (propagation time + setup) of 4.417 is 1.574(35.6%) logic and 2.843(64.4%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
@@ -307,14 +288,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-<<<<<<< Updated upstream
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
-=======
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 172MB)
->>>>>>> Stashed changes
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 173MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 174MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 173MB)
 
 ---------------------------------------
 Resource Usage Report for aufgabe2 
@@ -322,9 +299,9 @@ Resource Usage Report for aufgabe2
 Mapping to part: m2s005vf400std
 Cell usage:
 CLKINT          2 uses
-CFG1           4 uses
-CFG2           15 uses
-CFG3           21 uses
+CFG1           5 uses
+CFG2           23 uses
+CFG3           29 uses
 CFG4           49 uses
 
 Carry cells:
@@ -346,7 +323,7 @@ OUTBUF         14 uses
 
 Global Clock Buffers: 2
 
-Total LUTs:    114
+Total LUTs:    131
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -355,20 +332,13 @@ RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
 Total number of SLEs after P&R:  80 + 0 + 0 + 0 = 80;
-Total number of LUTs after P&R:  114 + 0 + 0 + 0 = 114;
+Total number of LUTs after P&R:  131 + 0 + 0 + 0 = 131;
 
 Mapper successful!
 
-<<<<<<< Updated upstream
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 63MB peak: 174MB)
-
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Wed Dec 21 11:00:02 2022
-=======
 At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 62MB peak: 173MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Tue Dec 20 12:52:29 2022
->>>>>>> Stashed changes
+# Wed Dec 21 14:59:46 2022
 
 ###########################################################]

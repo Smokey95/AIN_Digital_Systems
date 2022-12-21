@@ -9,7 +9,7 @@ Build: S-2021.09M-SP1
 Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 6.2
 
-Hostname: DS-PC07
+Hostname: DS-PC09
 
 Implementation : synthesis
 
@@ -26,16 +26,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      80                 100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block aufgabe2:	80 (33.61 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block aufgabe2:	80 (31.37 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      89                 100 %                
+CFG      106                100 %                
 ARI1     25                 100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block aufgabe2:	114 (47.90 % Utilization)
+Total COMBINATIONAL LOGIC in the block aufgabe2:	131 (51.37 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -43,7 +43,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block aufgabe2:	2 (0.84 % Utilization)
+Total GLOBAL BUFFERS in the block aufgabe2:	2 (0.78 % Utilization)
 
 
 IO PADS
@@ -51,7 +51,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       28                 100 %                
 =================================================
-Total IO PADS in the block aufgabe2:	28 (11.76 % Utilization)
+Total IO PADS in the block aufgabe2:	28 (10.98 % Utilization)
 
 ---------------------------------------------------------------
 ########   Utilization report for  cell:   hex4x7seg   ########
@@ -63,16 +63,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      17                 21.2 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block aufgabe2.hex4x7seg:	17 (7.14 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block aufgabe2.hex4x7seg:	17 (6.67 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      21                 23.6 %               
+CFG      21                 19.8 %               
 ARI1     8                  32 %                 
 =================================================
-Total COMBINATIONAL LOGIC in the block aufgabe2.hex4x7seg:	29 (12.18 % Utilization)
+Total COMBINATIONAL LOGIC in the block aufgabe2.hex4x7seg:	29 (11.37 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   std_counter   ########
@@ -84,16 +84,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      17                 21.2 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block aufgabe2.std_counter:	17 (7.14 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block aufgabe2.std_counter:	17 (6.67 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  2.25 %               
+CFG      19                 17.9 %               
 ARI1     17                 68 %                 
 =================================================
-Total COMBINATIONAL LOGIC in the block aufgabe2.std_counter:	19 (7.98 % Utilization)
+Total COMBINATIONAL LOGIC in the block aufgabe2.std_counter:	36 (14.12 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   sync_module   ########
@@ -105,35 +105,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      46                 57.5 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block aufgabe2.sync_module:	46 (19.33 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block aufgabe2.sync_module:	46 (18.04 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      65                 73 %                 
+CFG      65                 61.3 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block aufgabe2.sync_module:	65 (27.31 % Utilization)
-
------------------------------------------------------------------
-########   Utilization report for  cell:   sync_buffer   ########
-Instance path:   sync_module.sync_buffer                         
-=================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      10                 12.5 %               
-=================================================
-Total SEQUENTIAL ELEMENTS in the block sync_module.sync_buffer:	10 (4.20 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-CFG      19                 21.3 %               
-=================================================
-Total COMBINATIONAL LOGIC in the block sync_module.sync_buffer:	19 (7.98 % Utilization)
+Total COMBINATIONAL LOGIC in the block aufgabe2.sync_module:	65 (25.49 % Utilization)
 
 -------------------------------------------------------------------
 ########   Utilization report for  cell:   sync_buffer_0   ########
@@ -145,15 +125,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      10                 12.5 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block sync_module.sync_buffer_0:	10 (4.20 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block sync_module.sync_buffer_0:	10 (3.92 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      20                 22.5 %               
+CFG      20                 18.9 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block sync_module.sync_buffer_0:	20 (8.40 % Utilization)
+Total COMBINATIONAL LOGIC in the block sync_module.sync_buffer_0:	20 (7.84 % Utilization)
 
 -------------------------------------------------------------------
 ########   Utilization report for  cell:   sync_buffer_2   ########
@@ -165,15 +145,35 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      10                 12.5 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block sync_module.sync_buffer_2:	10 (4.20 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block sync_module.sync_buffer_2:	10 (3.92 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      20                 22.5 %               
+CFG      19                 17.9 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block sync_module.sync_buffer_2:	20 (8.40 % Utilization)
+Total COMBINATIONAL LOGIC in the block sync_module.sync_buffer_2:	19 (7.45 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   sync_buffer_2_0   ########
+Instance path:   sync_module.sync_buffer_2_0                         
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      10                 12.5 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block sync_module.sync_buffer_2_0:	10 (3.92 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      20                 18.9 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block sync_module.sync_buffer_2_0:	20 (7.84 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

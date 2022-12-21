@@ -1,3 +1,2 @@
-@E: CD216 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd":87:20:87:21|label required for generate
-@E: Parse errors encountered - exiting
+@E: CD297 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd":81:24:81:26|Width mismatch, location has width 17, value 16
 

@@ -1,2 +1,2 @@
-@W: CL177 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":56:8:56:9|Sharing sequential element q2 and merging q3. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CD638 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":41:13:41:15|Signal reg is undriven. Either assign the signal a value or remove the signal declaration.
 

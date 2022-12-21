@@ -8,124 +8,84 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dE:/00_Git/02_Study/DISY/02-Aufgabe
-Plfsr_lib
-Z0 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
-Z1 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
-!i122 31
-Z2 w1670929272
-Z3 dC:/Users/si741rau/Desktop/DISY/02-Aufgabe
-Z4 8C:/Users/si741rau/Desktop/DISY/bib/lfsr_lib.vhd
-Z5 FC:/Users/si741rau/Desktop/DISY/bib/lfsr_lib.vhd
-l0
-L4 6
-VRH6nV@hlBJjhRQlI0bbQl1
-!s100 <DLBXhSZk3^=;dk_]1WN01
-Z6 OW;C;2022.2;75
-32
-b1
-Z7 !s110 1671538919
-!i10b 1
-Z8 !s108 1671538919.000000
-Z9 !s90 -reportprogress|300|-work|work|C:/Users/si741rau/Desktop/DISY/bib/lfsr_lib.vhd|
-Z10 !s107 C:/Users/si741rau/Desktop/DISY/bib/lfsr_lib.vhd|
-!i113 1
-Z11 o-work work -O0
-Z12 tExplicit 1 CvgOpt 0
-Bbody
-Z13 DPx4 work 8 lfsr_lib 0 22 RH6nV@hlBJjhRQlI0bbQl1
-R0
-R1
-!i122 31
-l0
-L11 30
-V:Wfg8Qj<?h22J7M]h[8jW0
-!s100 QiNK8EX^fK>>SX^Z8Nn9a1
-R6
-32
-R7
-!i10b 1
-R8
-R9
-R10
-!i113 1
-R11
-R12
+Z0 dC:/Users/si741rau/Desktop/DISY/02-Aufgabe
 Estd_counter
-<<<<<<< Updated upstream
-Z0 w1671616784
-Z1 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
-Z2 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
-Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
-Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
-!i122 34
-Z5 dC:/Users/si741rau/Desktop/DISY/02-Aufgabe
+Z1 w1671631123
+Z2 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
+Z4 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z5 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 32
+R0
 Z6 8C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd
 Z7 FC:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd
-=======
-Z14 w1671536453
-Z15 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
-Z16 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
-R0
-R1
-!i122 30
-R3
-Z17 8C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd
-Z18 FC:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd
->>>>>>> Stashed changes
 l0
 L6 1
 V7lbE><ac^ahj<EH7ofj[T3
 !s100 SloV4g<zlXh=z3D?Jcz`l2
-R6
+Z8 OW;C;2022.2;75
 32
-<<<<<<< Updated upstream
-Z9 !s110 1671616797
+Z9 !s110 1671631133
 !i10b 1
-Z10 !s108 1671616797.000000
+Z10 !s108 1671631132.000000
 Z11 !s90 -reportprogress|300|-work|work|-O0|C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd|
 Z12 !s107 C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd|
 !i113 1
 Z13 o-work work -O0
 Z14 tExplicit 1 CvgOpt 0
 Averhalten
-R1
 R2
 R3
 R4
+R5
 Z15 DEx4 work 11 std_counter 0 22 7lbE><ac^ahj<EH7ofj[T3
-!i122 34
-l53
-Z16 L47 55
-V=i``XJ<lLe1^28JD6FQAR0
-!s100 YTMKgL[dYIHWO_bJVR[H72
+!i122 32
+l61
+L47 58
+V330^5`RYKVoCkQi=<X1L83
+!s100 lK6b]Ab[hk9GZUWFZMYke0
 R8
 32
 R9
 !i10b 1
 R10
-=======
-Z19 !s110 1671536479
-!i10b 1
-Z20 !s108 1671536479.000000
-Z21 !s90 -reportprogress|300|-work|work|-O0|C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd|
-Z22 !s107 C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter.vhd|
-!i113 1
->>>>>>> Stashed changes
 R11
 R12
-Averhalten
-R15
-R16
+!i113 1
+R13
+R14
+Estd_counter_tb
+Z16 w1671620624
+!i122 0
 R0
-R1
-DEx4 work 11 std_counter 0 22 7lbE><ac^ahj<EH7ofj[T3
-!i122 30
-l53
-L47 55
-VTQ_g8eKnG>=8]0gfl^_g;0
-!s100 dUIA?16;AQQRT1L@?^ON;0
-R6
+Z17 8C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd
+Z18 FC:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd
+l0
+L1 1
+Vaa1^YNndM?Dc9Bc2Vaak03
+!s100 glQ2m01jLj04hdSb`dMFI3
+R8
+32
+Z19 !s110 1671621377
+!i10b 1
+Z20 !s108 1671621377.000000
+Z21 !s90 -reportprogress|300|-work|work|C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd|
+Z22 !s107 C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd|
+!i113 1
+R13
+R14
+Averhalten
+DEx4 work 14 std_counter_tb 0 22 aa1^YNndM?Dc9Bc2Vaak03
+R2
+R3
+R5
+R4
+!i122 0
+l127
+L11 185
+Vh>bDcfN4___c:K2k3lPc<2
+!s100 AilKIGgI<XZzUW@?[_9ZT1
+R8
 32
 R19
 !i10b 1
@@ -133,116 +93,5 @@ R20
 R21
 R22
 !i113 1
-R11
-R12
-Estd_counter_tb
-<<<<<<< Updated upstream
-Z17 w1671615841
-!i122 31
-R5
-Z18 8C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd
-Z19 FC:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd
-=======
-Z23 w1671534061
-!i122 13
-R3
-Z24 8C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd
-Z25 FC:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd
->>>>>>> Stashed changes
-l0
-L1 1
-Vaa1^YNndM?Dc9Bc2Vaak03
-!s100 glQ2m01jLj04hdSb`dMFI3
-R6
-32
-<<<<<<< Updated upstream
-Z20 !s110 1671615962
-!i10b 1
-Z21 !s108 1671615961.000000
-Z22 !s90 -reportprogress|300|-work|work|-O0|C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd|
-Z23 !s107 C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd|
-=======
-Z26 !s110 1671534065
-!i10b 1
-Z27 !s108 1671534065.000000
-Z28 !s90 -reportprogress|300|-work|work|-O0|C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd|
-Z29 !s107 C:/Users/si741rau/Desktop/DISY/02-Aufgabe/std_counter_tb.vhd|
->>>>>>> Stashed changes
-!i113 1
-R11
-R12
-Averhalten
-DEx4 work 14 std_counter_tb 0 22 aa1^YNndM?Dc9Bc2Vaak03
-R15
-R16
-R1
-<<<<<<< Updated upstream
-R2
-R4
-R3
-!i122 31
-=======
-R0
-!i122 13
->>>>>>> Stashed changes
-l127
-L11 185
-Vh>bDcfN4___c:K2k3lPc<2
-!s100 AilKIGgI<XZzUW@?[_9ZT1
-R6
-32
-R26
-!i10b 1
-R27
-R28
-R29
-!i113 1
-R11
-R12
-Esync_buffer
-Z30 w1671539111
 R13
-R15
-R16
-R0
-R1
-!i122 37
-R3
-Z31 8C:/Users/si741rau/Desktop/DISY/02-Aufgabe/sync_buffer.vhd
-Z32 FC:/Users/si741rau/Desktop/DISY/02-Aufgabe/sync_buffer.vhd
-l0
-L7 1
-Vgg6WJ?4?=j9S>=B^KBdLD1
-!s100 8RI8ijjOMWLge^Bm`l9f?1
-R6
-32
-Z33 !s110 1671539126
-!i10b 1
-Z34 !s108 1671539126.000000
-Z35 !s90 -reportprogress|300|-work|work|-O0|C:/Users/si741rau/Desktop/DISY/02-Aufgabe/sync_buffer.vhd|
-Z36 !s107 C:/Users/si741rau/Desktop/DISY/02-Aufgabe/sync_buffer.vhd|
-!i113 1
-R11
-R12
-Averhalten
-R13
-R15
-R16
-R0
-R1
-Z37 DEx4 work 11 sync_buffer 0 22 gg6WJ?4?=j9S>=B^KBdLD1
-!i122 37
-l42
-Z38 L24 117
-VODU[`z[4`ER:lz^U8c]G92
-!s100 jG[^h:Nzh`D>U3PhJZ4=_3
-R6
-32
-R33
-!i10b 1
-R34
-R35
-R36
-!i113 1
-R11
-R12
+R14

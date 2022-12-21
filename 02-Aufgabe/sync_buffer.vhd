@@ -77,6 +77,7 @@ BEGIN
             state   <= S0;
             qH      <= '0';
             cnt     <= 0;
+            --reg <= (OTHERS => '1');
         ELSIF rising_edge(clk) THEN
             IF en = '1' THEN
 				CASE state IS
@@ -93,6 +94,17 @@ BEGIN
 								cnt <= cnt - 1;
 							END IF;
 						END IF;
+                        --IF q2 = '1' THEN
+							--IF reg /= RES THEN
+								--reg <= lfsr(reg, POLY, '1');
+							--ELSE
+								--state <= S1;
+							--END IF;
+						--ELSE
+							--IF reg > 0 THEN
+								--reg <= lfsr(reg, POLY, '0');
+							--END IF;
+						--END IF;
 					WHEN S1 =>
 						qH <= '1';
 						IF q2 = '1' THEN
@@ -106,6 +118,17 @@ BEGIN
 								state <= S0;
 							END IF;
 						END IF;
+                        --IF q2 = '1' THEN
+							--IF reg /= RES THEN
+								--reg <= lfsr(reg, POLY, '1');
+							--END IF;
+					    --ELSE
+							--IF reg > 0 THEN
+								--reg <= lfsr(reg, POLY, '0');
+							--ELSE
+								--state <= S0;
+							--END IF;
+						--END IF;
 				END CASE;
 			END IF;
             
@@ -113,6 +136,7 @@ BEGIN
                 state   <= S0;
 				qH      <= '0';
 				cnt     <= 0;
+                --reg <= (OTHERS => '1');
 			END IF;
         END IF;
     END PROCESS hysteresis;

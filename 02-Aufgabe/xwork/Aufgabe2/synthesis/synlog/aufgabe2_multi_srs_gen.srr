@@ -9,7 +9,7 @@ Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
 Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 10 or later
-Hostname: DS-PC07
+Hostname: DS-PC09
 
 Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
@@ -17,15 +17,11 @@ Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun
 @N|Running in 64-bit mode
 File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-<<<<<<< Updated upstream
-# Wed Dec 21 10:59:58 2022
-=======
-# Tue Dec 20 12:52:24 2022
->>>>>>> Stashed changes
+# Wed Dec 21 14:59:41 2022
 
 ###########################################################]
