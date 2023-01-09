@@ -1,6 +1,7 @@
 KEY LIBERO "2022.2"
 KEY CAPTURE "2022.2.0.10"
 KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VERILOG"
 KEY VERILOGMODE "SYSTEMVERILOG"
@@ -31,7 +32,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2"
+KEY ProjectLocation "E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -46,34 +47,35 @@ KEY Vendor "Actel"
 KEY ActiveRoot "aufgabe2::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
-CURREV=1
+VALUE="Impl2",NUM=2
+CURREV=2
 ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
 LIST FileManager
 VALUE "<project>\synthesis\aufgabe2.so,so"
 STATE="utd"
-TIME="1671621247"
+TIME="1673297292"
 SIZE="247"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2.vm,syn_vm"
 STATE="utd"
-TIME="1671621246"
-SIZE="43072"
+TIME="1673297292"
+SIZE="45825"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2_syn.prj,prj"
 STATE="utd"
-TIME="1671621247"
+TIME="1673297292"
 SIZE="2811"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe2_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1671621246"
+TIME="1673297292"
 SIZE="968"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1671625866"
+TIME="1673297070"
 SIZE="159"
 ENDFILE
 VALUE "C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd,hdl"
@@ -122,7 +124,7 @@ LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
 LIST "aufgabe2::work"
-FILE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd,hdl"
+FILE "<project>\synthesis\aufgabe2.vm,syn_vm"
 LIST PNRConstraints
 VALUE "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.pdc,io_pdc"
 ENDLIST
@@ -211,16 +213,16 @@ EndProfile
 NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
-LOCATION="C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+LOCATION="D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
 NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
-LOCATION="C:\Microchip\Libero_SoC_v2022.2\ModelSimPro\win32acoem\modelsim.exe"
+LOCATION="D:\Microchip\Libero_SoC_v2022.2\ModelSimPro\win32acoem\modelsim.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -229,7 +231,7 @@ EndProfile
 NAME="Identify Debugger"
 FUNCTION="IdentifyDebugger"
 TOOL="Identify Debugger"
-LOCATION="C:\Microchip\Libero_SoC_v2022.2\Identify\bin\identify_debugger.exe"
+LOCATION="D:\Microchip\Libero_SoC_v2022.2\Identify\bin\identify_debugger.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -262,37 +264,11 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Place and Route:aufgabe2_glb_net_report.xml
-HDL;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter_tb.vhd;0
-HDL;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd;0
-Constraint Manager;Constraint Manager;0
-HDL;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd;0
-HDL;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd;0
 StartPage;StartPage;0
-ACTIVEVIEW;C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
-LIST "aufgabe2::work","C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd","FALSE","FALSE"
-SUBBLOCK "std_counter::work","C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd","FALSE","FALSE"
-SUBBLOCK "sync_module::work","C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd","FALSE","FALSE"
-SUBBLOCK "hex4x7seg::work","C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd","FALSE","FALSE"
-ENDLIST
-LIST "std_counter::work","C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd","FALSE","FALSE"
-ENDLIST
-LIST "sync_buffer::work","C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd","FALSE","FALSE"
-ENDLIST
-LIST "sync_module::work","C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd","FALSE","FALSE"
-SUBBLOCK "sync_buffer::work","C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd","FALSE","FALSE"
-ENDLIST
-LIST "std_counter::work","C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd","FALSE","FALSE"
-ENDLIST
-LIST "hex4x7seg::work","C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd","FALSE","FALSE"
-ENDLIST
-LIST "lfsr_lib::work","C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd","FALSE","FALSE"
-ENDLIST
-LIST "std_counter_tb::work","C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter_tb.vhd","FALSE","FALSE"
-SUBBLOCK "std_counter::work","C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd","FALSE","FALSE"
+LIST "aufgabe2::work","synthesis\aufgabe2.vm","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

@@ -1,9 +1,9 @@
 # Microsemi Corp.
-# Date: 2022-Dec-21 15:01:46
+# Date: 2023-Jan-09 21:48:58
 Libero Release : v2022.2
 Libero Version : 2022.2.0.10
 Operating System Name : Windows 8
-Ram Size : 15.41 GB (usable)
+Ram Size : 15.73 GB (usable)
 OS Type : 64-bit
 
 Environment Variables : 

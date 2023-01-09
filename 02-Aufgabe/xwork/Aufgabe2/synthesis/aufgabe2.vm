@@ -2,27 +2,27 @@
 // Written by Synplify Pro 
 // Product Version "S-2021.09M-SP1"
 // Program "Synplify Pro", Mapper "map202109actsp1, Build 056R"
-// Wed Dec 21 14:59:45 2022
+// Mon Jan  9 21:52:27 2023
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
-// file 0 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\std.vhd "
-// file 1 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd\snps_haps_pkg.vhd "
-// file 2 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\std1164.vhd "
-// file 3 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\std_textio.vhd "
-// file 4 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\numeric.vhd "
-// file 5 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd\umr_capim.vhd "
-// file 6 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\arith.vhd "
-// file 7 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\unsigned.vhd "
-// file 8 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd\hyperents.vhd "
-// file 9 "\c:\users\si741rau\desktop\disy\02-aufgabe\std_counter.vhd "
-// file 10 "\c:\users\si741rau\desktop\disy\bib\lfsr_lib.vhd "
-// file 11 "\c:\users\si741rau\desktop\disy\01-aufgabe\hex4x7seg.vhd "
-// file 12 "\c:\users\si741rau\desktop\disy\02-aufgabe\sync_buffer.vhd "
-// file 13 "\c:\users\si741rau\desktop\disy\02-aufgabe\sync_module.vhd "
-// file 14 "\c:\users\si741rau\desktop\disy\02-aufgabe\aufgabe2.vhd "
-// file 15 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\nlconst.dat "
-// file 16 "\c:\users\si741rau\desktop\disy\02-aufgabe\xwork\aufgabe2\designer\aufgabe2\synthesis.fdc "
+// file 0 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\std.vhd "
+// file 1 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd\snps_haps_pkg.vhd "
+// file 2 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\std1164.vhd "
+// file 3 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\std_textio.vhd "
+// file 4 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\numeric.vhd "
+// file 5 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd\umr_capim.vhd "
+// file 6 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\arith.vhd "
+// file 7 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\unsigned.vhd "
+// file 8 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd\hyperents.vhd "
+// file 9 "\e:\00_git\02_study\disy\02-aufgabe\std_counter.vhd "
+// file 10 "\e:\00_git\02_study\disy\bib\lfsr_lib.vhd "
+// file 11 "\e:\00_git\02_study\disy\01-aufgabe\hex4x7seg.vhd "
+// file 12 "\e:\00_git\02_study\disy\02-aufgabe\sync_buffer.vhd "
+// file 13 "\e:\00_git\02_study\disy\02-aufgabe\sync_module.vhd "
+// file 14 "\e:\00_git\02_study\disy\02-aufgabe\aufgabe2.vhd "
+// file 15 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\nlconst.dat "
+// file 16 "\e:\00_git\02_study\disy\02-aufgabe\xwork\aufgabe2\designer\aufgabe2\synthesis.fdc "
 
 `timescale 100 ps/100 ps
 module sync_buffer_2 (

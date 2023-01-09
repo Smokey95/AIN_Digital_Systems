@@ -1,7 +1,7 @@
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
-@N: MO106 :"c:\users\si741rau\desktop\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|Found ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) with 16 words by 7 bits.
+@N: MO106 :"e:\00_git\02_study\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|Found ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) with 16 words by 7 bits.
 @N: FP130 |Promoting Net rst_arst on CLKINT  I_88 
 @N: FP130 |Promoting Net clk_c on CLKINT  I_89 
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.

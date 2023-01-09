@@ -1,9 +1,9 @@
 #Build: Synplify Pro (R) S-2021.09M-SP1, Build 150R, Jun 14 2022
-#install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+#install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 #OS: Windows 10 or later
-#Hostname: DS-PC09
+#Hostname: SIMON
 
-# Wed Dec 21 14:59:39 2022
+# Mon Jan  9 21:52:20 2023
 
 #Implementation: synthesis
 
@@ -15,9 +15,9 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
-Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 10 or later
-Hostname: DS-PC09
+Hostname: SIMON
 
 Implementation : synthesis
 Synopsys HDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
@@ -32,49 +32,47 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
-Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 10 or later
-Hostname: DS-PC09
+Hostname: SIMON
 
 Implementation : synthesis
 Synopsys VHDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
 
 @N|Running in 64-bit mode
-@N:"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Top entity is set to aufgabe2.
-File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd changed - recompiling
-File C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd changed - recompiling
-File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd changed - recompiling
-File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd changed - recompiling
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\bib\lfsr_lib.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd'.
+@N:"E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Top entity is set to aufgabe2.
+Options changed - recompiling
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\bib\lfsr_lib.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\01-Aufgabe\hex4x7seg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd'.
 VHDL syntax check successful!
-@N: CD231 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
-@N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Synthesizing work.aufgabe2.structure.
-@N: CD630 :"C:\Users\si741rau\Desktop\DISY\01-Aufgabe\hex4x7seg.vhd":6:7:6:15|Synthesizing work.hex4x7seg.struktur.
+Options changed - recompiling
+@N: CD231 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd":5:7:5:14|Synthesizing work.aufgabe2.structure.
+@N: CD630 :"E:\00_Git\02_Study\DISY\01-Aufgabe\hex4x7seg.vhd":6:7:6:15|Synthesizing work.hex4x7seg.struktur.
 Post processing for work.hex4x7seg.struktur
 Running optimization stage 1 on hex4x7seg .......
-Finished optimization stage 1 on hex4x7seg (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
-@N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\std_counter.vhd":6:7:6:17|Synthesizing work.std_counter.verhalten.
+Finished optimization stage 1 on hex4x7seg (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+@N: CD630 :"E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd":6:7:6:17|Synthesizing work.std_counter.verhalten.
 Post processing for work.std_counter.verhalten
 Running optimization stage 1 on std_counter .......
-Finished optimization stage 1 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
-@N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_module.vhd":7:7:7:17|Synthesizing work.sync_module.verhalten.
-@N: CD630 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":7:7:7:17|Synthesizing work.sync_buffer.verhalten.
-@N: CD233 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":30:16:30:17|Using sequential encoding for type tstate.
-@W: CD638 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":41:13:41:15|Signal reg is undriven. Either assign the signal a value or remove the signal declaration.
+Finished optimization stage 1 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+@N: CD630 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd":7:7:7:17|Synthesizing work.sync_module.verhalten.
+@N: CD630 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":7:7:7:17|Synthesizing work.sync_buffer.verhalten.
+@N: CD233 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":30:16:30:17|Using sequential encoding for type tstate.
+@W: CD638 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":41:13:41:15|Signal reg is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for work.sync_buffer.verhalten
 Running optimization stage 1 on sync_buffer .......
-Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
 Post processing for work.sync_module.verhalten
 Running optimization stage 1 on sync_module .......
-Finished optimization stage 1 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Finished optimization stage 1 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
 Post processing for work.aufgabe2.structure
 Running optimization stage 1 on aufgabe2 .......
-Finished optimization stage 1 on aufgabe2 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Finished optimization stage 1 on aufgabe2 (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
 Running optimization stage 2 on sync_buffer .......
 Finished optimization stage 2 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on sync_module .......
@@ -88,7 +86,7 @@ Finished optimization stage 2 on aufgabe2 (CPU Time 0h:00m:00s, Memory Used curr
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
-@L: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\layer0.rt.csv
+@L: E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\layer0.rt.csv
 
 
 At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 96MB)
@@ -96,7 +94,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Dec 21 14:59:40 2022
+# Mon Jan  9 21:52:22 2023
 
 ###########################################################]
 ###########################################################[
@@ -108,37 +106,38 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
-Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 10 or later
-Hostname: DS-PC09
+Hostname: SIMON
 
 Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
 
 @N|Running in 64-bit mode
+File C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\syn_nfilter.exe changed - recompiling
 File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Dec 21 14:59:40 2022
+# Mon Jan  9 21:52:22 2023
 
 ###########################################################]
 
 For a summary of runtime and memory usage for all design units, please see file:
 ==========================================================
-@L: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_comp.rt.csv
+@L: E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_comp.rt.csv
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 29MB peak: 29MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Dec 21 14:59:40 2022
+# Mon Jan  9 21:52:22 2023
 
 ###########################################################]
 ###########################################################[
@@ -150,14 +149,15 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
-Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 10 or later
-Hostname: DS-PC09
+Hostname: SIMON
 
 Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
 
 @N|Running in 64-bit mode
+File C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\syn_nfilter.exe changed - recompiling
 File C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
@@ -165,12 +165,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Dec 21 14:59:41 2022
+# Mon Jan  9 21:52:23 2023
 
 ###########################################################]
 Premap Report
 
-# Wed Dec 21 14:59:42 2022
+# Mon Jan  9 21:52:24 2023
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -180,10 +180,10 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
-Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 6.2
 
-Hostname: DS-PC09
+Hostname: SIMON
 
 Implementation : synthesis
 Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
@@ -192,25 +192,25 @@ Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 131MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 132MB)
 
-Reading constraint file: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\synthesis.fdc
-@L: C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2_scck.rpt 
-See clock summary report "C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2_scck.rpt"
+Reading constraint file: E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\synthesis.fdc
+@L: E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2_scck.rpt 
+See clock summary report "E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2_scck.rpt"
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 131MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 132MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 131MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 132MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 131MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 132MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 132MB)
 
 
 Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
@@ -220,7 +220,7 @@ Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=10 on top level netlist aufgabe2 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
 
 
 
@@ -244,31 +244,31 @@ Clock            Load      Pin           Seq Example        Seq Example       Co
 aufgabe2|clk     80        clk(port)     u3.reg[13:0].C     -                 -            
 ===========================================================================================
 
-@W: MT530 :"c:\users\si741rau\desktop\disy\02-aufgabe\sync_buffer.vhd":76:8:76:9|Found inferred clock aufgabe2|clk which controls 80 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\00_git\02_study\disy\02-aufgabe\sync_buffer.vhd":76:8:76:9|Found inferred clock aufgabe2|clk which controls 80 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
-@N: BN225 |Writing default property annotation file C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2.sap.
+@N: BN225 |Writing default property annotation file E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
-
-
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 167MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 82MB peak: 168MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 169MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Dec 21 14:59:43 2022
+# Mon Jan  9 21:52:25 2023
 
 ###########################################################]
 Map & Optimize Report
 
-# Wed Dec 21 14:59:43 2022
+# Mon Jan  9 21:52:25 2023
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -278,10 +278,10 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
-Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 6.2
 
-Hostname: DS-PC09
+Hostname: SIMON
 
 Implementation : synthesis
 Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
@@ -293,16 +293,16 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 131MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 131MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 131MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 131MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 132MB)
 
 
 
@@ -312,17 +312,17 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 #### START OF SSF LOG MESSAGES ####
 
 #### END OF SSF LOG MESSAGES ####
-@W: FA239 :"c:\users\si741rau\desktop\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"c:\users\si741rau\desktop\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@N: MO106 :"c:\users\si741rau\desktop\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|Found ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) with 16 words by 7 bits.
+@W: FA239 :"e:\00_git\02_study\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\00_git\02_study\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\00_git\02_study\disy\01-aufgabe\hex4x7seg.vhd":148:16:148:24|Found ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) with 16 words by 7 bits.
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -332,19 +332,19 @@ Available hyper_sources - for debug and ip models
 Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
@@ -357,10 +357,10 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
 
 
 
@@ -386,28 +386,28 @@ Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample I
 
 Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 172MB)
 
-Writing Analyst data base C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_m.srm
+Writing Analyst data base E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\synwork\aufgabe2_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 172MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 173MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 171MB peak: 173MB)
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 173MB)
 
 @W: MT420 |Found inferred clock aufgabe2|clk with period 10.00ns. Please declare a user-defined clock on port clk.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Wed Dec 21 14:59:45 2022
+# Timing report written on Mon Jan  9 21:52:27 2023
 #
 
 
@@ -415,7 +415,7 @@ Top view:               aufgabe2
 Requested Frequency:    100.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\synthesis.fdc
+Constraint File(s):    E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\synthesis.fdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -558,10 +558,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 173MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 173MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
 
 ---------------------------------------
 Resource Usage Report for aufgabe2 
@@ -606,9 +606,9 @@ Total number of LUTs after P&R:  131 + 0 + 0 + 0 = 131;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 62MB peak: 173MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 63MB peak: 173MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Wed Dec 21 14:59:46 2022
+# Mon Jan  9 21:52:28 2023
 
 ###########################################################]

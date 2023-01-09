@@ -1,6 +1,6 @@
 Resource Report
 Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
-Date: Wed Dec 21 14:59:52 2022
+Date: Mon Jan  9 21:52:32 2023
 
 Device Selection
 +--------------------------------+----------------+
@@ -20,11 +20,11 @@ Device Selection
 +--------------------------------+----------------+
 
 Source Files
-+---------+--------------------------------------------------------------------------------+
-| Topcell | aufgabe2                                                                       |
-| Format  | Verilog                                                                        |
-| Source  | C:\Users\si741rau\Desktop\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2.vm |
-+---------+--------------------------------------------------------------------------------+
++---------+-------------------------------------------------------------------------+
+| Topcell | aufgabe2                                                                |
+| Format  | Verilog                                                                 |
+| Source  | E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2.vm |
++---------+-------------------------------------------------------------------------+
 
 Options
 +----------------------------------------------------+-------+

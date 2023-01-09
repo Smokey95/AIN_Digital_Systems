@@ -1,2 +1,2 @@
-@W: CD638 :"C:\Users\si741rau\Desktop\DISY\02-Aufgabe\sync_buffer.vhd":41:13:41:15|Signal reg is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd":41:13:41:15|Signal reg is undriven. Either assign the signal a value or remove the signal declaration.
 

@@ -1,0 +1,79 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+I/O Register Combining   : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+
+INFO: Reading User PDC file E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 28 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified bank 'Bank0' as being fixed at VCCI:2.50V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank1' as being fixed at VCCI:3.30V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank2' as being fixed at VCCI:3.30V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank3' as being fixed at VCCI:2.50V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank4' as being fixed at VCCI:3.30V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank5' as being fixed at VCCI:2.50V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank6' as being fixed at VCCI:3.30V VCCR:n/a
+Info:   I/O Bank and Globals Assigner detected (7) out of (7) I/O Bank(s) with locked I/O technologies.
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 2022.2.0 
+Design: aufgabe2                        Started: Mon Jan  9 21:52:39 2023
+
+Initializing Normal-Effort Standard Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 0 seconds
+Improvement              : 0 seconds
+
+Placer completed successfully.
+
+Design: aufgabe2                        
+Finished: Mon Jan  9 21:52:41 2023
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:02
+Total Memory Usage: 96.8 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\aufgabe2Started: Mon Jan  9 21:52:43 2023
+
+
+Router completed successfully.
+
+Design: E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\aufgabe2
+Finished: Mon Jan  9 21:52:45 2023
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:02
+Total Memory Usage: 258.6 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 131  | 6060  | 2.16       |
+| DFF           | 80   | 6060  | 1.32       |
+| I/O Register  | 0    | 252   | 0.00       |
+| Logic Element | 148  | 6060  | 2.44       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  28   | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+
