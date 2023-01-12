@@ -48,94 +48,47 @@ ARCHITECTURE verhalten OF std_counter IS
 
     -- Defines a vector with one bit more than the counter length to detect an overflow
     SIGNAL cnt: STD_LOGIC_VECTOR(CNTLEN DOWNTO 0);
-    -- SIGNAL cntOld: STD_LOGIC_VECTOR(CNTLEN DOWNTO 0);
-    
-    -- SIGNAL cntOnes: STD_LOGIC_VECTOR(CNTLEN DOWNTO 0) := (OTHERS => '1'); 
-    -- cntOnes <= (OTHERS => '1');
-    
-    -- SIGNAL cntZero: STD_LOGIC_VECTOR(CNTLEN DOWNTO 0) := (OTHERS => '0');
-    -- cntZero <= (OTHERS => '0');
-    
-    --SIGNAL overflow: STD_LOGIC;
 
 BEGIN
 
 -- The funktions defined in the Funktionstabelle must be implemented
 -- Test how to save logic gates and how to save the number of flip-flops
 
-        p1: PROCESS(clk, rst) is
-        BEGIN
-            IF rst=RSTDEF THEN
-                cnt <= (OTHERS => '0');
-            ELSIF rising_edge(clk) THEN
+    p1: PROCESS(clk, rst) is
+    BEGIN
+        IF rst=RSTDEF THEN
+            cnt <= (OTHERS => '0');
+        ELSIF rising_edge(clk) THEN
+            
+            IF en='1' THEN
                 
-                IF en='1' THEN
+                IF load='1' THEN
+                    cnt(CNTLEN) <= '0';                 -- clear HSB (overflow bit)  
+                    cnt(CNTLEN-1 DOWNTO 0) <= din;
                     
-                    IF load='1' THEN
+                ELSIF dec='1' THEN
+                    -- sets the HSB to 0 and decrement bits HSB - 1 to Bit 0
+                    cnt <= ('0' & cnt(CNTLEN - 1 DOWNTO 0)) - 1;
+                    
+                ELSIF inc='1' THEN
+                    -- sets the HSB to 0 and decrement bits HSB - 1 to Bit 0
+                    cnt <= ('0' & cnt(CNTLEN - 1 DOWNTO 0)) + 1;
 
-                        cnt(CNTLEN) <= '0';                 -- clear HSB (overflow bit)  
-                        cnt(CNTLEN-1 DOWNTO 0) <= din;
-                        
-                    ELSIF dec='1' THEN
-                        
-                        cnt <= ('0' & cnt(CNTLEN - 1 DOWNTO 0)) - 1;
-                        
-                    ELSIF inc='1' THEN
-
-                        cnt <= ('0' & cnt(CNTLEN - 1 DOWNTO 0)) + 1;
-                        
-                    END IF;
-                
-                END IF;
-                
-                IF swrst=RSTDEF THEN
-                    cnt <= (OTHERS => '0');
                 END IF;
             
             END IF;
+            
+            IF swrst=RSTDEF THEN
+                cnt <= (OTHERS => '0');
+            END IF;
         
-        END PROCESS p1;
-        
-        -- Not with extra overflow flip flop (see figure on paper)
-        cout <= cnt(CNTLEN);                                -- Return the value of the overflow
-        dout <= cnt(CNTLEN-1 DOWNTO 0);                     -- Return the value of the CNTLEN counter bits
-        
-        
+        END IF;
+    
+    END PROCESS p1;
+    
+    -- Not with extra overflow flip flop (see figure on paper)
+    cout <= cnt(CNTLEN);                                -- Return the value of the overflow
+    dout <= cnt(CNTLEN-1 DOWNTO 0);                     -- Return the value of the CNTLEN counter bits
+    
+    
 END verhalten;
-
--- --------------------------------------------------------- Seccond version
---ARCHITECTURE verhalten OF std_counter IS
---
-    --SIGNAL cnt: STD_LOGIC_VECTOR((CNTLEN - 1) DOWNTO 0);
-    --SIGNAL overflow: STD_LOGIC;
-    --SIGNAL detect: STD_LOGIC_VECTOR((CNTLEN - 1) DOWNTO 0);
---BEGIN
---
----- The funktions defined in the Funktionstabelle must be implemented
----- Test how to save logic gates and how to save the number of flip-flops
---
-    --detect <= (OTHERS => '0');
-                --
-    --p1: PROCESS(clk, rst) is
-    --BEGIN
-        --IF rst=RSTDEF THEN
-                --cnt <= (OTHERS => '0');
-        --ELSIF rising_edge(clk) THEN
-                --
-            --IF swrst=RSTDEF THEN
-                --cnt <= (OTHERS => '0');
-            --ELSIF en='1' THEN
-                --IF load='1' THEN
-                    --cnt <= din;
-                --ELSIF dec='1' THEN
-                    --cnt <= cnt - 1;         -- Improvement when using cnt <= cnt - dec
-                --ELSIF inc='1' THEN
-                    --cnt <= cnt + 1;
-                --END IF;
-            --END IF;
-        --END IF;
-    --END PROCESS p1;
---
-     --dout <= cnt;                                        -- Return the value of the counter
-        --
---END verhalten;

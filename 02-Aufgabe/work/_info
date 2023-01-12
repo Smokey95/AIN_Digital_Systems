@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f vlog 2022.2 2022.04, Apr 26 2022
 !s11e vcom 2022.2 2022.04, Apr 26 2022
 13
 !s112 1.1
@@ -8,90 +9,90 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/si741rau/Desktop/DISY/02-Aufgabe
+dC:/Users/si741rau/Desktop/DISY/02-Aufgabe
 Estd_counter
-Z1 w1673297292
-Z2 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
-Z3 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
-Z4 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
-Z5 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
-!i122 33
-Z6 dE:/00_Git/02_Study/DISY/02-Aufgabe
-Z7 8E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter.vhd
-Z8 FE:/00_Git/02_Study/DISY/02-Aufgabe/std_counter.vhd
+Z0 w1673343515
+Z1 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
+Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 37
+Z5 dE:/00_Git/02_Study/DISY/02-Aufgabe
+Z6 8E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter.vhd
+Z7 FE:/00_Git/02_Study/DISY/02-Aufgabe/std_counter.vhd
 l0
 L6 1
 V7lbE><ac^ahj<EH7ofj[T3
 !s100 SloV4g<zlXh=z3D?Jcz`l2
-Z9 OW;C;2022.2;75
+Z8 OW;C;2022.2;75
 32
-Z10 !s110 1673297687
+Z9 !s110 1673343605
 !i10b 1
-Z11 !s108 1673297687.000000
-Z12 !s90 -reportprogress|300|-work|work|E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter.vhd|
-Z13 !s107 E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter.vhd|
+Z10 !s108 1673343605.000000
+Z11 !s90 -reportprogress|300|-work|work|-O0|E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter.vhd|
+Z12 !s107 E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter.vhd|
 !i113 1
-Z14 o-work work -O0
-Z15 tExplicit 1 CvgOpt 0
+Z13 o-work work -O0
+Z14 tExplicit 1 CvgOpt 0
 Averhalten
+R1
 R2
 R3
 R4
-R5
-DEx4 work 11 std_counter 0 22 7lbE><ac^ahj<EH7ofj[T3
-!i122 33
+Z15 DEx4 work 11 std_counter 0 22 7lbE><ac^ahj<EH7ofj[T3
+!i122 37
 l61
-L47 58
-V330^5`RYKVoCkQi=<X1L83
-!s100 lK6b]Ab[hk9GZUWFZMYke0
-R9
+L47 61
+VkZnM9OOn2hlGiB=7JJ46H0
+!s100 bIzLN;@AAlnWXMfl167l<2
+R8
 32
-R10
+R9
 !i10b 1
+R10
 R11
 R12
-R13
 !i113 1
+R13
 R14
-R15
 Estd_counter_tb
-R1
-!i122 34
-R6
-Z16 8E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd
-Z17 FE:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd
+Z16 w1673297292
+!i122 36
+R5
+Z17 8E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd
+Z18 FE:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd
 l0
 L1 1
 Vaa1^YNndM?Dc9Bc2Vaak03
 !s100 glQ2m01jLj04hdSb`dMFI3
-R9
+R8
 32
-Z18 !s110 1673297714
+Z19 !s110 1673340224
 !i10b 1
-Z19 !s108 1673297714.000000
-Z20 !s90 -reportprogress|300|-work|work|E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd|
-!s107 E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd|
+Z20 !s108 1673340224.000000
+Z21 !s90 -reportprogress|300|-work|work|-O0|E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd|
+Z22 !s107 E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd|
 !i113 1
+R13
 R14
-R15
 Averhalten
-Z21 DEx4 work 14 std_counter_tb 0 22 aa1^YNndM?Dc9Bc2Vaak03
+DEx4 work 14 std_counter_tb 0 22 aa1^YNndM?Dc9Bc2Vaak03
+R1
 R2
-R3
-R5
 R4
-!i122 34
+R3
+!i122 36
 l127
-Z22 L11 185
-Z23 Vh>bDcfN4___c:K2k3lPc<2
-Z24 !s100 AilKIGgI<XZzUW@?[_9ZT1
-R9
+L11 185
+Vh>bDcfN4___c:K2k3lPc<2
+!s100 AilKIGgI<XZzUW@?[_9ZT1
+R8
 32
-R18
-!i10b 1
 R19
+!i10b 1
 R20
-Z25 !s107 E:/00_Git/02_Study/DISY/02-Aufgabe/std_counter_tb.vhd|
+R21
+R22
 !i113 1
+R13
 R14
-R15

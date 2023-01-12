@@ -29,14 +29,12 @@ ARCHITECTURE verhalten OF sync_buffer IS
     
     TYPE TState IS (S0, S1);
     SIGNAL state: TState;
-    
-    -- @TODO Change from linear counter do LFSR???
     SIGNAL cnt: integer range 0 to 31; 
    
     CONSTANT LENDEF: natural := 5;
-    -- Polynom x^5 + x^2 + 1
+    
     CONSTANT CNTMAX: natural:= 31;
-    CONSTANT POLY:   std_logic_vector(LENDEF   DOWNTO 0) := "100101";
+    CONSTANT POLY:   std_logic_vector(LENDEF   DOWNTO 0) := "100101";   -- Polynom x^5 + x^2 + 1
     CONSTANT RES:    std_logic_vector(LENDEF-1 DOWNTO 0) := "11101";    -- exec(POLY, CNTMAX);
     SIGNAL   reg:    std_logic_vector(LENDEF-1 DOWNTO 0);
     
@@ -94,17 +92,6 @@ BEGIN
 								cnt <= cnt - 1;
 							END IF;
 						END IF;
-                        --IF q2 = '1' THEN
-							--IF reg /= RES THEN
-								--reg <= lfsr(reg, POLY, '1');
-							--ELSE
-								--state <= S1;
-							--END IF;
-						--ELSE
-							--IF reg > 0 THEN
-								--reg <= lfsr(reg, POLY, '0');
-							--END IF;
-						--END IF;
 					WHEN S1 =>
 						qH <= '1';
 						IF q2 = '1' THEN
@@ -118,17 +105,6 @@ BEGIN
 								state <= S0;
 							END IF;
 						END IF;
-                        --IF q2 = '1' THEN
-							--IF reg /= RES THEN
-								--reg <= lfsr(reg, POLY, '1');
-							--END IF;
-					    --ELSE
-							--IF reg > 0 THEN
-								--reg <= lfsr(reg, POLY, '0');
-							--ELSE
-								--state <= S0;
-							--END IF;
-						--END IF;
 				END CASE;
 			END IF;
             
@@ -136,7 +112,6 @@ BEGIN
                 state   <= S0;
 				qH      <= '0';
 				cnt     <= 0;
-                --reg <= (OTHERS => '1');
 			END IF;
         END IF;
     END PROCESS hysteresis;

@@ -24,27 +24,22 @@ END sync_module;
 
 ARCHITECTURE verhalten OF sync_module IS
     
-    -- Auch ohne COMPONENT m�glich? Mittels Import �hnlicher anweisung?
     COMPONENT sync_buffer IS
 		GENERIC(RSTDEF : STD_LOGIC);
 		PORT(
-			rst : IN STD_LOGIC; -- reset, RSTDEF active
-			clk : IN STD_LOGIC; -- clock, rising edge
-			en : IN STD_LOGIC; -- enable, high active
-			swrst : IN STD_LOGIC; -- software reset, RSTDEF active
-			din : IN STD_LOGIC; -- data bit, input
-			dout : OUT STD_LOGIC; -- data bit, output
-			redge : OUT STD_LOGIC; -- rising  edge on din detected
+			rst : IN STD_LOGIC;     -- reset, RSTDEF active
+			clk : IN STD_LOGIC;     -- clock, rising edge
+			en : IN STD_LOGIC;      -- enable, high active
+			swrst : IN STD_LOGIC;   -- software reset, RSTDEF active
+			din : IN STD_LOGIC;     -- data bit, input
+			dout : OUT STD_LOGIC;   -- data bit, output
+			redge : OUT STD_LOGIC;  -- rising  edge on din detected
 			fedge : OUT STD_LOGIC); -- falling edge on din detected
 	END COMPONENT;
     
-    CONSTANT LENDEF: natural := 15;
-    -- Polynom: x^15 + x^1 + 1
-    CONSTANT    POLY: std_logic_vector(LENDEF DOWNTO 0) := "1000000000000011";
-    -- CONSTANT    RES:  std_logic_vector                  := "101010101010101";
-    -- Check if RES is correct
-    CONSTANT    RES:  std_logic_vector(LENDEF-1 DOWNTO 0) := "111111111111111";                       -- mod (2^15 - 1)
-    -- CONSTANT    RES:  std_logic_vector := "000000000000000";
+    CONSTANT    LENDEF: natural := 15;
+    CONSTANT    POLY: std_logic_vector(LENDEF DOWNTO 0)   := "1000000000000011";    -- Polynom: x^15 + x^1 + 1
+    CONSTANT    RES:  std_logic_vector(LENDEF-1 DOWNTO 0) := "111111111111111";     -- mod (2^15 - 1)
     
     SIGNAL      strb: std_logic;    -- enable signal for mod15 counter
     SIGNAL      reg:  std_logic_vector(LENDEF-1 DOWNTO 0);
@@ -56,7 +51,6 @@ BEGIN
     -- The value depends on the RES vector. If the RES vector is 111111111111111
     -- the counter will count up to 2^15-1 therefore reducing the input frequency
     -- to round about 1,525 kHz
-    -- CHECK WITH LLECTURER IF THIS IS CORRECT OR NOT
     ----------------------------------------------------------------------------
     p1: PROCESS(rst, clk) IS
     BEGIN

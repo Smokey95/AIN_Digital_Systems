@@ -25,7 +25,7 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 2022.2.0 
-Design: aufgabe2                        Started: Mon Jan  9 21:52:39 2023
+Design: aufgabe2                        Started: Tue Jan 10 10:53:38 2023
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -41,22 +41,22 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: aufgabe2                        
-Finished: Mon Jan  9 21:52:41 2023
+Finished: Tue Jan 10 10:53:40 2023
 Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:02
 Total Memory Usage: 96.8 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\aufgabe2Started: Mon Jan  9 21:52:43 2023
+Design: E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\aufgabe2Started: Tue Jan 10 10:53:41 2023
 
 
 Router completed successfully.
 
 Design: E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\aufgabe2
-Finished: Mon Jan  9 21:52:45 2023
-Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:02
-Total Memory Usage: 258.6 Mbytes
+Finished: Tue Jan 10 10:53:42 2023
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:01
+Total Memory Usage: 258.8 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
