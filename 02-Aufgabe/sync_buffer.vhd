@@ -30,13 +30,6 @@ ARCHITECTURE verhalten OF sync_buffer IS
     TYPE TState IS (S0, S1);
     SIGNAL state: TState;
     SIGNAL cnt: integer range 0 to 31; 
-   
-    CONSTANT LENDEF: natural := 5;
-    
-    CONSTANT CNTMAX: natural:= 31;
-    CONSTANT POLY:   std_logic_vector(LENDEF   DOWNTO 0) := "100101";   -- Polynom x^5 + x^2 + 1
-    CONSTANT RES:    std_logic_vector(LENDEF-1 DOWNTO 0) := "11101";    -- exec(POLY, CNTMAX);
-    SIGNAL   reg:    std_logic_vector(LENDEF-1 DOWNTO 0);
     
 BEGIN
 
