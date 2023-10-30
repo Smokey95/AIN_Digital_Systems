@@ -13,8 +13,6 @@ The interface of the seven segment display is given as following:
             dp:    OUT std_logic;                       -- 1 decimal point output
             seg:   OUT std_logic_vector( 7 DOWNTO 1));  -- 7 connections to display
     END hex4x7seg;
-    
-![Circuit diagram](../src/task_1/circuit-diagram.png) 
 
 ---
 ### Modulo 2^14 Counter [Frequency divider]
@@ -74,7 +72,7 @@ First it was implemented as a linear incremented modulo counter like seen below:
 
   It is recommended, that the counter should count every clock cycle, therefore the polynomial definition must not be in the else case! 
   Also it should not be reset to a fix value cause we do not now the next value of the counter when he reaches the final count (probably not 
-  "0000000000000" cause it counts like the counter above with i + 1.
+  "0000000000000" cause it counts like the counter above with i + 1).
   
   With this implementation the counter needs only the following amount of recourses:
   
@@ -187,5 +185,3 @@ This logic-element decodes the 4 digit binary number into a 7 bit binary number 
                 "1111001" WHEN "1110",          	        -- E
                 "1110001" WHEN "1111",          	        -- F
                 "0000000" WHEN OTHERS;          	        -- default
-                
-![7 Segment Digits](../src/task_1/7-segment-digits.png)
