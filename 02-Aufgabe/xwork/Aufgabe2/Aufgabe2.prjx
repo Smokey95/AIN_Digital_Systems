@@ -1,0 +1,332 @@
+KEY LIBERO "2022.2"
+KEY CAPTURE "2022.2.0.10"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M500"
+KEY VendorTechnology_Package "tq144"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "0"
+KEY VendorTechnology_RESTRICTPROBEPINS "0"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M500"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "aufgabe2::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+VALUE="Impl2",NUM=2
+CURREV=2
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\synthesis\aufgabe2.so,so"
+STATE="utd"
+TIME="1673343535"
+SIZE="240"
+ENDFILE
+VALUE "<project>\synthesis\aufgabe2.vm,syn_vm"
+STATE="utd"
+TIME="1673343534"
+SIZE="42541"
+ENDFILE
+VALUE "<project>\synthesis\aufgabe2_syn.prj,prj"
+STATE="utd"
+TIME="1673343818"
+SIZE="2428"
+ENDFILE
+VALUE "<project>\synthesis\aufgabe2_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1673343534"
+SIZE="968"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1673297070"
+SIZE="159"
+ENDFILE
+VALUE "E:\00_Git\02_Study\DISY\01-Aufgabe\hex4x7seg.vhd,hdl"
+STATE="utd"
+TIME="1673297050"
+SIZE="7853"
+ENDFILE
+VALUE "E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.pdc,io_pdc"
+STATE="utd"
+TIME="1673297070"
+SIZE="4731"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd,hdl"
+STATE="utd"
+TIME="1673297070"
+SIZE="4654"
+ENDFILE
+VALUE "E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd,hdl"
+STATE="utd"
+TIME="1673344397"
+SIZE="5329"
+ENDFILE
+VALUE "E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter_tb.vhd,hdl"
+STATE="utd"
+TIME="1673297292"
+SIZE="7302"
+ENDFILE
+VALUE "E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd,hdl"
+STATE="utd"
+TIME="1673342347"
+SIZE="4569"
+ENDFILE
+VALUE "E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd,hdl"
+STATE="utd"
+TIME="1673342307"
+SIZE="4153"
+ENDFILE
+VALUE "E:\00_Git\02_Study\DISY\bib\lfsr_lib.vhd,hdl"
+STATE="utd"
+TIME="1673297070"
+SIZE="1362"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "aufgabe2::work"
+FILE "E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd,hdl"
+LIST PNRConstraints
+VALUE "E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.pdc,io_pdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST synthesis_implementations
+VALUE "synthesis"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1fs
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="D:\Microchip\Libero_SoC_v2022.2\ModelSimPro\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="D:\Microchip\Libero_SoC_v2022.2\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "aufgabe2::work"
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Synthesize:aufgabe2_compile_netlist_resources.xml
+HDL;E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd;0
+HDL;E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd;0
+HDL;E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd;0
+HDL;E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd;0
+StartPage;StartPage;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "aufgabe2::work","E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.vhd","FALSE","FALSE"
+SUBBLOCK "std_counter::work","E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd","FALSE","FALSE"
+SUBBLOCK "sync_module::work","E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd","FALSE","FALSE"
+SUBBLOCK "hex4x7seg::work","E:\00_Git\02_Study\DISY\01-Aufgabe\hex4x7seg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "std_counter::work","E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd","FALSE","FALSE"
+ENDLIST
+LIST "sync_buffer::work","E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "sync_module::work","E:\00_Git\02_Study\DISY\02-Aufgabe\sync_module.vhd","FALSE","FALSE"
+SUBBLOCK "sync_buffer::work","E:\00_Git\02_Study\DISY\02-Aufgabe\sync_buffer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "std_counter::work","E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd","FALSE","FALSE"
+ENDLIST
+LIST "hex4x7seg::work","E:\00_Git\02_Study\DISY\01-Aufgabe\hex4x7seg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "lfsr_lib::work","E:\00_Git\02_Study\DISY\bib\lfsr_lib.vhd","FALSE","FALSE"
+ENDLIST
+LIST "std_counter_tb::work","E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter_tb.vhd","FALSE","FALSE"
+SUBBLOCK "std_counter::work","E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "E:\00_Git\02_Study\DISY\02-Aufgabe\aufgabe2.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

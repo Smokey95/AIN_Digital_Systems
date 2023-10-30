@@ -1,0 +1,9 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals
+Primitives/Primitives,1,0,28,2
+u1/Primitives,6,16,0,0
+u1/buf1/Primitives,19,10,0,0
+u1/buf2/Primitives,20,10,0,0
+u1/buf3/Primitives,20,10,0,0
+u2/Primitives,36,17,0,0
+u3/Primitives,29,17,0,0

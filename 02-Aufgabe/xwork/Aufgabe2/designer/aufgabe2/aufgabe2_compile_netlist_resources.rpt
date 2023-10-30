@@ -1,0 +1,163 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+Date: Tue Jan 10 10:53:36 2023
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S005         |
+| Package                        | 144 TQ         |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | No             |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+-------------------------------------------------------------------------+
+| Topcell | aufgabe2                                                                |
+| Format  | Verilog                                                                 |
+| Source  | E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\synthesis\aufgabe2.vm |
++---------+-------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 131  | 6060  | 2.16       |
+| DFF                       | 80   | 6060  | 1.32       |
+| I/O Register              | 0    | 252   | 0.00       |
+| User I/O                  | 28   | 84    | 33.33      |
+| -- Single-ended I/O       | 28   | 84    | 33.33      |
+| -- Differential I/O Pairs | 0    | 38    | 0.00       |
+| RAM64x18                  | 0    | 11    | 0.00       |
+| RAM1K18                   | 0    | 10    | 0.00       |
+| MACC                      | 0    | 11    | 0.00       |
+| Chip Globals              | 2    | 8     | 25.00      |
+| CCC                       | 0    | 2     | 0.00       |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 131  | 80  |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 131  | 80  |
++--------------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 4    |
+| 17     | 1    |
+| Total  | 5    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 14           | 0           | 0               |
+| Output I/O                    | 14           | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  14   |  14    |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+----------------------------------+
+| Fanout | Type    | Name                             |
++--------+---------+----------------------------------+
+| 80     | INT_NET | Net   : clk_c                    |
+|        |         | Driver: clk_ibuf_RNIVTI2/U0_RGB1 |
+|        |         | Source: NETLIST                  |
+| 80     | INT_NET | Net   : rst_arst                 |
+|        |         | Driver: rst_ibuf_RNIUUM5/U0_RGB1 |
+|        |         | Source: NETLIST                  |
++--------+---------+----------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+----------------------------------+
+| Fanout | Type    | Name                             |
++--------+---------+----------------------------------+
+| 21     | INT_NET | Net   : u1/strb_Z                |
+|        |         | Driver: u1/strb                  |
+| 19     | INT_NET | Net   : load                     |
+|        |         | Driver: u1/buf3/redge            |
+| 17     | INT_NET | Net   : dec                      |
+|        |         | Driver: u1/buf2/fedge            |
+| 17     | INT_NET | Net   : u1_buf3_qH               |
+|        |         | Driver: u1/buf3/qH               |
+| 17     | INT_NET | Net   : u2/un8_en                |
+|        |         | Driver: u2/p1.un8_en             |
+| 16     | INT_NET | Net   : u1_buf3_q3               |
+|        |         | Driver: u1/buf3/q3               |
+| 14     | INT_NET | Net   : u3/sel_Z[0]              |
+|        |         | Driver: u3/sel[0]                |
+| 9      | INT_NET | Net   : u3/sel_Z[1]              |
+|        |         | Driver: u3/sel[1]                |
+| 7      | INT_NET | Net   : u3/seg_sel[3]            |
+|        |         | Driver: u3/seg_sel_3_1_0_wmux[3] |
+| 7      | INT_NET | Net   : u3/seg_sel[2]            |
+|        |         | Driver: u3/seg_sel_3_1_0_wmux[2] |
++--------+---------+----------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+----------------------------------+
+| Fanout | Type    | Name                             |
++--------+---------+----------------------------------+
+| 21     | INT_NET | Net   : u1/strb_Z                |
+|        |         | Driver: u1/strb                  |
+| 19     | INT_NET | Net   : load                     |
+|        |         | Driver: u1/buf3/redge            |
+| 17     | INT_NET | Net   : dec                      |
+|        |         | Driver: u1/buf2/fedge            |
+| 17     | INT_NET | Net   : u1_buf3_qH               |
+|        |         | Driver: u1/buf3/qH               |
+| 17     | INT_NET | Net   : u2/un8_en                |
+|        |         | Driver: u2/p1.un8_en             |
+| 16     | INT_NET | Net   : u1_buf3_q3               |
+|        |         | Driver: u1/buf3/q3               |
+| 14     | INT_NET | Net   : u3/sel_Z[0]              |
+|        |         | Driver: u3/sel[0]                |
+| 9      | INT_NET | Net   : u3/sel_Z[1]              |
+|        |         | Driver: u3/sel[1]                |
+| 7      | INT_NET | Net   : u3/seg_sel[3]            |
+|        |         | Driver: u3/seg_sel_3_1_0_wmux[3] |
+| 7      | INT_NET | Net   : u3/seg_sel[2]            |
+|        |         | Driver: u3/seg_sel_3_1_0_wmux[2] |
++--------+---------+----------------------------------+
+
