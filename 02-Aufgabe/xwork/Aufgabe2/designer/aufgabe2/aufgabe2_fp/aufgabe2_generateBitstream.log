@@ -1,0 +1,13 @@
+Software Version: 2022.2.0.10
+Opened 'E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\aufgabe2_fp\aufgabe2.pro'
+PDB file 'E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\aufgabe2.pdb' has been loaded successfully.
+DESIGN : aufgabe2;  CHECKSUM : 017A;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\aufgabe2.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'E:\00_Git\02_Study\DISY\02-Aufgabe\xwork\Aufgabe2\designer\aufgabe2\aufgabe2.ppd'; file programs Fabric.
+Fabric component bitstream digest: fcc8ee90375b36b9d7fd7770df69a2b757ed634860a908f78e6f9be9225a95bd
+Entire bitstream digest: 917dccb244f85f3499f6215bbec46e1adef53c63d6c39d7ac8260ca016deeea7
+Finished: Tue Jan 10 10:54:03 2023 (Elapsed time 00:00:02)
+
+Project saved.
+Project closed.

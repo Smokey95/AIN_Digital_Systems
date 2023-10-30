@@ -1,0 +1,2 @@
+@E: CD297 :"E:\00_Git\02_Study\DISY\02-Aufgabe\std_counter.vhd":83:24:83:26|Width mismatch, location has width 17, value 16
+

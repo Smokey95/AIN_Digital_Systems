@@ -1,0 +1,255 @@
+# Microsemi Physical design constraints file
+
+# Version: 2022.2 2022.2.0.10
+
+# Design Name: aufgabe2 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S005 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Tue Jan 10 10:53:42 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io LD1 -DIRECTION OUTPUT -pinname 50 -fixed no
+set_io LD2 -DIRECTION OUTPUT -pinname 51 -fixed no
+set_io btn\[1\] -DIRECTION INPUT -pinname 46 -fixed no
+set_io btn\[2\] -DIRECTION INPUT -pinname 42 -fixed no
+set_io btn\[3\] -DIRECTION INPUT -pinname 40 -fixed no
+set_io btn\[4\] -DIRECTION INPUT -pinname 38 -fixed no
+set_io clk -DIRECTION INPUT -pinname 24 -fixed no
+set_io digi\[1\] -DIRECTION OUTPUT -pinname 47 -fixed no
+set_io digi\[2\] -DIRECTION OUTPUT -pinname 43 -fixed no
+set_io digi\[3\] -DIRECTION OUTPUT -pinname 41 -fixed no
+set_io digi\[4\] -DIRECTION OUTPUT -pinname 39 -fixed no
+set_io dp -DIRECTION OUTPUT -pinname 14 -fixed no
+set_io rst -DIRECTION INPUT -pinname 53 -fixed no
+set_io seg\[1\] -DIRECTION OUTPUT -pinname 21 -fixed no
+set_io seg\[2\] -DIRECTION OUTPUT -pinname 22 -fixed no
+set_io seg\[3\] -DIRECTION OUTPUT -pinname 19 -fixed no
+set_io seg\[4\] -DIRECTION OUTPUT -pinname 20 -fixed no
+set_io seg\[5\] -DIRECTION OUTPUT -pinname 15 -fixed no
+set_io seg\[6\] -DIRECTION OUTPUT -pinname 16 -fixed no
+set_io seg\[7\] -DIRECTION OUTPUT -pinname 13 -fixed no
+set_io sw\[1\] -DIRECTION INPUT -pinname 66 -fixed no
+set_io sw\[2\] -DIRECTION INPUT -pinname 67 -fixed no
+set_io sw\[3\] -DIRECTION INPUT -pinname 62 -fixed no
+set_io sw\[4\] -DIRECTION INPUT -pinname 63 -fixed no
+set_io sw\[5\] -DIRECTION INPUT -pinname 60 -fixed no
+set_io sw\[6\] -DIRECTION INPUT -pinname 61 -fixed no
+set_io sw\[7\] -DIRECTION INPUT -pinname 56 -fixed no
+set_io sw\[8\] -DIRECTION INPUT -pinname 57 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location u2/cnt_Z\[3\] -fixed no 153 4
+set_location u1/strb -fixed no 104 10
+set_location u1/buf1/hysteresis.un9_enlto4 -fixed no 104 3
+set_location u1/buf2/un1_cnt_1.CO1_1 -fixed no 88 3
+set_location u1/buf3/un1_cnt_1.SUM_1\[4\] -fixed no 66 3
+set_location u1/buf1/cnt\[4\] -fixed no 107 4
+set_location u1/buf1/hysteresis.un9_enlto4_1 -fixed no 103 3
+set_location u1/reg\[2\] -fixed no 101 10
+set_location u1/p1.un28_reg_7 -fixed no 96 9
+set_location u1/buf2/un1_cnt_1.SUM_1\[4\] -fixed no 95 3
+set_location u1/buf1/un1_cnt_1.SUM\[4\] -fixed no 107 3
+set_location u1/p1.un28_reg_9 -fixed no 109 9
+set_location u1/buf2/un1_cnt_1.ANC1_a0 -fixed no 88 6
+set_location u3/seg_1_7_1_.N_7_i -fixed no 21 15
+set_location u2/p1.cnt_8\[7\] -fixed no 145 3
+set_location u3/reg\[2\] -fixed no 123 4
+set_location u1/buf1/state_RNO\[0\] -fixed no 96 6
+set_location u1/reg\[0\] -fixed no 96 10
+set_location u3/seg_1_7_1_.m15 -fixed no 17 15
+set_location u3/ena\[3\] -fixed no 115 3
+set_location u2/cnt_Z\[0\] -fixed no 146 4
+set_location u3/reg\[11\] -fixed no 112 4
+set_location u3/ena\[2\] -fixed no 109 3
+set_location u1/buf3/q1 -fixed no 76 4
+set_location u2/p1.cnt_8\[16\] -fixed no 152 3
+set_location u3/p1.reg_8\[8\] -fixed no 108 3
+set_location u2/un1_cnt_1_s_16_RNO -fixed no 144 3
+set_location u1/buf1/q1 -fixed no 104 7
+set_location u3/reg\[9\] -fixed no 115 4
+set_location u1/buf1/hysteresis.un5_enlto4 -fixed no 101 3
+set_location u1/buf2/un1_cnt_1.SUM\[0\] -fixed no 89 3
+set_location u1/buf1/cnt\[0\] -fixed no 97 7
+set_location u3/seg_1_7_1_.m18 -fixed no 16 15
+set_location u3/reg\[6\] -fixed no 110 4
+set_location u1/reg\[14\] -fixed no 98 10
+set_location u1/buf1/cnt\[2\] -fixed no 96 4
+set_location u3/reg\[12\] -fixed no 118 4
+set_location u2/p1.cnt_8\[4\] -fixed no 132 3
+set_location u1/buf3/un1_qh5 -fixed no 73 3
+set_location u1/buf2/cnt_0_sqmuxa -fixed no 94 6
+set_location u1/buf2/un1_cnt_1.SUM\[3\] -fixed no 86 3
+set_location u2/p1.un8_en -fixed no 154 6
+set_location u1/buf2/cnt\[2\] -fixed no 87 4
+set_location u1/buf1/cnt\[1\] -fixed no 107 7
+set_location u3/p1.un1_reg_9 -fixed no 118 3
+set_location u3/reg\[8\] -fixed no 108 4
+set_location u1/buf2/q1 -fixed no 79 4
+set_location LD2_obuf_RNO -fixed no 154 3
+set_location u1/buf3/cnt\[2\] -fixed no 69 4
+set_location u1/buf3/q2 -fixed no 75 4
+set_location clk_ibuf_RNIVTI2 -fixed no 221 30
+set_location u2/p1.cnt_8\[12\] -fixed no 153 6
+set_location u2/cnt_Z\[9\] -fixed no 138 4
+set_location u2/cnt_Z\[7\] -fixed no 145 4
+set_location u1/buf1/un1_cnt_1.SUM\[1\] -fixed no 107 6
+set_location u1/buf1/q2 -fixed no 99 7
+set_location u1/buf3/hysteresis.un5_enlto4_1 -fixed no 62 3
+set_location u1/buf3/redge -fixed no 150 6
+set_location u1/buf1/un1_cnt_1.CO1_1 -fixed no 100 6
+set_location u2/p1.cnt_8\[6\] -fixed no 148 3
+set_location u2/cnt_Z\[12\] -fixed no 153 7
+set_location u3/p1.un1_reg -fixed no 117 3
+set_location u2/cnt_Z\[11\] -fixed no 155 7
+set_location u3/p1.un1_reg_7 -fixed no 121 3
+set_location u2/cnt\[16\] -fixed no 152 4
+set_location u1/buf1/un1_cnt_1.SUM\[3\] -fixed no 106 3
+set_location u1/buf3/state_RNO\[0\] -fixed no 77 3
+set_location u1/buf2/state\[0\] -fixed no 101 7
+set_location u2/cnt_Z\[2\] -fixed no 143 4
+set_location u2/p1.cnt_8\[11\] -fixed no 155 6
+set_location u1/buf2/cnt\[3\] -fixed no 86 4
+set_location u3/reg\[4\] -fixed no 122 4
+set_location u1/buf2/q2 -fixed no 88 4
+set_location u2/p1.cnt_8\[1\] -fixed no 147 3
+set_location u3/sel_RNO\[1\] -fixed no 116 3
+set_location u1/buf3/cnt\[4\] -fixed no 67 4
+set_location u3/p1.un1_reg_6 -fixed no 112 3
+set_location u1/reg\[10\] -fixed no 112 10
+set_location u1/reg\[9\] -fixed no 109 10
+set_location u2/cnt_Z\[14\] -fixed no 151 7
+set_location u1/buf2/cnt\[1\] -fixed no 84 4
+set_location u1/buf1/un1_cnt_1.SUM\[2\] -fixed no 96 3
+set_location u2/p1.cnt_8\[8\] -fixed no 141 3
+set_location u2/cnt_Z\[10\] -fixed no 133 4
+set_location u1/reg\[1\] -fixed no 103 10
+set_location u2/p1.cnt_8\[0\] -fixed no 146 3
+set_location u1/buf1/un1_qh5 -fixed no 99 6
+set_location u1/buf3/un1_cnt_1.SUM\[2\] -fixed no 69 3
+set_location u1/buf3/hysteresis.un9_enlto4 -fixed no 63 3
+set_location u2/cnt_Z\[13\] -fixed no 152 7
+set_location u1/buf2/un1_cnt_1.SUM\[4\] -fixed no 90 3
+set_location u2/p1.cnt_8\[2\] -fixed no 143 3
+set_location u2/p1.cnt_8\[13\] -fixed no 152 6
+set_location u1/p1.lfsr.tmp\[2\] -fixed no 103 9
+set_location u1/buf3/cnt\[3\] -fixed no 68 4
+set_location u1/buf2/hysteresis.un5_enlto4_1 -fixed no 86 6
+set_location u2/cnt_Z\[15\] -fixed no 149 4
+set_location u1/p1.un28_reg -fixed no 104 9
+set_location u1/buf1/cnt\[3\] -fixed no 106 4
+set_location u1/buf2/state_RNO\[0\] -fixed no 93 6
+set_location u1/buf3/un1_cnt_1.CO1_1 -fixed no 60 3
+set_location rst_ibuf_RNIUUM5/U0_RGB1 -fixed no 218 9
+set_location u1/buf1/cnt_0_sqmuxa -fixed no 105 6
+set_location u2/cnt_Z\[6\] -fixed no 148 4
+set_location u2/p1.cnt_8\[10\] -fixed no 133 3
+set_location u3/sel_RNO\[0\] -fixed no 114 3
+set_location u1/buf2/hysteresis.un9_enlto4 -fixed no 91 3
+set_location u1/buf3/qH -fixed no 98 7
+set_location u1/buf3/hysteresis.un5_enlto4 -fixed no 70 3
+set_location u3/sel\[1\] -fixed no 116 4
+set_location u1/buf2/fedge -fixed no 106 6
+set_location u1/buf1/qH -fixed no 102 7
+set_location u3/reg\[10\] -fixed no 119 4
+set_location u3/ena\[0\] -fixed no 119 3
+set_location u3/reg\[3\] -fixed no 121 4
+set_location u1/buf3/un1_cnt_1.SUM\[4\] -fixed no 67 3
+set_location u1/buf2/un1_cnt_1.CO2_1 -fixed no 94 3
+set_location u1/buf2/un1_cnt_1.CO2 -fixed no 92 3
+set_location u1/reg\[4\] -fixed no 102 10
+set_location u3/seg_1_7_1_.N_22_i -fixed no 15 15
+set_location u3/ena\[1\] -fixed no 111 3
+set_location u2/p1.cnt_8\[15\] -fixed no 149 3
+set_location u1/reg\[3\] -fixed no 106 10
+set_location u2/cnt_Z\[5\] -fixed no 142 4
+set_location u3/p1.reg_8\[1\] -fixed no 120 3
+set_location u1/buf1/hysteresis.un5_enlto4_1 -fixed no 102 3
+set_location u3/p1.reg_8\[6\] -fixed no 110 3
+set_location u1/buf1/state\[0\] -fixed no 96 7
+set_location u1/reg\[13\] -fixed no 100 10
+set_location u1/buf3/un1_cnt_1.SUM\[1\] -fixed no 72 3
+set_location u1/buf3/q1_RNO -fixed no 76 3
+set_location u3/reg\[1\] -fixed no 120 4
+set_location u1/reg\[8\] -fixed no 110 10
+set_location u1/buf2/qH -fixed no 103 7
+set_location u1/buf1/un1_cnt_1.CO2_1 -fixed no 97 3
+set_location u1/buf3/hysteresis.un9_enlto4_1 -fixed no 74 3
+set_location u1/buf1/un1_cnt_1.ANC1_a0 -fixed no 100 3
+set_location u1/buf3/q3 -fixed no 144 7
+set_location u1/reg\[6\] -fixed no 111 10
+set_location u2/cnt_Z\[4\] -fixed no 132 4
+set_location u1/buf2/hysteresis.un5_enlto4 -fixed no 85 6
+set_location u1/buf1/q3 -fixed no 154 7
+set_location u2/p1.cnt_8\[9\] -fixed no 138 3
+set_location u3/strb -fixed no 117 4
+set_location u3/seg_1_7_1_.N_25_i -fixed no 14 15
+set_location u1/buf3/un1_cnt_1.SUM\[0\] -fixed no 78 3
+set_location u3/seg_1_7_1_.N_27_i -fixed no 13 15
+set_location u1/buf1/un1_cnt_1.SUM_1\[4\] -fixed no 105 3
+set_location u3/reg\[0\] -fixed no 124 4
+set_location u1/buf2/un1_qh5 -fixed no 93 3
+set_location u2/cnt_Z\[1\] -fixed no 147 4
+set_location u1/buf3/un1_cnt_1.ANC1_a0 -fixed no 64 3
+set_location u1/buf3/cnt\[1\] -fixed no 72 4
+set_location u1/buf3/un1_cnt_1.ANC1_0 -fixed no 61 3
+set_location clk_ibuf_RNIVTI2/U0_RGB1 -fixed no 219 9
+set_location u1/buf2/q1_RNO -fixed no 79 3
+set_location u1/buf2/un1_cnt_1.ANC1_0 -fixed no 89 6
+set_location u1/buf2/q3 -fixed no 106 7
+set_location u3/reg\[5\] -fixed no 113 4
+set_location u1/buf1/un1_cnt_1.SUM\[0\] -fixed no 97 6
+set_location u1/buf3/un1_cnt_1.SUM\[3\] -fixed no 68 3
+set_location u2/p1.cnt_8\[3\] -fixed no 153 3
+set_location u1/buf2/un1_cnt_1.SUM\[2\] -fixed no 87 3
+set_location u1/buf2/cnt\[4\] -fixed no 90 4
+set_location u1/buf2/cnt\[0\] -fixed no 89 4
+set_location u3/seg_1_7_1_.m10 -fixed no 12 15
+set_location u3/reg\[7\] -fixed no 111 4
+set_location u1/buf3/un1_cnt_1.CO2 -fixed no 71 3
+set_location u1/reg\[11\] -fixed no 97 10
+set_location u1/buf2/hysteresis.un9_enlto4_1 -fixed no 85 3
+set_location u3/p1.un1_reg_8 -fixed no 113 3
+set_location u3/sel\[0\] -fixed no 114 4
+set_location u2/p1.cnt_8\[14\] -fixed no 151 6
+set_location u3/reg\[13\] -fixed no 109 4
+set_location u1/buf1/q1_RNO -fixed no 104 6
+set_location u1/buf3/cnt_0_sqmuxa -fixed no 75 3
+set_location u1/buf3/cnt\[0\] -fixed no 78 4
+set_location u2/p1.cnt_8\[5\] -fixed no 142 3
+set_location u1/buf1/un1_cnt_1.CO2 -fixed no 99 3
+set_location u1/reg\[5\] -fixed no 105 10
+set_location u1/buf3/un1_cnt_1.CO2_1 -fixed no 65 3
+set_location u2/cnt_Z\[8\] -fixed no 141 4
+set_location u1/reg\[7\] -fixed no 108 10
+set_location u1/p1.un28_reg_10 -fixed no 97 9
+set_location u1/buf3/state\[0\] -fixed no 77 4
+set_location u1/reg\[12\] -fixed no 107 10
+set_location u1/p1.un28_reg_8 -fixed no 102 9
+set_location u1/buf1/un1_cnt_1.ANC1_0 -fixed no 98 3
+set_location u1/buf2/un1_cnt_1.SUM\[1\] -fixed no 84 3
+set_location rst_ibuf_RNIUUM5 -fixed no 219 30
+set_location u3/seg_sel_3_1_0_wmux\[1\] -fixed no 134 3
+set_location u2/un1_cnt_1_cry_0 -fixed no 133 6
+set_location u3/seg_sel_3_1_0_wmux\[3\] -fixed no 150 3
+set_location u3/seg_sel_3_1_0_wmux\[2\] -fixed no 136 3
+set_location u3/seg_sel_3_1_0_wmux\[0\] -fixed no 139 3
+set_location clk_ibuf_RNIVTI2/U0_RGB1_RGB0 -fixed no 219 6
+set_location clk_ibuf_RNIVTI2/U0_RGB1_RGB1 -fixed no 219 3
+set_location rst_ibuf_RNIUUM5/U0_RGB1_RGB0 -fixed no 218 6
+set_location rst_ibuf_RNIUUM5/U0_RGB1_RGB1 -fixed no 218 3
+set_location u2/un1_cnt_1_cry_0_CC_0 -fixed no 133 8
+set_location u2/un1_cnt_1_cry_0_CC_1 -fixed no 144 8
+set_location u3/seg_sel_3_1_0_wmux\[0\]_CC_0 -fixed no 139 5
+set_location u3/seg_sel_3_1_0_wmux\[1\]_CC_0 -fixed no 134 5
+set_location u3/seg_sel_3_1_0_wmux\[2\]_CC_0 -fixed no 136 5
+set_location u3/seg_sel_3_1_0_wmux\[3\]_CC_0 -fixed no 150 5
